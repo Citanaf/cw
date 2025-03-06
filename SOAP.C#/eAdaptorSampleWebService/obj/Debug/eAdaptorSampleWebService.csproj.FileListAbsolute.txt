@@ -1,0 +1,8 @@
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\bin\CargoWise.eAdaptorSampleWebService.dll
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\bin\CargoWise.eAdaptorSampleWebService.pdb
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\bin\CargoWise.eHub.Adapter.dll
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\bin\CargoWise.eHub.Common.dll
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\obj\Debug\eAdaptorSampleWebService.csproj.CoreCompileInputs.cache
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\obj\Debug\CargoWise.eAdaptorSampleWebService.dll
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\obj\Debug\CargoWise.eAdaptorSampleWebService.pdb
+C:\Tmp\eAdaptor Sample Interfaces\SOAP.C#\eAdaptorSampleWebService\obj\Debug\eAdaptorSampleWebService.csproj.CopyComplete
