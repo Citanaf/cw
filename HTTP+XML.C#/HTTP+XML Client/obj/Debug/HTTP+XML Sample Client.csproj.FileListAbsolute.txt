@@ -1,0 +1,10 @@
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\bin\Debug\Winform Client.exe.config
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\bin\Debug\Winform Client.exe
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\bin\Debug\Winform Client.pdb
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\Winform_Client.ClientForm.resources
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\Winform_Client.Properties.Resources.resources
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\HTTP+XML Sample Client.csproj.GenerateResource.cache
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\HTTP+XML Sample Client.csproj.CoreCompileInputs.cache
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\Winform Client.exe
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\Winform Client.pdb
+C:\Tmp\eAdaptor Sample Interfaces\HTTP+XML.C#\HTTP+XML Client\obj\Debug\HTTP+XML Sample Client.csproj.AssemblyReference.cache
