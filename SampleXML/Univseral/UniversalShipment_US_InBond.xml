@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>InBond</Type>
+          <Key>INB0000718</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DUS</Code>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Name>US - Your United States Demo Company</Name>
+      </Company>
+      <DataProvider>WTLDNZDUS</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>CHI</Code>
+        <Name>CHI</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>EDT</Code>
+        <Description>Edited a record</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DNZ</ServerID>
+      <TriggerCount>11</TriggerCount>
+      <TriggerDate>2024-08-27T00:20:07.937-05:00</TriggerDate>
+      <TriggerDescription>1</TriggerDescription>
+      <TriggerType>Trigger</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <Branch>
+      <Code>CHI</Code>
+      <Name>CHI</Name>
+    </Branch>
+    <CommercialInfo>
+      <CommercialInvoiceCollection>
+        <CommercialInvoice>
+          <CommercialInvoiceLineCollection>
+            <CommercialInvoiceLine>
+              <LineNo>1</LineNo>
+              <InvoiceQuantity>0.00000</InvoiceQuantity>
+              <Link>1</Link>
+              <PartNo></PartNo>
+              <AddInfoCollection>
+                <AddInfo>
+                  <Key>WHSEntryLineNo</Key>
+                  <Value>10</Value>
+                </AddInfo>
+              </AddInfoCollection>
+              <CustomizedFieldCollection>
+                <CustomizedField>
+                  <DataType>String</DataType>
+                  <Key>CSS Attrib 1</Key>
+                  <Value></Value>
+                </CustomizedField>
+                <CustomizedField>
+                  <DataType>String</DataType>
+                  <Key>CSS Attrib 2</Key>
+                  <Value></Value>
+                </CustomizedField>
+                <CustomizedField>
+                  <DataType>String</DataType>
+                  <Key>Serial Number</Key>
+                  <Value></Value>
+                </CustomizedField>
+                <CustomizedField>
+                  <DataType>String</DataType>
+                  <Key>Serial Number</Key>
+                  <Value></Value>
+                </CustomizedField>
+              </CustomizedFieldCollection>
+              <OrganizationAddressCollection>
+                <OrganizationAddress>
+                  <AddressType>SupplierDocumentaryAddress</AddressType>
+                  <Address1>88 GLOUCETER ROAD</Address1>
+                  <Address2>UNIT 801</Address2>
+                  <AddressOverride>false</AddressOverride>
+                  <AddressShortCode>88 GLOUCETER ROAD</AddressShortCode>
+                  <City>WAN CHAI</City>
+                  <CompanyName>HK 1 IMPORTER/EXPORTER CORPORATION</CompanyName>
+                  <Country>
+                    <Code>HK</Code>
+                    <Name>Hong Kong</Name>
+                  </Country>
+                  <Email></Email>
+                  <Fax>+852 8760-0211</Fax>
+                  <OrganizationCode>HK1IMPHKG</OrganizationCode>
+                  <Phone>+852 8760-0200</Phone>
+                  <Port>
+                    <Code>HKHKG</Code>
+                    <Name>Hong Kong</Name>
+                  </Port>
+                  <Postcode></Postcode>
+                  <ScreeningStatus>
+                    <Code>CLR</Code>
+                    <Description>Clear</Description>
+                  </ScreeningStatus>
+                  <State></State>
+                  <RegistrationNumberCollection>
+                    <RegistrationNumber>
+                      <Type>
+                        <Code>LSC</Code>
+                        <Description>Legacy System Code</Description>
+                      </Type>
+                      <CountryOfIssue>
+                        <Code>HK</Code>
+                        <Name>Hong Kong</Name>
+                      </CountryOfIssue>
+                      <Value>HK1IMPHKG</Value>
+                    </RegistrationNumber>
+                    <RegistrationNumber>
+                      <Type>
+                        <Code>MID</Code>
+                        <Description>Supplier/Manufacturer ID Number</Description>
+                      </Type>
+                      <CountryOfIssue>
+                        <Code>US</Code>
+                        <Name>United States</Name>
+                      </CountryOfIssue>
+                      <Value>HK123123132</Value>
+                    </RegistrationNumber>
+                    <RegistrationNumber>
+                      <Type>
+                        <Code>AEO</Code>
+                        <Description>Authorized Economic Operator</Description>
+                      </Type>
+                      <CountryOfIssue>
+                        <Code>HK</Code>
+                        <Name>Hong Kong</Name>
+                      </CountryOfIssue>
+                      <Value>7734829219</Value>
+                    </RegistrationNumber>
+                    <RegistrationNumber>
+                      <Type>
+                        <Code>FPI</Code>
+                        <Description>Foreign Producer Identifier</Description>
+                      </Type>
+                      <CountryOfIssue>
+                        <Code>US</Code>
+                        <Name>United States</Name>
+                      </CountryOfIssue>
+                      <Value>TTB-FP-1231231</Value>
+                    </RegistrationNumber>
+                  </RegistrationNumberCollection>
+                </OrganizationAddress>
+              </OrganizationAddressCollection>
+            </CommercialInvoiceLine>
+          </CommercialInvoiceLineCollection>
+        </CommercialInvoice>
+      </CommercialInvoiceCollection>
+    </CommercialInfo>
+    <CustomsContainerMode>
+      <Code>CNT</Code>
+      <Description>Containerized (Trans. Mode: 11, 21,</Description>
+    </CustomsContainerMode>
+    <LloydsIMO></LloydsIMO>
+    <PortOfDischarge>
+      <Code>USSAN</Code>
+      <Name>San Diego</Name>
+    </PortOfDischarge>
+    <PortOfLoading>
+      <Code>USSPQ</Code>
+      <Name>San Pedro</Name>
+    </PortOfLoading>
+    <TransportMode>
+      <Code>SEA</Code>
+      <Description>Sea (Non Container, Container) (10, 11)</Description>
+    </TransportMode>
+    <VesselCountryOfRegistration>
+      <Code>US</Code>
+      <Name>United States</Name>
+    </VesselCountryOfRegistration>
+    <VesselName>A P MOLLER</VesselName>
+    <VoyageFlightNo>111</VoyageFlightNo>
+    <AddInfoCollection>
+      <AddInfo>
+        <Key>FTZMove</Key>
+        <Value>Y</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>UI_NKCarrierSCAC</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>SchDArrival</Key>
+        <Value>2501</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>US_NKLocationOfGoods</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>InBondMode</Key>
+        <Value>A</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>SchDLoading</Key>
+        <Value></Value>
+      </AddInfo>
+    </AddInfoCollection>
+    <AdditionalBillCollection>
+      <AdditionalBill>
+        <BillNumber>MB081616A</BillNumber>
+        <BillType>
+          <Code>MWB</Code>
+          <Description>Master Waybill</Description>
+        </BillType>
+        <Link>1</Link>
+        <NoOfPacks>1</NoOfPacks>
+        <AddInfoCollection>
+          <AddInfo>
+            <Key>ManifestUnit</Key>
+            <Value>BAG</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>Weight</Key>
+            <Value>1</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>WeightUnit</Key>
+            <Value>KG</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>Volume</Key>
+            <Value>1</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>VolumeUnit</Key>
+            <Value>BB</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>PortOfLadingScheduleK</Key>
+            <Value>99999</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>PlaceOfReceiptScheduleD</Key>
+            <Value>3003</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>IssuerCode</Key>
+            <Value></Value>
+          </AddInfo>
+        </AddInfoCollection>
+        <CustomsReferenceCollection>
+          <CustomsReference>
+            <Type>
+              <Code>ADR</Code>
+              <Description>Additional Reference</Description>
+            </Type>
+            <Reference></Reference>
+            <SubType>
+              <Code>BM</Code>
+              <Description>Bill of Lading Number</Description>
+            </SubType>
+          </CustomsReference>
+        </CustomsReferenceCollection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ConsigneeAddress</AddressType>
+            <Address1>SDADSFAFDS</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>SDADSFAFDS</AddressShortCode>
+            <City>DURBAN</City>
+            <CompanyName>MY BERLIN</CompanyName>
+            <Country>
+              <Code>ZA</Code>
+              <Name>South Africa</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>666-33-8989</GovRegNum>
+            <GovRegNumType>
+              <Code>SSN</Code>
+              <Description>Social Security Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>ACETES_WW</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>DEHAM</Code>
+              <Name>Hamburg</Name>
+            </Port>
+            <Postcode>31722</Postcode>
+            <ScreeningStatus>
+              <Code>REQ</Code>
+              <Description>Requires Review</Description>
+            </ScreeningStatus>
+            <State Description="Kwazulu-Natal">NL</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>APH</Code>
+                  <Description>APHIS Establishment Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>1234</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ForeignShipperDocumentaryAddress</AddressType>
+            <Address1>88 GLOUCETER ROAD</Address1>
+            <Address2>UNIT 801</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>88 GLOUCETER ROAD</AddressShortCode>
+            <City>WAN CHAI</City>
+            <CompanyName>HK 1 IMPORTER/EXPORTER CORPORATION</CompanyName>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Email></Email>
+            <Fax>+852 8760-0211</Fax>
+            <OrganizationCode>HK1IMPHKG</OrganizationCode>
+            <Phone>+852 8760-0200</Phone>
+            <Port>
+              <Code>HKHKG</Code>
+              <Name>Hong Kong</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>Clear</Description>
+            </ScreeningStatus>
+            <State></State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>LSC</Code>
+                  <Description>Legacy System Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>HK</Code>
+                  <Name>Hong Kong</Name>
+                </CountryOfIssue>
+                <Value>HK1IMPHKG</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>MID</Code>
+                  <Description>Supplier/Manufacturer ID Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>HK123123132</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>AEO</Code>
+                  <Description>Authorized Economic Operator</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>HK</Code>
+                  <Name>Hong Kong</Name>
+                </CountryOfIssue>
+                <Value>7734829219</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FPI</Code>
+                  <Description>Foreign Producer Identifier</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>TTB-FP-1231231</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>NotifyParty</AddressType>
+            <Address1>SDADSFAFDS</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>SDADSFAFDS</AddressShortCode>
+            <City>DURBAN</City>
+            <CompanyName>MY BERLIN</CompanyName>
+            <Country>
+              <Code>ZA</Code>
+              <Name>South Africa</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>666-33-8989</GovRegNum>
+            <GovRegNumType>
+              <Code>SSN</Code>
+              <Description>Social Security Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>ACETES_WW</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>DEHAM</Code>
+              <Name>Hamburg</Name>
+            </Port>
+            <Postcode>31722</Postcode>
+            <ScreeningStatus>
+              <Code>REQ</Code>
+              <Description>Requires Review</Description>
+            </ScreeningStatus>
+            <State Description="Kwazulu-Natal">NL</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>APH</Code>
+                  <Description>APHIS Establishment Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>1234</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+      </AdditionalBill>
+    </AdditionalBillCollection>
+    <ContainerCollection>
+      <Container>
+        <ContainerNumber>1</ContainerNumber>
+        <ContainerType>
+          <Code>AAA</Code>
+          <Category>
+            <Code>ACN</Code>
+            <Description></Description>
+          </Category>
+          <Description>Certified Aircraft Container</Description>
+          <ISOCode>10A0</ISOCode>
+        </ContainerType>
+        <Link>1</Link>
+        <Seal></Seal>
+        <SecondSeal></SecondSeal>
+        <AddInfoGroupCollection>
+        </AddInfoGroupCollection>
+        <UNDGCollection>
+          <UNDG>
+            <Contact>
+              <FullName>11</FullName>
+              <Email>simon.qu@edi.com.au</Email>
+              <Phone></Phone>
+            </Contact>
+            <Description></Description>
+            <ExclusiveUse>false</ExclusiveUse>
+            <FissileExcepted>false</FissileExcepted>
+            <FlashPoint>1.0</FlashPoint>
+            <HasOverpack>false</HasOverpack>
+            <HighwayRouteControlledQuantity>false</HighwayRouteControlledQuantity>
+            <IMOClass>1</IMOClass>
+            <IsCombustible>false</IsCombustible>
+            <MarinePollutant>
+              <Code></Code>
+              <Description></Description>
+            </MarinePollutant>
+            <OverpackID></OverpackID>
+            <PackedInLimitedQuantity>false</PackedInLimitedQuantity>
+            <PackingGroup></PackingGroup>
+            <PackingInstructionSection></PackingInstructionSection>
+            <PackQty>0</PackQty>
+            <PackType>
+              <Code></Code>
+            </PackType>
+            <ProperShippingName>AMMUNITION, INCENDIARY</ProperShippingName>
+            <RadioactiveLabelCategory></RadioactiveLabelCategory>
+            <RadioactiveMaximumActivity>0.000</RadioactiveMaximumActivity>
+            <RadioactiveMaximumActivityUnit></RadioactiveMaximumActivityUnit>
+            <RadioactiveTransportIndex>0.000</RadioactiveTransportIndex>
+            <RadionuclideElement></RadionuclideElement>
+            <RadionuclideElementSuffix></RadionuclideElementSuffix>
+            <ResidueLastContained>false</ResidueLastContained>
+            <SalvagePackaging>false</SalvagePackaging>
+            <SpecialPermitIssuedDate></SpecialPermitIssuedDate>
+            <SpecialPermitNumber></SpecialPermitNumber>
+            <Standard>ADR</Standard>
+            <SubLabel1></SubLabel1>
+            <SubLabel2></SubLabel2>
+            <TechicalName>TN</TechicalName>
+            <UNDGCode>10</UNDGCode>
+            <Volume>0.000</Volume>
+            <VolumeUQ>
+              <Code></Code>
+            </VolumeUQ>
+            <WasteCode></WasteCode>
+            <Weight>0.000</Weight>
+            <WeightUQ>
+              <Code></Code>
+            </WeightUQ>
+          </UNDG>
+        </UNDGCollection>
+      </Container>
+    </ContainerCollection>
+    <DateCollection>
+      <Date>
+        <Type>Arrival</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2024-08-16T00:00:00</Value>
+      </Date>
+      <Date>
+        <Type>Departure</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value>2024-08-16T00:00:00</Value>
+      </Date>
+    </DateCollection>
+    <InBondMoveHeaderCollection>
+      <InBondMoveHeader>
+        <AdditionalText></AdditionalText>
+        <BioterrorismActIndicator></BioterrorismActIndicator>
+        <CustomsStatus>
+          <Code></Code>
+          <Description>Not Sent</Description>
+        </CustomsStatus>
+        <DestinationPortScheduleD>
+          <Code></Code>
+        </DestinationPortScheduleD>
+        <EntryType>
+          <Code>62</Code>
+          <Description>Transport and Export</Description>
+        </EntryType>
+        <ExportVesselName></ExportVesselName>
+        <ForeignDestinationPortScheduleK>
+          <Code></Code>
+        </ForeignDestinationPortScheduleK>
+        <ForeignDestinationPortUNLOCO>
+          <Code></Code>
+        </ForeignDestinationPortUNLOCO>
+        <InBondCarrierID></InBondCarrierID>
+        <InBondCarrierSCAC></InBondCarrierSCAC>
+        <LastForeignPortScheduleK>
+          <Code></Code>
+        </LastForeignPortScheduleK>
+        <MonetaryValue>0.0000</MonetaryValue>
+        <MoveToFTZ>
+          <Code></Code>
+        </MoveToFTZ>
+        <PortOfPresentationScheduleD>
+          <Code>3901</Code>
+          <Description>CHICAGO, IL</Description>
+        </PortOfPresentationScheduleD>
+        <Seals></Seals>
+        <TransferOfLiabilityCarrierCode></TransferOfLiabilityCarrierCode>
+        <TransferOfLiabilityCarrierID></TransferOfLiabilityCarrierID>
+        <TransferOfLiabilityCityName></TransferOfLiabilityCityName>
+        <TransferOfLiabilityStateCode>
+          <Code></Code>
+        </TransferOfLiabilityStateCode>
+        <AdditionalReferenceCollection>
+          <AdditionalReference>
+            <Type>
+              <Code>GON</Code>
+              <Description>G.O. Number</Description>
+            </Type>
+            <ReferenceNumber></ReferenceNumber>
+          </AdditionalReference>
+          <AdditionalReference>
+            <Type>
+              <Code>PDN</Code>
+              <Description>Pedimento Number</Description>
+            </Type>
+            <ReferenceNumber></ReferenceNumber>
+          </AdditionalReference>
+        </AdditionalReferenceCollection>
+        <DateCollection>
+          <Date>
+            <Type>EntryDate</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value>2024-08-06T00:00:00</Value>
+          </Date>
+          <Date>
+            <Type>Arrival</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>Departure</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>TransferOfLiability</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value></Value>
+          </Date>
+        </DateCollection>
+        <EntryNumberCollection>
+          <EntryNumber>
+            <Number>000002004</Number>
+            <Type>
+              <Code>INB</Code>
+              <Description>In-Bond Transit Number</Description>
+            </Type>
+          </EntryNumber>
+        </EntryNumberCollection>
+        <InBondMoveDetailCollection>
+          <InBondMoveDetail>
+            <AdditionalBillLink>1</AdditionalBillLink>
+            <CustomsStatus>
+              <Code></Code>
+              <Description>Not Sent</Description>
+            </CustomsStatus>
+            <InBondQuantity>1</InBondQuantity>
+            <PreviousInBondTransitDate></PreviousInBondTransitDate>
+            <PreviousInBondTransitPortScheduleD>
+              <Code></Code>
+            </PreviousInBondTransitPortScheduleD>
+            <PreviousInBondTransitType>
+              <Code></Code>
+            </PreviousInBondTransitType>
+            <SequenceNumber></SequenceNumber>
+            <AddInfoGroupCollection>
+            </AddInfoGroupCollection>
+            <ContainerLinkCollection>
+              <ContainerLink>
+                <ContainerNumber>1</ContainerNumber>
+                <Link>1</Link>
+              </ContainerLink>
+            </ContainerLinkCollection>
+            <CustomsReferenceCollection>
+              <CustomsReference>
+                <Type>
+                  <Code>SNP</Code>
+                  <Description>Secondary Notify Party</Description>
+                </Type>
+                <Reference>3901SV9</Reference>
+                <SubType>
+                  <Code>1</Code>
+                  <Description>First</Description>
+                </SubType>
+              </CustomsReference>
+              <CustomsReference>
+                <Type>
+                  <Code>SNP</Code>
+                  <Description>Secondary Notify Party</Description>
+                </Type>
+                <Reference></Reference>
+                <SubType>
+                  <Code>2</Code>
+                  <Description>Second</Description>
+                </SubType>
+              </CustomsReference>
+              <CustomsReference>
+                <Type>
+                  <Code>SNP</Code>
+                  <Description>Secondary Notify Party</Description>
+                </Type>
+                <Reference></Reference>
+                <SubType>
+                  <Code>4</Code>
+                  <Description>Fourth</Description>
+                </SubType>
+              </CustomsReference>
+            </CustomsReferenceCollection>
+            <EntryNumberCollection>
+              <EntryNumber>
+                <Number></Number>
+                <Type>
+                  <Code>PIT</Code>
+                  <Description>Previous In-Bond Transit Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+              </EntryNumber>
+            </EntryNumberCollection>
+            <InBondMoveLineItemCollection>
+              <InBondMoveLineItem>
+                <DescriptionAndQuantityOfMerchandise>1 BAG</DescriptionAndQuantityOfMerchandise>
+                <DutyComment>1</DutyComment>
+                <IsMonetaryValueEstimated>true</IsMonetaryValueEstimated>
+                <MarksAndNumbers>N/M</MarksAndNumbers>
+                <MonetaryValue>1.0000</MonetaryValue>
+                <PrintingSequenceNo>1</PrintingSequenceNo>
+                <RateComment>1</RateComment>
+                <Weight>1.0000</Weight>
+                <WeightUnit>
+                  <Code>KG</Code>
+                  <Description>Kilograms</Description>
+                </WeightUnit>
+              </InBondMoveLineItem>
+            </InBondMoveLineItemCollection>
+            <WarehouseDetailCollection>
+              <WarehouseDetail>
+                <BondedQuantity>1</BondedQuantity>
+                <EntryNumber>1</EntryNumber>
+                <WithdrawQuantity>1</WithdrawQuantity>
+              </WarehouseDetail>
+            </WarehouseDetailCollection>
+          </InBondMoveDetail>
+        </InBondMoveDetailCollection>
+      </InBondMoveHeader>
+    </InBondMoveHeaderCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ImporterDocumentaryAddress</AddressType>
+        <Address1>123 MADISON AVE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>MAIN ADDRESS</AddressShortCode>
+        <City>NEW YORK</City>
+        <CompanyName>ACE TEST IMPORTER 1</CompanyName>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Email>test@email.com</Email>
+        <Fax>+12155551216</Fax>
+        <GovRegNum>58-123456789</GovRegNum>
+        <GovRegNumType>
+          <Code>EIN</Code>
+          <Description>Employer Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>ACETESPHL</OrganizationCode>
+        <Phone>+12155551212</Phone>
+        <Port>
+          <Code>USPHL</Code>
+          <Name>Philadelphia</Name>
+        </Port>
+        <Postcode>10016</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State Description="New York">NY</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>DEA</Code>
+              <Description>DEA Registration Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>333444555</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>AMS</Code>
+              <Description>AMS (USDA) Assigned ID Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>123</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DDT</Code>
+              <Description>DDTC Registration Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>999999</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>TTB</Code>
+              <Description>TTB Import Permit Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>AA-A-111</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>FRM</Code>
+              <Description>FIRMS Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>W235</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>APH</Code>
+              <Description>APHIS Establishment Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>123</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IFT</Code>
+              <Description>IFTP Permit No\Auth. To Fish No (NM</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>12346789</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>WMI</Code>
+              <Description>World Manufacturer Identifier</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>123</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCD</Code>
+              <Description>Importer Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>ZA</Code>
+              <Name>South Africa</Name>
+            </CountryOfIssue>
+            <Value>00281124</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CID</Code>
+              <Description>CCID Customs Client Identifier</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>AAA3436479P</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>EOR</Code>
+              <Description>EORI code (to be sent verbatim)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>ES</Code>
+              <Name>Spain</Name>
+            </CountryOfIssue>
+            <Value>13131313</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>AEO</Code>
+              <Description>Authorized Economic Operator</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>ES</Code>
+              <Name>Spain</Name>
+            </CountryOfIssue>
+            <Value>AEOS88889</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SupplierDocumentaryAddress</AddressType>
+        <Address1>88 GLOUCETER ROAD</Address1>
+        <Address2>UNIT 801</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>88 GLOUCETER ROAD</AddressShortCode>
+        <City>WAN CHAI</City>
+        <CompanyName>HK 1 IMPORTER/EXPORTER CORPORATION</CompanyName>
+        <Country>
+          <Code>HK</Code>
+          <Name>Hong Kong</Name>
+        </Country>
+        <Email></Email>
+        <Fax>+852 8760-0211</Fax>
+        <OrganizationCode>HK1IMPHKG</OrganizationCode>
+        <Phone>+852 8760-0200</Phone>
+        <Port>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State></State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>LSC</Code>
+              <Description>Legacy System Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </CountryOfIssue>
+            <Value>HK1IMPHKG</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>MID</Code>
+              <Description>Supplier/Manufacturer ID Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>HK123123132</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>AEO</Code>
+              <Description>Authorized Economic Operator</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </CountryOfIssue>
+            <Value>7734829219</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>FPI</Code>
+              <Description>Foreign Producer Identifier</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>TTB-FP-1231231</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <PackingLineCollection Content="Complete">
+      <PackingLine>
+        <ContainerLink>1</ContainerLink>
+        <GoodsDescription>1</GoodsDescription>
+        <HarmonisedCode>1000000001</HarmonisedCode>
+        <LinePrice>1.0000</LinePrice>
+        <MarksAndNos>N/M</MarksAndNos>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>BAG</Code>
+          <Description>Bag</Description>
+        </PackType>
+        <Weight>1.000000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <PackedItemCollection>
+          <PackedItem>
+            <CommercialInvoiceLineLink>1</CommercialInvoiceLineLink>
+          </PackedItem>
+        </PackedItemCollection>
+        <PackingLineCollection>
+        </PackingLineCollection>
+      </PackingLine>
+    </PackingLineCollection>
+    <TransportLegCollection Content="Complete">
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>USSAN</Code>
+          <Name>San Diego</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>USSPQ</Code>
+          <Name>San Pedro</Name>
+        </PortOfLoading>
+        <LegOrder>1</LegOrder>
+        <ActualDeparture>2024-08-16T00:00:00</ActualDeparture>
+        <EstimatedArrival>2024-08-16T00:00:00</EstimatedArrival>
+        <TransportMode>Sea</TransportMode>
+        <VesselLloydsIMO></VesselLloydsIMO>
+        <VesselName>A P MOLLER</VesselName>
+        <VoyageFlightNo>111</VoyageFlightNo>
+      </TransportLeg>
+    </TransportLegCollection>
+  </Shipment>
+</UniversalShipment>

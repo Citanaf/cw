@@ -1,0 +1,29 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>TransportBooking</Type>
+          <Key>TBHYEDAU1BL01103315</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>DAU</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>AU Demo Company</Name>
+      </Company>
+      <DataProvider>HYEUG1DAU</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <ServerID>UG1</ServerID>
+    </DataContext>
+
+    <EventTime>2025-01-13T12:16:02.297+11:00</EventTime>
+    <EventType>BKC</EventType>
+	<EventReference>H788</EventReference>	
+    <IsEstimate>false</IsEstimate>
+  </Event>
+</UniversalEvent>

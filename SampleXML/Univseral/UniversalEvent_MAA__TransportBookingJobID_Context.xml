@@ -1,0 +1,13 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+            <EventType>MAA</EventType>
+			<EventTime>14-AUG-23 09:50</EventTime>
+			<EventReference>Booked with Blume</EventReference>
+			<ContextCollection>
+				<Context>
+					<Type>TransportBookingJobID</Type>
+					<Value>TB00000046</Value>
+				</Context>
+			</ContextCollection>
+  </Event>
+</UniversalEvent>

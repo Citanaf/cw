@@ -1,0 +1,33 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>TransitReceive</Type>
+          <Key>RC00000255</Key>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+
+    <EventTime>2021-08-07T15:44:05.877</EventTime>
+    <EventType>BKC</EventType>
+    <CreatedTime>2021-08-07T05:44:05.877</CreatedTime>
+    <EventReference>New|FAC=CFS|LOC=SYDNEY|TYP=Transit Receive|RFN=M0001</EventReference>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>HSB0001</Value>
+      </Context>
+      <Context>
+        <Type>CFSReference</Type>
+        <Value>CFS00001</Value>
+      </Context>
+      <Context>
+        <Type>DepotCode</Type>
+        <Value>DEPOTADDRESSCODE</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

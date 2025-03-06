@@ -1,0 +1,42 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <EventTime>2017-10-25T19:17:57.19</EventTime>
+    <EventType>FLO</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>EISU908566322</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>USNYC</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>BRRIO</Value>
+      </Context>
+      <Context>
+        <Type>CarriersBookingReference</Type>
+        <Value>908566322</Value>
+      </Context>
+      <Context>
+        <Type>AgentsReference</Type>
+        <Value>C000093945</Value>
+      </Context>
+      <Context>
+        <Type>CarrierCode</Type>
+        <Value>EISU</Value>
+      </Context>
+      <Context>
+        <Type Description="Carrier Contract Number">CON</Type>
+        <Value>000985632</Value>
+      </Context>
+      <Context>
+        <Type Description="Letter Of Credit Number">LCR</Type>
+        <Value>LC00003939/17</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

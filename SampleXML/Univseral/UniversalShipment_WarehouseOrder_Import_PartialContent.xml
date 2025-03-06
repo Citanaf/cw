@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>WarehouseOrder</Type>
+          <Key>W00011429</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>DES</Code>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Name>ES Demo Company</Name>
+      </Company>
+      <DataProvider>WTLRFTDES</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>VGO</Code>
+        <Name>Cargowise EDI - Vigo (ES)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code></Code>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>RFT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-11-03T02:07:25.95</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <CarrierServiceLevel>
+      <Code></Code>
+    </CarrierServiceLevel>
+    <ContainerMode>
+      <Code>LTL</Code>
+      <Description>Less Truck Load</Description>
+    </ContainerMode>
+    <GoodsDescription></GoodsDescription>
+    <GoodsValue>0</GoodsValue>
+    <GoodsValueCurrency>
+      <Code></Code>
+    </GoodsValueCurrency>
+    <IsAuthorizedToLeave>false</IsAuthorizedToLeave>
+    <OuterPacks>540</OuterPacks>
+    <OuterPacksPackageType>
+      <Code>PCE</Code>
+      <Description>Piece</Description>
+    </OuterPacksPackageType>
+    <PortOfDestination>
+      <Code>AUSYD</Code>
+      <Name>Sydney</Name>
+    </PortOfDestination>
+    <PortOfOrigin>
+      <Code>AUSYD</Code>
+      <Name>Sydney</Name>
+    </PortOfOrigin>
+    <ScreeningStatus>
+      <Code>UNK</Code>
+      <Description>Unknown</Description>
+    </ScreeningStatus>
+    <ServiceLevel>
+      <Code></Code>
+    </ServiceLevel>
+    <ShipmentIncoTerm>
+      <Code></Code>
+    </ShipmentIncoTerm>
+    <ShipperCODAmount>0</ShipperCODAmount>
+    <ShipperCODPayMethod>
+      <Code></Code>
+    </ShipperCODPayMethod>
+    <TotalNoOfPacks>0</TotalNoOfPacks>
+    <TotalNoOfPacksPackageType>
+      <Code>PCE</Code>
+      <Description>Piece</Description>
+    </TotalNoOfPacksPackageType>
+    <TotalVolume>0.068</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>Cubic Meters</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>13.50</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>ROA</Code>
+      <Description>Road Freight</Description>
+    </TransportMode>
+    <WayBillNumber></WayBillNumber>
+    <WayBillType>
+      <Code>HWB</Code>
+      <Description>House Waybill</Description>
+    </WayBillType>
+
+    <LocalProcessing>
+      <DeliveryRequiredBy>2021-11-03T02:02:00</DeliveryRequiredBy>
+    </LocalProcessing>
+
+    <Order>
+      <OrderNumber>W00011429</OrderNumber>
+      <AddPalletWeightToOrder>true</AddPalletWeightToOrder>
+      <ClientReference></ClientReference>
+      <DropMode>
+        <Code>PSL</Code>
+        <Description>Premise Supplies Lift</Description>
+      </DropMode>
+      <FulfillmentRule>
+        <Code>NON</Code>
+        <Description>None</Description>
+      </FulfillmentRule>
+      <LocalCartageInsuranceValue>0</LocalCartageInsuranceValue>
+      <OrderNumberSplit>0</OrderNumberSplit>
+      <PalletsSent>0</PalletsSent>
+      <PickOption>
+        <Code>AUT</Code>
+        <Description>Auto Pick</Description>
+      </PickOption>
+      <RequiresPacking>false</RequiresPacking>
+      <RequiresQualityAudit>false</RequiresQualityAudit>
+      <Status>
+        <Code>ENT</Code>
+        <Description>Entered (Saved)</Description>
+      </Status>
+      <TotalLineVolume>0.068</TotalLineVolume>
+      <TotalLineWeight>13.50</TotalLineWeight>
+      <TotalNetWeightSent>0</TotalNetWeightSent>
+      <TotalUnits>540.00</TotalUnits>
+      <TransportReference></TransportReference>
+      <Type>
+        <Code>ORD</Code>
+        <Description>ORDER</Description>
+      </Type>
+      <UnitsSent>0</UnitsSent>
+      <Warehouse>
+        <Code>MEL</Code>
+        <Name>MELBOURNE</Name>
+      </Warehouse>
+
+      <OrderLineCollection Content="Partial">
+        <OrderLine>
+          <Commodity>
+            <Code></Code>
+          </Commodity>
+          <ExpiryDate></ExpiryDate>
+          <ExtendedLinePrice>6.95</ExtendedLinePrice>
+          <LineComment></LineComment>
+          <LineNumber>2</LineNumber>
+          <Link>0</Link>
+          <OrderedQty>70</OrderedQty>
+          <OrderedQtyUnit>
+            <Code>UNT</Code>
+            <Description>Unit</Description>
+          </OrderedQtyUnit>
+          <PackageQty>70</PackageQty>
+          <PackageQtyUnit>
+            <Code>UNT</Code>
+            <Description>Unit</Description>
+          </PackageQtyUnit>
+          <PackingDate></PackingDate>
+          <PartAttribute1></PartAttribute1>
+          <PartAttribute2></PartAttribute2>
+          <PartAttribute3></PartAttribute3>
+          <Product>
+            <Code>PALEALE</Code>
+            <Description>COOPERS PALE ALE</Description>
+          </Product>
+          <QuantityMet>0</QuantityMet>
+          <ReservedQuantity>0</ReservedQuantity>
+          <SerialNumber></SerialNumber>
+          <ShortfallQuantity>0</ShortfallQuantity>
+          <SubLineNumber>0</SubLineNumber>
+          <UnitPriceAfterDiscount>6.40</UnitPriceAfterDiscount>
+          <UnitPriceCurrency>
+            <Code>EUR</Code>
+            <Description>Euro</Description>
+          </UnitPriceCurrency>
+          <UnitPriceDiscountAmount>0</UnitPriceDiscountAmount>
+          <UnitPriceDiscountPercent>0</UnitPriceDiscountPercent>
+          <UnitPriceRecommended>0</UnitPriceRecommended>
+
+          <CustomizedFieldCollection>
+            <CustomizedField>
+              <DataType>String</DataType>
+              <Key>Item No</Key>
+              <Value></Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Length</Key>
+              <Value>5</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Width</Key>
+              <Value>5</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Height</Key>
+              <Value>6</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Weight</Key>
+              <Value>30</Value>
+            </CustomizedField>
+          </CustomizedFieldCollection>
+        </OrderLine>
+      </OrderLineCollection>
+    </Order>
+
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Supplier</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>Decimal</DataType>
+        <Key>Weight</Key>
+        <Value>0</Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>613 ANZAC PARADE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>ATTN SARAH COOK</AddressShortCode>
+        <City>MAROUBRA</City>
+        <CompanyName>GEORGES FOODS</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>51 824 753 556</GovRegNum>
+        <GovRegNumType>
+          <Code>ABN</Code>
+          <Description>Australian Business Number (IVA Reg</Description>
+        </GovRegNumType>
+        <OrganizationCode>GEOFOOSYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2035</Postcode>
+        <ScreeningStatus>
+          <Code>CLP</Code>
+          <Description>Permanent Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendersLocalClient</AddressType>
+        <Address1>613 ANZAC PARADE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>ATTN SARAH COOK</AddressShortCode>
+        <City>MAROUBRA</City>
+        <CompanyName>GEORGES FOODS</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>51 824 753 556</GovRegNum>
+        <GovRegNumType>
+          <Code>ABN</Code>
+          <Description>Australian Business Number (IVA Reg</Description>
+        </GovRegNumType>
+        <OrganizationCode>GEOFOOSYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2035</Postcode>
+        <ScreeningStatus>
+          <Code>CLP</Code>
+          <Description>Permanent Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>TransportCompanyDocumentaryAddress</AddressType>
+        <Address1>TEST ADDRESS</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>ALL: TEST ADDRESS</AddressShortCode>
+        <City>ADDRESS</City>
+        <CompanyName>QUICK CARRIERS</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax>+61290251199</Fax>
+        <OrganizationCode>QUICARSYD</OrganizationCode>
+        <Phone>+61295845552</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>CLP</Code>
+          <Description>Permanent Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>TransportBillToAddress</AddressType>
+        <Address1>1 REGENT STREET</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>123</AddressShortCode>
+        <City>PADDINGTON</City>
+        <CompanyName>EPARCEL</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>EPARCESYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2021</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GS1</Code>
+              <Description>GS1 Company Prefix</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>9876543</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneeAddress</AddressType>
+        <Address1>7 43 MAC DONALD STREET, LAKEMBA, NSW-2195</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>7 43 MAC DONALD STREET, L</AddressShortCode>
+        <City>SYDNEY</City>
+        <CompanyName>SABBIR FERDOUSH</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>SABFERSYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2195</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>GoodsBillToAddress</AddressType>
+        <Address1>VIGO</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>VIGO</AddressShortCode>
+        <City>VIGO</City>
+        <CompanyName>DEMO CLIENT VIGO</CompanyName>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>DEMCLIVGO</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>ESVGO</Code>
+          <Name>Vigo</Name>
+        </Port>
+        <Postcode>36415</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="PONTEVEDRA">PO</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendingForwarderAddress</AddressType>
+        <Address1>7 43 MAC DONALD STREET, LAKEMBA, NSW-2195</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>7 43 MAC DONALD STREET, L</AddressShortCode>
+        <City>SYDNEY</City>
+        <CompanyName>SABBIR FERDOUSH</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>SABFERSYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2195</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+        <Address1>72 O'RIORDAN STREET</Address1>
+        <Address2>UNIT 3A</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>72 O'RIORDAN STREET</AddressShortCode>
+        <City>ALEXANDRIA</City>
+        <CompanyName>CARGOWISE PTY LTD</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax>+61290251199</Fax>
+        <GovRegNum>41065894724</GovRegNum>
+        <GovRegNumType>
+          <Code>ABN</Code>
+          <Description>Australian Business Number (IVA Reg</Description>
+        </GovRegNumType>
+        <OrganizationCode>CARGOWSYD</OrganizationCode>
+        <Phone>+61280012200</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2015</Postcode>
+        <ScreeningStatus>
+          <Code>CLP</Code>
+          <Description>Permanent Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+        <UniversalOfficeCode>uniofficecode</UniversalOfficeCode>
+
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>1ST</Code>
+              <Description>1-Stop Trading Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>TEST</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>INT</Code>
+              <Description>INTTRA Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>EAGD</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CMP</Code>
+              <Description>Customs Manifest Provider Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>C065894724</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code (Sea)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>CARG</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CPC</Code>
+              <Description>Customs Continuous Permit Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>CPC111</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IVA</Code>
+              <Description>VAT (IVA) Business Registration Num</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>IT</Code>
+              <Name>Italy</Name>
+            </CountryOfIssue>
+            <Value>IVA number</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IDN</Code>
+              <Description>Identity Card Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>SG</Code>
+              <Name>Singapore</Name>
+            </CountryOfIssue>
+            <Value>122</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>8011</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DUN</Code>
+              <Description>DUNS Data Universal Numbering Syste</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>751726720</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>CustomsWarehouseAddress</AddressType>
+        <Address1>72 O'RIORDAN STREET</Address1>
+        <Address2>UNIT 3A</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>72 O'RIORDAN STREET</AddressShortCode>
+        <City>ALEXANDRIA</City>
+        <CompanyName>CARGOWISE PTY LTD</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax>+61290251199</Fax>
+        <GovRegNum>41065894724</GovRegNum>
+        <GovRegNumType>
+          <Code>ABN</Code>
+          <Description>Australian Business Number (IVA Reg</Description>
+        </GovRegNumType>
+        <OrganizationCode>CARGOWSYD</OrganizationCode>
+        <Phone>+61280012200</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2015</Postcode>
+        <ScreeningStatus>
+          <Code>CLP</Code>
+          <Description>Permanent Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+        <UniversalOfficeCode>uniofficecode</UniversalOfficeCode>
+
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>1ST</Code>
+              <Description>1-Stop Trading Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>TEST</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>INT</Code>
+              <Description>INTTRA Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>EAGD</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CMP</Code>
+              <Description>Customs Manifest Provider Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>C065894724</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code (Sea)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>CARG</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CPC</Code>
+              <Description>Customs Continuous Permit Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>CPC111</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IVA</Code>
+              <Description>VAT (IVA) Business Registration Num</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>IT</Code>
+              <Name>Italy</Name>
+            </CountryOfIssue>
+            <Value>IVA number</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IDN</Code>
+              <Description>Identity Card Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>SG</Code>
+              <Name>Singapore</Name>
+            </CountryOfIssue>
+            <Value>122</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>8011</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DUN</Code>
+              <Description>DUNS Data Universal Numbering Syste</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>751726720</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+  </Shipment>
+</UniversalShipment>

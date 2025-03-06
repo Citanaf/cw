@@ -1,0 +1,86 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>CustomsDeclaration</Type>
+          <Key>B00001000</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>DCA</Code>
+        <Country>
+          <Code>CA</Code>
+          <Name>Canada</Name>
+        </Country>
+        <Name>Canadian Customs Broker</Name>
+      </Company>
+      <DataProvider>HYECMTDCA</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>BRP</Code>
+        <Name>Brampton, Toronto</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>AO</Code>
+        <Name>Amy</Name>
+      </EventUser>
+      <ServerID>CMT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2019-04-14T19:17:07.867</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2019-04-14T19:17:07.867</EventTime>
+    <EventType>ATH</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>CarrierCode</Type>
+        <Value>APLU</Value>
+      </Context>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>APLU09042019</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>HKHKG</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>CAWND</Value>
+      </Context>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>HBL942019</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>HKHKG</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>CAWND</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

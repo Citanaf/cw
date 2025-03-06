@@ -1,0 +1,20 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+            <EventType>PUP</EventType>
+			<EventTime>12-JAN-23 09:50</EventTime>
+			<ContextCollection>
+				<Context>
+					<Type>TransportBookingJobID</Type>
+					<Value>TBSYD00000758</Value>
+				</Context>
+				<Context>
+					<Type>TransportBookingInstructionID</Type>
+					<Value>1</Value>
+				</Context>
+				<Context>
+					<Type>PackageType</Type>
+					<Value>CTN</Value>
+				</Context>
+			</ContextCollection>
+  </Event>
+</UniversalEvent>

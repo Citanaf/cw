@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>USCustomsSection321Clearance</Type>
+          <Key>SEC00000170</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>DUS</Code>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Name>US - Your United States Demo Company</Name>
+      </Company>
+      <DataProvider>WTLHX1DUS</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>CHI</Code>
+        <Name>CHI</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>HX1</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-08-15T22:39:49.647-05:00</TriggerDate>
+      <TriggerDescription>Validate</TriggerDescription>
+      <TriggerType>Trigger</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>HVL</Code>
+          <Description>HVLV Forwarder</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2024-08-16T00:15:02.480-05:00</EventTime>
+    <EventType>ATH</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>MST122021A</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>GBTIL</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>USPHL</Value>
+      </Context>
+      <Context>
+        <Type>MBOLPortOfLoadingScheduleK</Type>
+        <Value>41380</Value>
+      </Context>
+      <Context>
+        <Type>MBOLPortOfDischargeScheduleD</Type>
+        <Value>1101</Value>
+      </Context>
+      <Context>
+        <Type>MBOLPortOfEntryScheduleD</Type>
+        <Value>1101</Value>
+      </Context>
+      <Context>
+        <Type>CustomsReleaseDate</Type>
+        <Value>2021-12-21T00:00:00</Value>
+      </Context>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>HSE122021AA</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>WarehouseOrder</Type>
+          <Key>W00011430</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>NPY</Code>
+        <Description>Notify Party</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>DES</Code>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Name>ES Demo Company</Name>
+      </Company>
+      <DataProvider>WTLRFTDES</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>VGO</Code>
+        <Name>Cargowise EDI - Vigo (ES)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>BKP</Code>
+        <Description>Booking Pending</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>RFT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-11-03T03:54:47.41</TriggerDate>
+      <TriggerDescription>TESTING</TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2021-11-03T03:54:47.417</EventTime>
+    <EventType>BKP</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>OrderNumber</Type>
+        <Value>W00011430</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

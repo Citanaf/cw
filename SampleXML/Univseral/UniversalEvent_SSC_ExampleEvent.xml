@@ -1,0 +1,29 @@
+<UniversalEvent>
+	<Event>
+		<EventTime>2022-10-15T01:02:03.001</EventTime>
+		<EventType>SSC</EventType>
+		<EventReference>FAC=TWS|LOC=AUSYD|LEN=1.5M|WID=2.1M|HGT=1.3M|WGT=300KG|VOL=4.095M3</EventReference>
+		<DataContext>
+			<DataTargetCollection>
+				<DataTarget>
+					<Type>TransitReceive</Type>
+				</DataTarget>
+			</DataTargetCollection>
+			<Company>
+				<Code>TMS</Code>
+			</Company>
+			<EnterpriseID>EDI</EnterpriseID>
+			<ServerID>EVP</ServerID>
+		</DataContext>
+		<ContextCollection>
+			<Context>
+				<Type>GoodsItemID</Type>
+				<Value>12345678900</Value>
+			</Context>
+			<Context>
+				<Type>WarehouseCode</Type>
+				<Value>SYX</Value>
+			</Context>
+		</ContextCollection>
+	</Event>
+</UniversalEvent>

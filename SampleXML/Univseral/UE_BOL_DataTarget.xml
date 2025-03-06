@@ -1,0 +1,16 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>BillOfLading</Type>
+          <Key>V00001007</Key>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+
+    <EventTime>2021-08-10T16:57:11.587</EventTime>
+    <EventType>Z01</EventType>
+    <IsEstimate>false</IsEstimate>
+  </Event>
+</UniversalEvent>

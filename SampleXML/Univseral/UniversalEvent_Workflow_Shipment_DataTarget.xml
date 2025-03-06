@@ -1,0 +1,26 @@
+        <UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.0">
+            <Event>
+				<DataContext>
+                    <Company>
+                        <Code>{{CompanyCode}}</Code>                        
+                    </Company>                    
+                    <EnterpriseID>{{EnterpriseID}}</EnterpriseID>
+                    <ServerID>{{ServerID}}</ServerID>
+			        <DataTargetCollection>
+				        <DataTarget>
+					        <Type>ForwardingShipment</Type>
+					        <Key>SSBSD00000002</Key>
+				        </DataTarget>
+			        </DataTargetCollection>		
+				</DataContext>
+				<EventTime>2024-04-30T11:25:06</EventTime>
+		        <EventType>PUP</EventType>
+		        <EventReference>File sent via EDI</EventReference>		  
+                <ContextCollection>
+                <Context>
+                <Type>ContainerNumber</Type>
+                <Value>XYZT1234565</Value>
+                </Context>
+                </ContextCollection>      
+			</Event>
+		</UniversalEvent>

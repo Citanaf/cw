@@ -1,0 +1,76 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>PkgPackage</Type>
+          <Key>PLT00001</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DAU</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>Your Australia Demo Company</Name>
+      </Company>
+      <DataProvider>HYECMTDAU</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>SYD</Code>
+        <Name>Sydney, Australia</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ARV</Code>
+        <Description>Arrived</Description>
+      </EventType>
+      <EventUser>
+        <Code>AWS</Code>
+        <Name>Test Supervisor</Name>
+      </EventUser>
+      <ServerID>CMT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-08-10T14:52:46.313</TriggerDate>
+      <TriggerDescription>Send Package Arrival Event</TriggerDescription>
+      <TriggerType>Trigger</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organisation Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2021-08-10T14:52:46.313</EventTime>
+    <EventType>ARV</EventType>
+    <CreatedTime>2021-08-10T14:52:46.313</CreatedTime>
+    <EventReference>VEHICLE123|TYP=VehicleReference|RES=Scanned|FAC=CFS|LOC=SYDNEY</EventReference>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>TransportBookingPackageID</Type>
+        <Value>PLT00001</Value>
+      </Context>
+      <Context>
+        <Type>PackageSequence</Type>
+        <Value>1</Value>
+      </Context>
+      <Context>
+        <Type>PackageType</Type>
+        <Value>PLT</Value>
+      </Context>
+      <Context>
+        <Type>PackageTypeUOM</Type>
+        <Value>PLT</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

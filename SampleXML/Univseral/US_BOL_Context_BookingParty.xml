@@ -1,0 +1,22 @@
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>BillOfLading</Type>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+
+    <AgentsReference>ZZ5468889</AgentsReference>
+	<WayBillNumber>BOL12313123</WayBillNumber>
+	<BookingConfirmationReference>BKG565465215</BookingConfirmationReference>	
+	<GoodsDescription>copper</GoodsDescription>
+    <OrganizationAddressCollection>	
+      <OrganizationAddress>
+        <AddressType>BookingPartyDocumentaryAddress</AddressType>
+        <OrganizationCode>CARTEC</OrganizationCode>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+  </Shipment>
+</UniversalShipment>

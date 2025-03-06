@@ -1,0 +1,18 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>GateVehicleMovement</Type>
+          <Key></Key>
+        </DataSource>
+      </DataSourceCollection>
+    </DataContext>
+
+    <EventTime>2024-07-16T10:17:07.237</EventTime>
+    <EventType>GIN</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

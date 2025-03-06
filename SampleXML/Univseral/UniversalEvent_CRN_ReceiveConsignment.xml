@@ -1,0 +1,37 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+   <Event>
+    <DataContext>
+       <DataSourceCollection>
+        <DataSource>
+         <Type>ForwardingShipment</Type>
+         <Key>S00001003</Key>
+        </DataSource>
+       </DataSourceCollection>
+    </DataContext>
+    <EventTime>2021-08-28T10:29:00</EventTime>
+    <EventType>CRN</EventType>
+    <EventParameters>
+       <Department>Customs</Department>
+       <CustomsReferenceNumber>CUS000A1</CustomsReferenceNumber>
+       <Location>AUSYD</Location>
+    </EventParameters>
+    <ContextCollection>
+       <Context>
+        <Type>ShipmentNumber</Type>
+        <Value>SHP00001</Value>
+       </Context>
+       <Context>
+        <Type>CBKReference</Type>
+        <Value>SHP00001</Value>
+       </Context>
+       <Context>
+        <Type>PortArea</Type>
+        <Value>AAB</Value>
+       </Context>
+       <Context>
+        <Type>PortLocation</Type>
+        <Value>SYDPORTLOC</Value>
+       </Context>
+    </ContextCollection>
+   </Event>
+</UniversalEvent>

@@ -1,0 +1,22 @@
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>CFSReceive</Type>
+          <Key>SB00001482</Key>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+    <PackingLineCollection>
+      <PackingLine>
+        <PackingLineID>JSL00000000000003509</PackingLineID>
+        <InnerQty>10</InnerQty>
+        <PackQty>10</PackQty>
+        <Volume>1</Volume>
+        <Weight>10</Weight>
+		<LastCFSReceiptDate>2024-12-26T17:34:00</LastCFSReceiptDate>
+      </PackingLine>
+    </PackingLineCollection>
+  </Shipment>
+</UniversalShipment>

@@ -1,0 +1,905 @@
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>AgencyShipmentContainer</Type>
+          <Key>D00001171</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>EDI</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>Eagle Datamation International</Name>
+      </Company>
+      <DataProvider>WTLJR1EDI</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>BN - AUBNE</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>JR1</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2022-08-10T11:32:39.297</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <AgentsReference>SHIPPER20220322</AgentsReference>
+    <BookingConfirmationReference>BOOKIN20220322</BookingConfirmationReference>
+    <ContainerMode>
+      <Code>FCL</Code>
+      <Description>Full Container Load</Description>
+    </ContainerMode>
+    <GoodsDescription>BOOKS</GoodsDescription>
+    <GoodsValue>0.0000</GoodsValue>
+    <GoodsValueCurrency>
+      <Code>USD</Code>
+      <Description>United States Dollar</Description>
+    </GoodsValueCurrency>
+    <HBLAWBChargesDisplay>
+      <Code>SHW</Code>
+      <Description>Show Collect Charges</Description>
+    </HBLAWBChargesDisplay>
+    <InterimReceiptNumber></InterimReceiptNumber>
+    <IsShipping>true</IsShipping>
+    <NoCopyBills>3</NoCopyBills>
+    <NoOriginalBills>3</NoOriginalBills>
+    <OuterPacks>1</OuterPacks>
+    <OuterPacksPackageType>
+      <Code>PLT</Code>
+      <Description>Pallet</Description>
+    </OuterPacksPackageType>
+    <PaymentMethod>
+      <Code></Code>
+    </PaymentMethod>
+    <PortOfDestination>
+      <Code>NZAKL</Code>
+      <Name>Auckland</Name>
+    </PortOfDestination>
+    <PortOfOrigin>
+      <Code>AUSYD</Code>
+      <Name>Sydney</Name>
+    </PortOfOrigin>
+    <ReleaseType>
+      <Code></Code>
+    </ReleaseType>
+    <ServiceLevel>
+      <Code>STD</Code>
+      <Description>Standard</Description>
+    </ServiceLevel>
+    <ShipmentStatus>
+      <Code>BKD</Code>
+      <Description>Booked</Description>
+    </ShipmentStatus>
+    <ShippedOnBoard>
+      <Code>SHP</Code>
+      <Description>Shipped</Description>
+    </ShippedOnBoard>
+    <TotalVolume>0.000</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>Cubic Meters</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>0.000</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>SEA</Code>
+      <Description>Sea Freight</Description>
+    </TransportMode>
+    <WayBillNumber>V00001034</WayBillNumber>
+    <WayBillType>
+      <Code>MWB</Code>
+      <Description>Master Waybill</Description>
+    </WayBillType>
+    <AdditionalReferenceCollection Content="Complete">
+      <AdditionalReference>
+        <Type>
+          <Code>BKG</Code>
+          <Description>Carrier Booking Reference</Description>
+        </Type>
+        <ReferenceNumber>11223344</ReferenceNumber>
+        <ContextInformation></ContextInformation>
+        <IssueDate>2022-08-10T00:00:00</IssueDate>
+      </AdditionalReference>
+    </AdditionalReferenceCollection>
+    <ContainerCollection Content="Complete">
+      <Container>
+        <AirVentFlow>0.0</AirVentFlow>
+        <AirVentFlowRateUnit>
+          <Code></Code>
+        </AirVentFlowRateUnit>
+        <ArrivalCartageAdvised></ArrivalCartageAdvised>
+        <ArrivalCartageComplete></ArrivalCartageComplete>
+        <ArrivalCartageDemurrageTime></ArrivalCartageDemurrageTime>
+        <ArrivalCartageRef></ArrivalCartageRef>
+        <ArrivalCTOStorageStartDate></ArrivalCTOStorageStartDate>
+        <ArrivalDeliveryRequiredBy></ArrivalDeliveryRequiredBy>
+        <ArrivalEstimatedDelivery></ArrivalEstimatedDelivery>
+        <ArrivalPickupByRail>false</ArrivalPickupByRail>
+        <ArrivalSlotDateTime></ArrivalSlotDateTime>
+        <ArrivalSlotReference></ArrivalSlotReference>
+        <ArrivalTruckWaitTime></ArrivalTruckWaitTime>
+        <Commodity>
+          <Code></Code>
+        </Commodity>
+        <ContainerCount>1</ContainerCount>
+        <ContainerImportDORelease></ContainerImportDORelease>
+        <ContainerJobID>D00001171</ContainerJobID>
+        <ContainerNumber>SCXU8888886</ContainerNumber>
+        <ContainerParkEmptyPickupGateOut></ContainerParkEmptyPickupGateOut>
+        <ContainerParkEmptyReturnGateIn></ContainerParkEmptyReturnGateIn>
+        <ContainerQuality>
+          <Code></Code>
+        </ContainerQuality>
+        <ContainerStatus>
+          <Code></Code>
+        </ContainerStatus>
+        <ContainerType>
+          <Code>20FR</Code>
+          <Category>
+            <Code>FLT</Code>
+            <Description>Flat Rack</Description>
+          </Category>
+          <Description>Twenty foot flatrack</Description>
+          <ISOCode>22P1</ISOCode>
+        </ContainerType>
+        <DeliveryMode></DeliveryMode>
+        <DeliverySequence>0</DeliverySequence>
+        <DepartureCartageAdvised></DepartureCartageAdvised>
+        <DepartureCartageComplete></DepartureCartageComplete>
+        <DepartureCartageDemurrageTime></DepartureCartageDemurrageTime>
+        <DepartureCartageRef></DepartureCartageRef>
+        <DepartureDeliveryByRail>false</DepartureDeliveryByRail>
+        <DepartureDockReceipt></DepartureDockReceipt>
+        <DepartureEstimatedPickup></DepartureEstimatedPickup>
+        <DepartureSlotDateTime></DepartureSlotDateTime>
+        <DepartureSlotReference></DepartureSlotReference>
+        <DepartureTruckWaitTime></DepartureTruckWaitTime>
+        <DunnageWeight>0.000</DunnageWeight>
+        <EmptyReadyForReturn></EmptyReadyForReturn>
+        <EmptyRequired></EmptyRequired>
+        <EmptyReturnedBy></EmptyReturnedBy>
+        <EmptyReturnRef></EmptyReturnRef>
+        <ExportDepotCustomsReference></ExportDepotCustomsReference>
+        <FCL_LCL_AIR>
+          <Code>FCL</Code>
+          <Description>Full Container Load</Description>
+        </FCL_LCL_AIR>
+        <FCLAvailable></FCLAvailable>
+        <FCLHeldInTransitStaging>false</FCLHeldInTransitStaging>
+        <FCLOnBoardVessel></FCLOnBoardVessel>
+        <FCLStorageArrivedUnderbond>false</FCLStorageArrivedUnderbond>
+        <FCLStorageCommences></FCLStorageCommences>
+        <FCLStorageModuleOnlyMaster></FCLStorageModuleOnlyMaster>
+        <FCLStorageUnderbondCleared></FCLStorageUnderbondCleared>
+        <FCLUnloadFromVessel></FCLUnloadFromVessel>
+        <FCLWharfGateIn></FCLWharfGateIn>
+        <FCLWharfGateOut></FCLWharfGateOut>
+        <GoodsValue>0.0000</GoodsValue>
+        <GoodsValueCurrency>
+          <Code></Code>
+        </GoodsValueCurrency>
+        <GoodsWeight>0</GoodsWeight>
+        <GrossWeight>2950.000</GrossWeight>
+        <GrossWeightVerificationType>
+          <Code>NON</Code>
+          <Description>Not Verified</Description>
+        </GrossWeightVerificationType>
+        <HumidityPercent>0</HumidityPercent>
+        <ImportDepotCustomsReference></ImportDepotCustomsReference>
+        <IsCFSRegistered>false</IsCFSRegistered>
+        <IsControlledAtmosphere>false</IsControlledAtmosphere>
+        <IsDamaged>false</IsDamaged>
+        <IsEmptyContainer>false</IsEmptyContainer>
+        <IsSealOk>true</IsSealOk>
+        <IsShipperOwned>false</IsShipperOwned>
+        <LCLAvailable></LCLAvailable>
+        <LCLStorageCommences></LCLStorageCommences>
+        <LCLUnpack></LCLUnpack>
+        <LengthUnit>
+          <Code>FT</Code>
+          <Description>Feet</Description>
+        </LengthUnit>
+        <Link>1</Link>
+        <OverhangBack>0.000</OverhangBack>
+        <OverhangFront>0</OverhangFront>
+        <OverhangHeight>0</OverhangHeight>
+        <OverhangLeft>0</OverhangLeft>
+        <OverhangRight>0.000</OverhangRight>
+        <OverrideFCLAvailableStorage>false</OverrideFCLAvailableStorage>
+        <OverrideLCLAvailableStorage>false</OverrideLCLAvailableStorage>
+        <PackDate></PackDate>
+        <RefrigGeneratorID></RefrigGeneratorID>
+        <ReleaseNum></ReleaseNum>
+        <Seal></Seal>
+        <SealPartyType>
+          <Code></Code>
+        </SealPartyType>
+        <SecondSeal></SecondSeal>
+        <SecondSealPartyType>
+          <Code></Code>
+        </SecondSealPartyType>
+        <SetPointTemp>0.000</SetPointTemp>
+        <SetPointTempUnit></SetPointTempUnit>
+        <StowagePosition></StowagePosition>
+        <TareWeight>2950.000</TareWeight>
+        <TempRecorderSerialNo></TempRecorderSerialNo>
+        <ThirdSeal></ThirdSeal>
+        <ThirdSealPartyType>
+          <Code></Code>
+        </ThirdSealPartyType>
+        <TotalHeight>8.500</TotalHeight>
+        <TotalLength>20.000</TotalLength>
+        <TotalWidth>8.000</TotalWidth>
+        <TrainWagonNumber></TrainWagonNumber>
+        <UnpackGang></UnpackGang>
+        <UnpackShed></UnpackShed>
+        <VolumeCapacity>0.000</VolumeCapacity>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Meters</Description>
+        </VolumeUnit>
+        <WeightCapacity>0.000</WeightCapacity>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ContainerYardEmptyPickupAddress</AddressType>
+            <Address1>230 PITT STREET</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>230 PITT STREET</AddressShortCode>
+            <City>SYDNEY</City>
+            <CompanyName>YARDEMO</CompanyName>
+            <Country>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>YARDEMSYD</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>AUSYD</Code>
+              <Name>Sydney</Name>
+            </Port>
+            <Postcode>2000</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="New South Wales">NSW</State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+      </Container>
+    </ContainerCollection>
+    <DateCollection>
+      <Date>
+        <Type>BookingConfirmed</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2022-03-22T00:00:00</Value>
+      </Date>
+      <Date>
+        <Type>Received</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>Departure</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value>2021-09-22T10:40:00</Value>
+      </Date>
+      <Date>
+        <Type>Arrival</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value>2021-09-24T13:55:00</Value>
+      </Date>
+      <Date>
+        <Type>ShippedOnBoard</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>BillIssued</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+    </DateCollection>
+    <EntryNumberCollection>
+      <EntryNumber>
+        <Number>339999174</Number>
+        <Type>
+          <Code>CAN</Code>
+          <Description>Customs Authority Number</Description>
+        </Type>
+        <CountryOfIssue>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </CountryOfIssue>
+        <EntryIsSystemGenerated>false</EntryIsSystemGenerated>
+        <EntryLineReference></EntryLineReference>
+        <ExpiryDate></ExpiryDate>
+        <IssueDate></IssueDate>
+      </EntryNumber>
+    </EntryNumberCollection>
+    <NoteCollection Content="Partial">
+      <Note>
+        <Description>Booking Notes</Description>
+        <IsCustomDescription>false</IsCustomDescription>
+        <NoteText>Sample Booking Notes</NoteText>
+        <NoteContext>
+          <Code>AAA</Code>
+          <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+        </NoteContext>
+        <Visibility>
+          <Code>PUB</Code>
+          <Description>CLIENT-VISIBLE</Description>
+        </Visibility>
+      </Note>
+    </NoteCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>BookingPartyDocumentaryAddress</AddressType>
+        <Address1>Address 1</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>DELIVERY</AddressShortCode>
+        <City>AA</City>
+        <CompanyName>4B ELEVATOR COMPONENTS LIMITED</CompanyName>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>4BELEV</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>USORD</Code>
+          <Name>O'Hare Apt/Chicago</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="Alaska">AK</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneeDocumentaryAddress</AddressType>
+        <Address1>28B COMINS, CRES</Address1>
+        <Address2>MISSION BAY</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pickup and Delivery Addre</AddressShortCode>
+        <City>AUCKLAND, NEW ZEALAND</City>
+        <CompanyName>MEEGAN CHRISTIAN</CompanyName>
+        <Country>
+          <Code>NZ</Code>
+          <Name>New Zealand</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>MEECHR</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>NZAKL</Code>
+          <Name>Auckland</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="Auckland">AUK</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>33 TALLWOOD AVE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pickup and Delivery Addre</AddressShortCode>
+        <City>EASTWOOD</City>
+        <CompanyName>SUNTEC INDUSTRIAL CORP PTY LTD</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>SUNTEC</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendersLocalClient</AddressType>
+        <Address1>Address 1</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>DELIVERY</AddressShortCode>
+        <City>AA</City>
+        <CompanyName>4B ELEVATOR COMPONENTS LIMITED</CompanyName>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>4BELEV</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>USORD</Code>
+          <Name>O'Hare Apt/Chicago</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="Alaska">AK</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ShippingLineAddress</AddressType>
+        <Address1>2ND FLOOR, 482 KINGSFORD SMITH DRIVE</Address1>
+        <Address2>HAMILTON                          QLD</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pick Up Address</AddressShortCode>
+        <City>QLD QLD</City>
+        <CompanyName>ACA INTERNATIONAL PTY LTD</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>ACAINT</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUBNE</Code>
+          <Name>Brisbane</Name>
+        </Port>
+        <Postcode>4007</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="Queensland">QLD</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>3397</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>APC</Code>
+              <Description>Accounts Payable Suppliers Referenc</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>5555</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>GCR</Code>
+              <Description>Accounting and Corporate Regulatory</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>SG</Code>
+              <Name>Singapore</Name>
+            </CountryOfIssue>
+            <Value>666644</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>EOR</Code>
+              <Description>EORI code (to be sent verbatim)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>DE</Code>
+              <Name>Germany</Name>
+            </CountryOfIssue>
+            <Value>333333</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>NIF</Code>
+              <Description>Numéro d’Identification Fiscale / T</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>DZ</Code>
+              <Name>Algeria</Name>
+            </CountryOfIssue>
+            <Value>335566</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>Principal</AddressType>
+        <Address1>2ND FLOOR, 482 KINGSFORD SMITH DRIVE</Address1>
+        <Address2>HAMILTON                          QLD</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pick Up Address</AddressShortCode>
+        <City>QLD QLD</City>
+        <CompanyName>ACA INTERNATIONAL PTY LTD</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>ACAINT</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUBNE</Code>
+          <Name>Brisbane</Name>
+        </Port>
+        <Postcode>4007</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="Queensland">QLD</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>3397</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>APC</Code>
+              <Description>Accounts Payable Suppliers Referenc</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>5555</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>GCR</Code>
+              <Description>Accounting and Corporate Regulatory</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>SG</Code>
+              <Name>Singapore</Name>
+            </CountryOfIssue>
+            <Value>666644</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>EOR</Code>
+              <Description>EORI code (to be sent verbatim)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>DE</Code>
+              <Name>Germany</Name>
+            </CountryOfIssue>
+            <Value>333333</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>NIF</Code>
+              <Description>Numéro d’Identification Fiscale / T</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>DZ</Code>
+              <Name>Algeria</Name>
+            </CountryOfIssue>
+            <Value>335566</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <PackingLineCollection Content="Complete">
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>General</Description>
+        </Commodity>
+        <ContainerLink>1</ContainerLink>
+        <ContainerNumber>SCXU8888886</ContainerNumber>
+        <ContainerPackingOrder>1</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code></Code>
+        </CountryOfOrigin>
+        <DetailedDescription>BOOKS</DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription></GoodsDescription>
+        <HarmonisedCode>491199</HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <LastKnownCFSStatus>
+          <Code></Code>
+        </LastKnownCFSStatus>
+        <LastKnownCFSStatusDate></LastKnownCFSStatusDate>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Meters</Description>
+        </LengthUnit>
+        <LinePrice>0.0000</LinePrice>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackingLineID>WTLJR100000231</PackingLineID>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PLT</Code>
+          <Description>Pallet</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <RequiresTemperatureControl>false</RequiresTemperatureControl>
+        <Volume>0.000</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Meters</Description>
+        </VolumeUnit>
+        <Weight>0.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+        <ClassificationCollection>
+          <Classification>
+            <Code>592432</Code>
+            <Country>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </Country>
+            <Type>
+              <Code>HSC</Code>
+              <Description>Harmonized Code</Description>
+            </Type>
+          </Classification>
+        </ClassificationCollection>
+        <UNDGCollection>
+          <UNDG>
+            <Contact>
+              <FullName>AARON CROSS</FullName>
+              <Email></Email>
+              <Phone></Phone>
+            </Contact>
+            <FlashPoint>0.0</FlashPoint>
+            <HasOverpack>false</HasOverpack>
+            <IMOClass>1.1D</IMOClass>
+            <MarinePollutant>
+              <Code></Code>
+              <Description></Description>
+            </MarinePollutant>
+            <OverpackID></OverpackID>
+            <PackedInLimitedQuantity>false</PackedInLimitedQuantity>
+            <PackingGroup></PackingGroup>
+            <PackingInstructionSection></PackingInstructionSection>
+            <PackQty>0</PackQty>
+            <PackType>
+              <Code></Code>
+            </PackType>
+            <ProperShippingName>AMMONIUM PICRATE</ProperShippingName>
+            <Standard>IMO</Standard>
+            <State>ExplosiveSubstance</State>
+            <SubLabel1></SubLabel1>
+            <SubLabel2></SubLabel2>
+            <TechicalName></TechicalName>
+            <UNDGCode>0004a</UNDGCode>
+            <Volume>0.000</Volume>
+            <VolumeUQ>
+              <Code></Code>
+            </VolumeUQ>
+            <Weight>0.000</Weight>
+            <WeightUQ>
+              <Code></Code>
+            </WeightUQ>
+          </UNDG>
+        </UNDGCollection>
+      </PackingLine>
+    </PackingLineCollection>
+    <TransportLegCollection Content="Complete">
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>NZAKL</Code>
+          <Name>Auckland</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </PortOfLoading>
+        <LegOrder>0</LegOrder>
+        <ActualArrival></ActualArrival>
+        <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+        <ActualDeparture></ActualDeparture>
+        <AircraftType>
+          <Code></Code>
+        </AircraftType>
+        <ArrivalBerth></ArrivalBerth>
+        <ArrivalReference></ArrivalReference>
+        <BookingStatus>
+          <Code>CNF</Code>
+          <Description>Confirmed</Description>
+        </BookingStatus>
+        <Carrier>
+          <AddressType>Carrier</AddressType>
+          <Address1>2ND FLOOR, 482 KINGSFORD SMITH DRIVE</Address1>
+          <Address2>HAMILTON                          QLD</Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>Pick Up Address</AddressShortCode>
+          <City>QLD QLD</City>
+          <CompanyName>ACA INTERNATIONAL PTY LTD</CompanyName>
+          <Country>
+            <Code>AU</Code>
+            <Name>Australia</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <OrganizationCode>ACAINT</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>AUBNE</Code>
+            <Name>Brisbane</Name>
+          </Port>
+          <Postcode>4007</Postcode>
+          <ScreeningStatus>
+            <Code>UNK</Code>
+            <Description>Unknown</Description>
+          </ScreeningStatus>
+          <State Description="Queensland">QLD</State>
+          <RegistrationNumberCollection>
+            <RegistrationNumber>
+              <Type>
+                <Code>CCC</Code>
+                <Description>Standard Carrier Alpha Code</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>CA</Code>
+                <Name>Canada</Name>
+              </CountryOfIssue>
+              <Value>3397</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>APC</Code>
+                <Description>Accounts Payable Suppliers Referenc</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>AU</Code>
+                <Name>Australia</Name>
+              </CountryOfIssue>
+              <Value>5555</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>GCR</Code>
+                <Description>Accounting and Corporate Regulatory</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>SG</Code>
+                <Name>Singapore</Name>
+              </CountryOfIssue>
+              <Value>666644</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>EOR</Code>
+                <Description>EORI code (to be sent verbatim)</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>DE</Code>
+                <Name>Germany</Name>
+              </CountryOfIssue>
+              <Value>333333</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>NIF</Code>
+                <Description>Numéro d’Identification Fiscale / T</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>DZ</Code>
+                <Name>Algeria</Name>
+              </CountryOfIssue>
+              <Value>335566</Value>
+            </RegistrationNumber>
+          </RegistrationNumberCollection>
+        </Carrier>
+        <CarrierBookingReference></CarrierBookingReference>
+        <CarrierServiceLevel>
+          <Code></Code>
+        </CarrierServiceLevel>
+        <DepartureBerth></DepartureBerth>
+        <DepartureReference></DepartureReference>
+        <DocumentCutOff></DocumentCutOff>
+        <EmptyCutOff></EmptyCutOff>
+        <EmptyReceivalCommences></EmptyReceivalCommences>
+        <EstimatedArrival>2021-09-24T13:55:00</EstimatedArrival>
+        <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+        <EstimatedDeparture>2021-09-22T10:40:00</EstimatedDeparture>
+        <FCLAvailability></FCLAvailability>
+        <FCLCutOff></FCLCutOff>
+        <FCLReceivalCommences></FCLReceivalCommences>
+        <FCLStorage></FCLStorage>
+        <HazzardCutOffDate></HazzardCutOffDate>
+        <HazzardReceivalCommences></HazzardReceivalCommences>
+        <IsCargoOnly>true</IsCargoOnly>
+        <LCLAvailability></LCLAvailability>
+        <LCLCutOff></LCLCutOff>
+        <LCLReceivalCommences></LCLReceivalCommences>
+        <LCLStorageDate></LCLStorageDate>
+        <LegNotes></LegNotes>
+        <LegType>Main</LegType>
+        <ReeferCutOff></ReeferCutOff>
+        <ReeferReceivalCommences></ReeferReceivalCommences>
+        <ScheduledArrival>2021-09-24T13:55:00</ScheduledArrival>
+        <ScheduledArrivalInPortOfLoading></ScheduledArrivalInPortOfLoading>
+        <ScheduledDeparture>2021-09-22T10:40:00</ScheduledDeparture>
+        <TransportMode>Sea</TransportMode>
+        <VesselLloydsIMO>8120674</VesselLloydsIMO>
+        <VesselName>ANADYR</VesselName>
+        <VGMCutOff></VGMCutOff>
+        <VoyageFlightNo>211</VoyageFlightNo>
+      </TransportLeg>
+    </TransportLegCollection>
+  </Shipment>
+</UniversalShipment>

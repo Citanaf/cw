@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <BookingConfirmationReference>AUSYD2790000004</BookingConfirmationReference>
+    <SlotDateTime>2024-01-01T10:00:00</SlotDateTime>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>GateBooking</Type>
+        </DataTarget>
+      </DataTargetCollection>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ATW</Code>
+          <Description>Arrival Transit Warehouse</Description>
+          <ServiceCode>GTB</ServiceCode>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+    <PreCarriageShipmentCollection>
+      <PreCarriageShipment>
+        <VehicleRun>
+          <Vehicle>
+            <Registration>
+              <Number>DEF-023</Number>
+            </Registration>
+            <VehicleType>
+              <Code>RTRK</Code>
+              <Description>Truck</Description>
+            </VehicleType>
+          </Vehicle>
+        </VehicleRun>
+      </PreCarriageShipment>
+    </PreCarriageShipmentCollection>
+    <VehicleRun>
+      <CrewCollection>
+        <Crew>
+          <CrewType>Driver</CrewType>
+          <FullName>Driver</FullName>
+          <LicenseNumber>123456789</LicenseNumber>
+        </Crew>
+      </CrewCollection>
+    </VehicleRun>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>Warehouse</AddressType>
+        <Address1>182-184 BOURKE ROAD</Address1>
+        <CompanyName>CW1 TEST WAREHOUSE (AUDEMOSYD)</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>AUSTRALIA</Name>
+        </Country>
+        <OrganizationCode>YOUAUS_WW</OrganizationCode>
+        <Postcode>2015</Postcode>
+        <State Description="" />
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>C1R</Code>
+              <Description>Cargowise Road Transport Provider C</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>AUSTRALIA</Name>
+            </CountryOfIssue>
+            <Value>AUAE3799</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>TransportCompanyDocumentaryAddress</AddressType>
+        <Address1>100-102 O'RIORDAN STREET</Address1>
+        <CompanyName>CW1 TEST TRANSPORTER (AUDEMOSYD)</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>AUSTRALIA</Name>
+        </Country>
+        <OrganizationCode>AUTRAN_AU</OrganizationCode>
+        <Postcode>2015</Postcode>
+        <State Description="" />
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>C1R</Code>
+              <Description>Cargowise Road Transport Provider C</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>AUSTRALIA</Name>
+            </CountryOfIssue>
+            <Value>AU0427C5</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <SubShipmentCollection>
+      <SubShipment>
+        <FacilityJobType>
+          <Code>CGO</Code>
+          <Description>Cargo</Description>
+        </FacilityJobType>
+        <BookingConfirmationReference>BKGCAK170820231</BookingConfirmationReference>
+        <WayBillNumber>WB170820231</WayBillNumber>
+        <WayBillType>
+          <Code>MWB</Code>
+          <Description>Master Waybill</Description>
+        </WayBillType>
+        <TransportBookingDirection>
+          <Code>PIC</Code>
+          <Description>Pickup</Description>
+        </TransportBookingDirection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>BookingPartyDocumentaryAddress</AddressType>
+            <Address1>21 EDWARD STREET</Address1>
+            <CompanyName>AU TRANSPORT CORPORATION</CompanyName>
+            <Country>
+              <Code>AU</Code>
+              <Name>AUSTRALIA</Name>
+            </Country>
+            <OrganizationCode>AUTRAN_AU</OrganizationCode>
+            <Postcode>2015</Postcode>
+            <State Description="" />
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>C1R</Code>
+                  <Description>Cargowise Road Transport Provider C</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>AU</Code>
+                  <Name>AUSTRALIA</Name>
+                </CountryOfIssue>
+                <Value>AU0427C5</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+        <PackingLineCollection Content="Complete">
+          <PackingLine>
+            <Commodity>
+              <Code>BANA</Code>
+              <Description />
+            </Commodity>
+            <PackQty>2</PackQty>
+            <PackType>
+              <Code>CRT</Code>
+              <Description>Crate</Description>
+            </PackType>
+            <Volume>1.000</Volume>
+            <VolumeUnit>
+              <Code>M3</Code>
+              <Description>Cubic Metres</Description>
+            </VolumeUnit>
+            <Weight>456.000</Weight>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>Kilograms</Description>
+            </WeightUnit>
+          </PackingLine>
+        </PackingLineCollection>
+      </SubShipment>
+    </SubShipmentCollection>
+  </Shipment>
+</UniversalShipment>

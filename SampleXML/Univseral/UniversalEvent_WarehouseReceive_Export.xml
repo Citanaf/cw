@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>WarehouseReceive</Type>
+          <Key>W00011162</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>EVT</Code>
+        <Description>Event</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>DES</Code>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Name>ES Demo Company</Name>
+      </Company>
+      <DataProvider>WUT6DDDES</DataProvider>
+      <EnterpriseID>WUT</EnterpriseID>
+      <EventBranch>
+        <Code>VGO</Code>
+        <Name>Cargowise EDI - Vigo (ES)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>FIN</Code>
+        <Description>Item/Document/Job Finalized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>6DD</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-10-08T05:52:42.163</TriggerDate>
+      <TriggerDescription>Finalized</TriggerDescription>
+      <TriggerType>Milestone</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2021-10-08T05:52:42.163</EventTime>
+    <EventType>FIN</EventType>
+    <CreatedTime>2021-10-08T03:52:42.163</CreatedTime>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>ReceiveReference</Type>
+        <Value>W00011162</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

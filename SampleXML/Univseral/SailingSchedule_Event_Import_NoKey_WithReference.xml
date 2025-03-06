@@ -1,0 +1,80 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+   <Event>
+      <DataContext>
+         <DataTargetCollection>
+            <DataTarget>
+               <Type>SailingSchedule</Type>
+            </DataTarget>
+         </DataTargetCollection>
+
+         <Company>
+            <Code>DAU</Code>
+            <Country>
+               <Code>AU</Code>
+               <Name>Australia</Name>
+            </Country>
+            <Name>Your Australia Corp</Name>
+         </Company>
+         <DataProvider>WTLADUDAU</DataProvider>
+         <EnterpriseID>WTL</EnterpriseID>
+         <EventBranch>
+            <Code>A01</Code>
+            <Name>AU - Branch 1</Name>
+         </EventBranch>
+         <EventDepartment>
+            <Code>BRN</Code>
+            <Name>Branch</Name>
+         </EventDepartment>
+         <EventType>
+            <Code>ARV</Code>
+            <Description>Arrival</Description>
+         </EventType>
+         <EventUser>
+            <Code>E</Code>
+            <Name>CargoWise One Support</Name>
+         </EventUser>
+         <ServerID>ADU</ServerID>
+         <TriggerCount>1</TriggerCount>
+         <TriggerDate>2024-06-25T17:18:55.897</TriggerDate>
+         <TriggerDescription></TriggerDescription>
+         <TriggerType>Manual</TriggerType>
+         <RecipientRoleCollection>
+            <RecipientRole>
+               <Code>ORP</Code>
+               <Description>Organisation Proxy</Description>
+            </RecipientRole>
+         </RecipientRoleCollection>
+      </DataContext>
+
+      <EventTime>2024-06-25T17:18:55.9</EventTime>
+      <EventType>ARV</EventType>
+      <IsEstimate>false</IsEstimate>
+
+      <ContextCollection>
+         <Context>
+            <Type>TransportMode</Type>
+            <Value>SEA</Value>
+         </Context>
+         <Context>
+            <Type>VesselName</Type>
+            <Value>WAN HAI 602</Value>
+         </Context>
+         <Context>
+            <Type>VoyageNumber</Type>
+            <Value>86</Value>
+         </Context>
+         <Context>
+            <Type>IsCharter</Type>
+            <Value>false</Value>
+         </Context>
+         <Context>
+            <Type>LloydsNumber</Type>
+            <Value>9327798</Value>
+         </Context>
+         <Context>
+            <Type>CarrierCode</Type>
+            <Value>WHLC</Value>
+         </Context>
+      </ContextCollection>
+   </Event>
+</UniversalEvent>

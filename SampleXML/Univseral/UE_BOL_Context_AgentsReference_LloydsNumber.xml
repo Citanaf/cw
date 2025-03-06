@@ -1,0 +1,26 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>BillOfLading</Type>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+
+    <EventTime>2021-08-10T16:57:11.587</EventTime>
+    <EventType>Z01</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>AgentsReference</Type>
+        <Value>ZZ5468888</Value>
+      </Context>
+     <Context>
+        <Type>LloydsNumber</Type>
+        <Value>8811924</Value>
+      </Context>	  
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

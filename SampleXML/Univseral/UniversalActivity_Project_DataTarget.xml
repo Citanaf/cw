@@ -1,0 +1,246 @@
+<UniversalActivity xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Activity>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>Project</Type>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <ActionPurpose>
+        <Code>EVT</Code>
+        <Description>Event</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>WTG</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>WiseTech Global</Name>
+      </Company>
+      <DataProvider>EDIDATWTG</DataProvider>
+      <EnterpriseID>EDI</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>BN - AUBNE</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>Z00</Code>
+        <Description>Customizable Event 00</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DAT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2019-04-03T08:13:30.567</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <Summary>Postreq from WI</Summary>
+    <CreatedBy>
+      <Code>E</Code>
+      <Name>CargoWise One Support</Name>
+    </CreatedBy>
+    <Description>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang3081{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\f0\fs20 This description will have some \b rich text\b0 .\par
+}
+</Description>
+    <ProjectManager>
+      <Code>MTX</Code>
+      <Name>John Matrix</Name>
+    </ProjectManager>
+    <SelectionCriterion1>
+      <Code>UDF</Code>
+      <Description>Undefined - You can modify this in the System Registry, under Workflow Manager/P</Description>
+    </SelectionCriterion1>
+    <SelectionCriterion2>
+      <Code></Code>
+      <Description></Description>
+    </SelectionCriterion2>
+    <SelectionCriterion3>
+      <Code></Code>
+      <Description></Description>
+    </SelectionCriterion3>
+    <SelectionCriterion4>
+      <Code>NOW</Code>
+      <Description>Do it now. Or better yet, yesterday.</Description>
+    </SelectionCriterion4>
+    <Status>
+      <Code>WRK</Code>
+      <Description>Working</Description>
+    </Status>
+
+    <NoteCollection Content="Partial">
+      <Note>
+        <Description>Project Log</Description>
+        <IsCustomDescription>false</IsCustomDescription>
+        <NoteText>09-Feb-16 16:49 E - Project Created
+----------------------------------------------------------------------------------------------------------------------
+</NoteText>
+        <NoteContext>
+          <Code>AAA</Code>
+          <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+        </NoteContext>
+        <Visibility>
+          <Code>PRV</Code>
+          <Description>PRIVATE</Description>
+        </Visibility>
+      </Note>
+    </NoteCollection>
+
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>Client</AddressType>
+        <Address1>123 ANYWHERE ST</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>#1</AddressShortCode>
+        <City>SYDNEY</City>
+        <CompanyName>111</CompanyName>
+        <Contact>Dave</Contact>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email>dave@111.com</Email>
+        <Fax></Fax>
+        <Mobile></Mobile>
+        <OrganizationCode>111SYD</OrganizationCode>
+        <Phone>+61795555555</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State>NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>TechnicalClient</AddressType>
+        <Address1>123 TEST ST</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>123 FAKE ST</AddressShortCode>
+        <City>SYDNEY</City>
+        <CompanyName>TEST ORGANIZATION</CompanyName>
+        <Contact>Jen Smith</Contact>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email>jsmith@test.org</Email>
+        <Fax></Fax>
+        <Mobile></Mobile>
+        <OrganizationCode>TESTORG</OrganizationCode>
+        <Phone>+61255555555</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State>NSW</State>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+
+    <TaskSetCollection>
+      <TaskSet>
+        <Description>Project job-level workflow</Description>
+        <Type>
+          <Code>JOB</Code>
+          <Description>Job</Description>
+        </Type>
+        <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+        <CurrentStatus></CurrentStatus>
+        <DateAcceptability>
+          <Code></Code>
+          <Description></Description>
+        </DateAcceptability>
+        <EarliestStartDateUTC></EarliestStartDateUTC>
+        <IsActive>true</IsActive>
+        <Notes></Notes>
+        <TaskSetStatus>
+          <Code>OPN</Code>
+          <Description>Open</Description>
+        </TaskSetStatus>
+
+        <TaskSetCollection>
+          <TaskSet>
+            <Description>Postreq</Description>
+            <Type>
+              <Code>TKS</Code>
+              <Description>Workflow</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus>Channel and Chunk</CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <ReleaseGroup>
+              <Code>a73d8c8a-6e67-4</Code>
+              <Name>ACLF_DomesticLogisticsReTarget</Name>
+            </ReleaseGroup>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskCollection>
+              <Task>
+                <Description>2</Description>
+                <Sequence>1</Sequence>
+                <Status>
+                  <Code>ASN</Code>
+                  <Description>Assigned</Description>
+                </Status>
+                <TaskID>T00011898</TaskID>
+                <Type>
+                  <Code>THN</Code>
+                  <Description>Do Thing</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC></ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>E</Code>
+                  <Name>CargoWise One Support</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC></CompletedTimeUTC>
+                <EstimatedDuration>PT0S</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+            </TaskCollection>
+          </TaskSet>
+        </TaskSetCollection>
+      </TaskSet>
+    </TaskSetCollection>
+  </Activity>
+</UniversalActivity>

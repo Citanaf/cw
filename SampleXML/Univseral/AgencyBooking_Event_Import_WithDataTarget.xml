@@ -1,0 +1,90 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>AgencyBooking</Type>
+          <Key>V00001034</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>EDI</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>Eagle Datamation International</Name>
+      </Company>
+      <DataProvider>WTLJR1EDI</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>BN - AUBNE</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>JR1</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2022-03-22T10:40:42.473</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2022-03-22T10:43:42.477</EventTime>
+    <EventType>ATH</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>V00001034</Value>
+      </Context>
+      <Context>
+        <Type>CarriersBookingReference</Type>
+        <Value>BOOKIN20220322</Value>
+      </Context>
+      <Context>
+        <Type>AgentsReference</Type>
+        <Value>SHIPPER20220322</Value>
+      </Context>
+      <Context>
+        <Type>LloydsNumber</Type>
+        <Value>8811924</Value>
+      </Context>
+      <Context>
+        <Type>VesselName</Type>
+        <Value>ADMIRALENGRACHT</Value>
+      </Context>
+      <Context>
+        <Type>VoyageNumber</Type>
+        <Value>1500</Value>
+      </Context>
+      <Context>
+        <Type>LegOriginUNLOCO</Type>
+        <Value>AUSYD</Value>
+      </Context>
+      <Context>
+        <Type>LegDestinationUNLOCO</Type>
+        <Value>NZAKL</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

@@ -1,0 +1,147 @@
+<UniversalTransaction xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransactionInfo>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>AccountingInvoice</Type>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>DEF</Code>
+      </Company>
+      <DataProvider>ABC123DEF</DataProvider>
+      <EnterpriseID>ABC</EnterpriseID>
+      <ServerID>123</ServerID>
+	  <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+    <Branch>
+      <Code>A01</Code>
+    </Branch>
+    <BranchAddress>
+      <AddressType>OFC</AddressType>
+      <Address1>100-102 O'RIORDAN STREET</Address1>
+      <Address2></Address2>
+      <AddressOverride>false</AddressOverride>
+      <AddressShortCode>105 O'RIORDAN STREET</AddressShortCode>
+      <City>ALEXANDRIA</City>
+      <CompanyName>YOUR AUSTRALIA CORPORATION</CompanyName>
+      <Contact>Accounts</Contact>
+      <Country>
+        <Code>AU</Code>
+        <Name>Australia</Name>
+      </Country>
+      <Email>accounts.ausyd@youragent.com</Email>
+      <Fax></Fax>
+      <OrganizationCode>YOUAUS_AU</OrganizationCode>
+      <Phone></Phone>
+      <Port>
+        <Code>AUSYD</Code>
+        <Name>Sydney</Name>
+      </Port>
+      <Postcode>2015</Postcode>
+      <ScreeningStatus>
+        <Code>UNK</Code>
+        <Description>Unknown</Description>
+      </ScreeningStatus>
+      <State>NSW</State>
+	  </BranchAddress>
+    <Department>
+      <Code>BRN</Code>
+      <Name>Branch</Name>
+    </Department>
+    <Description>AR INVOICE Test</Description>
+    <Job>
+      <Type>Job</Type>
+    </Job>
+    <JobInvoiceNumber></JobInvoiceNumber>
+    <Ledger>AR</Ledger>
+    <LocalCurrency>
+      <Code>AUD</Code>
+      <Description>Australian Dollar</Description>
+    </LocalCurrency>
+    <LocalExVATAmount>150.0000</LocalExVATAmount>
+    <LocalTaxTransactionsAmount>0.0000</LocalTaxTransactionsAmount>
+    <LocalTotal>165.0000</LocalTotal>
+    <LocalVATAmount>15.0000</LocalVATAmount>
+    <OrganizationAddress>
+      <AddressType>OFC</AddressType>
+      <Address1>74 Station Road</Address1>
+      <Address2></Address2>
+      <AddressOverride>false</AddressOverride>
+      <AddressShortCode>ABC</AddressShortCode>
+      <City>Auburn</City>
+      <CompanyName>AAAAA co. ltd</CompanyName>
+      <Contact>Accounts</Contact>
+      <Country>
+        <Code>AU</Code>
+        <Name>Australia</Name>
+      </Country>
+      <Email>test@accounts.com</Email>
+      <Fax></Fax>
+      <OrganizationCode>AAAAASYD</OrganizationCode>
+      <Phone></Phone>
+      <Port>
+        <Code></Code>
+      </Port>
+      <Postcode>2144</Postcode>
+      <ScreeningStatus>
+        <Code>NOT</Code>
+        <Description>Not Screened</Description>
+      </ScreeningStatus>
+      <State>NSW</State>
+    </OrganizationAddress>
+    <OSCurrency>
+      <Code>AUD</Code>
+      <Description>Australian Dollar</Description>
+    </OSCurrency>
+    <OSExGSTVATAmount>150.0000</OSExGSTVATAmount>
+    <OSGSTVATAmount>15.00</OSGSTVATAmount>
+    <OSTaxTransactionsAmount>0.0000</OSTaxTransactionsAmount>
+    <OSTotal>165.0000</OSTotal>
+    <OutstandingAmount>165.0000</OutstandingAmount>
+    <TransactionType>INV</TransactionType>
+    <PostingJournalCollection>
+      <PostingJournal>
+        <Branch>
+          <Code>A01</Code>
+          <Name>AU - Branch 1</Name>
+        </Branch>
+        <Department>
+          <Code>BRN</Code>
+          <Name>Branch</Name>
+        </Department>
+        <Description>WAREHOUSE HANDLING REVENUE ACTUAL</Description>
+        <GLAccount>
+          <AccountCode>1210.10.10</AccountCode>
+          <Description>WAREHOUSE HANDLING REVENUE ACTUAL</Description>
+        </GLAccount>
+        <LocalAmount>150.0000</LocalAmount>
+        <LocalCurrency>
+          <Code>AUD</Code>
+          <Description>Australian Dollar</Description>
+        </LocalCurrency>
+        <LocalGSTVATAmount>15.0000</LocalGSTVATAmount>
+        <LocalTotalAmount>165.0000</LocalTotalAmount>
+        <Organization>
+          <Type>Organization</Type>
+          <Key>AAAAASYD</Key>
+        </Organization>
+        <OSAmount>150.00</OSAmount>
+        <OSCurrency>
+          <Code>AUD</Code>
+          <Description>Australian Dollar</Description>
+        </OSCurrency>
+        <OSGSTVATAmount>15.0000</OSGSTVATAmount>
+        <OSTotalAmount>165.0000</OSTotalAmount>
+        <VATTaxID>
+          <TaxCode>GST</TaxCode>
+        </VATTaxID>
+      </PostingJournal>
+    </PostingJournalCollection>
+  </TransactionInfo>
+</UniversalTransaction>

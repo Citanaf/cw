@@ -1,0 +1,97 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>AFRHeader</Type>
+          <Key>AFR00000002</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DJP</Code>
+        <Country>
+          <Code>JP</Code>
+          <Name>Japan</Name>
+        </Country>
+        <Name>EDI Demonstration System JP</Name>
+      </Company>
+      <DataProvider>WTLHOWDJP</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>TKO</Code>
+        <Name>Tokyo</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>Z99</Code>
+        <Description>Customizable Event 99</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>HOW</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-06-24T15:10:34.887</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2024-06-24T15:10:34.89</EventTime>
+    <EventType>Z99</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>1234567</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>ADALV</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>JPTYO</Value>
+      </Context>
+      <Context>
+        <Type>VesselName</Type>
+        <Value>A</Value>
+      </Context>
+      <Context>
+        <Type>VesselCallSign</Type>
+        <Value>123</Value>
+      </Context>
+      <Context>
+        <Type>VoyageNumber</Type>
+        <Value>455</Value>
+      </Context>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>444</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>ADALV</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>ADALV</Value>
+      </Context>
+    </ContextCollection>
+    <MessageNumberCollection>
+      <MessageNumber Type="TrackingID">74387178-c855-4fb1-8749-67a247eef4e0</MessageNumber>
+      <MessageNumber Type="InterchangeNumber">00000000000000000120</MessageNumber>
+      <MessageNumber Type="MessageNumber">00000000000000005258</MessageNumber>
+    </MessageNumberCollection>
+  </Event>
+</UniversalEvent>

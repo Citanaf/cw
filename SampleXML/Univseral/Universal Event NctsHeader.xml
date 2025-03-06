@@ -1,0 +1,61 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>NctsHeader</Type>
+          <Key>NCT00000026</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DUK</Code>
+        <Country>
+          <Code>GB</Code>
+          <Name>United Kingdom</Name>
+        </Country>
+        <Name>Demo UK</Name>
+      </Company>
+      <DataProvider>WTLDJCDUK</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>DUK</Code>
+        <Name>Demo UK</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>CIL</Code>
+        <Name>Clearance Import Rail</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>AAS</Code>
+        <Description>Accreditation Attempt Commenced</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DJC</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-08-08T15:23:32.750+01:00</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organisation Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2024-08-08T15:23:32.753+01:00</EventTime>
+    <EventType>AAS</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+    </ContextCollection>
+    <MessageNumberCollection>
+      <MessageNumber Type="TrackingID">b72892d8-d00b-4088-8c4c-2460facdd601</MessageNumber>
+      <MessageNumber Type="InterchangeNumber">00000000000000000153</MessageNumber>
+      <MessageNumber Type="MessageNumber">00000000000000000235</MessageNumber>
+    </MessageNumberCollection>
+  </Event>
+</UniversalEvent>

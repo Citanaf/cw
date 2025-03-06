@@ -1,0 +1,105 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>HVLVConsignment</Type>
+          <Key>HVC000000000872394</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>USA</Code>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Name>US Demo Company</Name>
+      </Company>
+      <DataProvider>HYETIPUSA</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>LAX</Code>
+        <Name>LOS ANGELES</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ARV</Code>
+        <Description>Arrival</Description>
+      </EventType>
+      <EventUser>
+        <Code>ABI</Code>
+        <Name>maggie li</Name>
+      </EventUser>
+      <ServerID>TIP</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2023-06-12T17:42:05.937</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2023-06-12T17:42:05.937</EventTime>
+    <EventType>ARV</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>HAWBNumber</Type>
+        <Value>ZXI1002368</Value>
+      </Context>
+      <Context>
+        <Type>WarehouseReleaseStatus</Type>
+        <Value>NON</Value>
+      </Context>
+      <Context>
+        <Type>TransportMode</Type>
+        <Value>AIR</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>USLAX</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>AUSYD</Value>
+      </Context>
+      <Context>
+        <Type>EstimatedTimeOfArrival</Type>
+        <Value>2023-04-13T10:58:00</Value>
+      </Context>
+      <Context>
+        <Type>EstimatedTimeOfDeparture</Type>
+        <Value>2023-04-12T10:58:00</Value>
+      </Context>
+      <Context>
+        <Type>MAWBNumber</Type>
+        <Value>081-52456773</Value>
+      </Context>
+      <Context>
+        <Type>FlightNumber</Type>
+        <Value>QF01</Value>
+      </Context>
+      <Context>
+        <Type>MAWBOriginIATAAirportCode</Type>
+        <Value>LAX</Value>
+      </Context>
+      <Context>
+        <Type>MAWBDestinationIATAAirportCode</Type>
+        <Value>SYD</Value>
+      </Context>
+    </ContextCollection>
+    <MessageNumberCollection>
+      <MessageNumber Type="TrackingID">7ffcbe4a-8656-4451-9e0b-8caa0f9a430a</MessageNumber>
+      <MessageNumber Type="InterchangeNumber">00000000000016218883</MessageNumber>
+      <MessageNumber Type="MessageNumber">00000000000016270367</MessageNumber>
+    </MessageNumberCollection>
+  </Event>
+</UniversalEvent>

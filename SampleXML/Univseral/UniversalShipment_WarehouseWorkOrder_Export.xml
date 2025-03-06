@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>WarehouseWorkOrder</Type>
+          <Key>W00014777</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DES</Code>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Name>ES Demo Company</Name>
+      </Company>
+      <DataProvider>WUT6DDDES</DataProvider>
+      <EnterpriseID>WUT</EnterpriseID>
+      <EventBranch>
+        <Code>VGO</Code>
+        <Name>Cargowise EDI - Vigo (ES)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code></Code>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>6DD</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-06-18T06:36:18.927</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <OuterPacksPackageType>
+      <Code>PCE</Code>
+      <Description>Piece</Description>
+    </OuterPacksPackageType>
+    <TotalVolume>0.000</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>TE</Code>
+      <Description>Tea Chest</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>0.000</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <LocalProcessing>
+      <DeliveryRequiredBy></DeliveryRequiredBy>
+    </LocalProcessing>
+    <Order>
+      <OrderNumber>W00014777</OrderNumber>
+      <AutoFinaliseBOMIntoInventory>false</AutoFinaliseBOMIntoInventory>
+      <IsInwardsProcessingJob>false</IsInwardsProcessingJob>
+      <OrderNumberSplit>0</OrderNumberSplit>
+      <PalletsSent>0</PalletsSent>
+      <PickOption>
+        <Code>AUT</Code>
+        <Description>Auto Pick</Description>
+      </PickOption>
+      <Status>
+        <Code>ENT</Code>
+        <Description>Entered (Saved)</Description>
+      </Status>
+      <TotalLineVolume>0.000</TotalLineVolume>
+      <TotalLineWeight>0.000</TotalLineWeight>
+      <TotalUnits>0.000</TotalUnits>
+      <Type>
+        <Code>ASS</Code>
+        <Description>Assemble</Description>
+      </Type>
+      <Warehouse>
+        <Code>MAT</Code>
+        <Name>MATTHEW TEST</Name>
+      </Warehouse>
+      <OrderLineCollection Content="Complete">
+        <OrderLine>
+          <Commodity>
+            <Code></Code>
+          </Commodity>
+          <ExpiryDate></ExpiryDate>
+          <ExtendedLinePrice>0.0000</ExtendedLinePrice>
+          <LineComment></LineComment>
+          <LineNumber>1</LineNumber>
+          <OrderedQty>1.000</OrderedQty>
+          <OrderedQtyUnit>
+            <Code>UNT</Code>
+            <Description>Unit</Description>
+          </OrderedQtyUnit>
+          <PackageQty>1.00</PackageQty>
+          <PackageQtyUnit>
+            <Code>UNT</Code>
+            <Description>Unit</Description>
+          </PackageQtyUnit>
+          <PackingDate></PackingDate>
+          <PartAttribute1></PartAttribute1>
+          <PartAttribute2></PartAttribute2>
+          <PartAttribute3></PartAttribute3>
+          <Product>
+            <Code>BOM</Code>
+            <Description>BOM PRODUCT</Description>
+          </Product>
+          <QuantityMet>0</QuantityMet>
+          <SerialNumber></SerialNumber>
+          <SubLineNumber>0</SubLineNumber>
+          <UnitPriceAfterDiscount>0.0000</UnitPriceAfterDiscount>
+          <UnitPriceCurrency>
+            <Code>EUR</Code>
+            <Description>Euro</Description>
+          </UnitPriceCurrency>
+          <UnitPriceDiscountAmount>0.0000</UnitPriceDiscountAmount>
+          <UnitPriceDiscountPercent>0.00</UnitPriceDiscountPercent>
+          <UnitPriceRecommended>0.0000</UnitPriceRecommended>
+          <CustomizedFieldCollection>
+            <CustomizedField>
+              <DataType>String</DataType>
+              <Key>Item No</Key>
+              <Value></Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>DateTime</DataType>
+              <Key>Test Date</Key>
+              <Value></Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Length</Key>
+              <Value>0.000</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Width</Key>
+              <Value>0.000</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Height</Key>
+              <Value>0.000</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Decimal</DataType>
+              <Key>Weight</Key>
+              <Value>0.000</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>Boolean</DataType>
+              <Key>Test Flag</Key>
+              <Value>false</Value>
+            </CustomizedField>
+            <CustomizedField>
+              <DataType>String</DataType>
+              <Key>Test Blob</Key>
+              <Value></Value>
+            </CustomizedField>
+          </CustomizedFieldCollection>
+        </OrderLine>
+      </OrderLineCollection>
+    </Order>
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Supplier</Key>
+        <Value></Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>Decimal</DataType>
+        <Key>Weight</Key>
+        <Value>0.000</Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+    <NoteCollection Content="Partial">
+      <Note>
+        <Description>AutoRating Log</Description>
+        <IsCustomDescription>false</IsCustomDescription>
+        <NoteText>ssaerqweawd</NoteText>
+        <NoteContext>
+          <Code>AAA</Code>
+          <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+        </NoteContext>
+        <Visibility>
+          <Code>PRV</Code>
+          <Description>PRIVATE</Description>
+        </Visibility>
+      </Note>
+    </NoteCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>613 ANZAC PARADE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>ATTN SARAH COOK</AddressShortCode>
+        <City>MAROUBRA</City>
+        <CompanyName>GEORGES FOODS</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>GEOFOOSYD</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2035</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>DropOffAddress</AddressType>
+        <Address1>TIJUANA  B.C.</Address1>
+        <Address2>0</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>TIJUANA  B.C.</AddressShortCode>
+        <City>0</City>
+        <CompanyName>C0L CAMPESTRE MURUA</CompanyName>
+        <Country>
+          <Code>SG</Code>
+          <Name>Singapore</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>C0LCAMSIN</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>SGSIN</Code>
+          <Name>Singapore</Name>
+        </Port>
+        <Postcode>333342</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>GoodsBillToAddress</AddressType>
+        <Address1>1234</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>.</AddressShortCode>
+        <City>SYDNEY</City>
+        <CompanyName>BAABER'S ORG FOR UAT TESTING</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>BAAORGSYD</OrganizationCode>
+        <Phone>+61 (2) 12-3456</Phone>
+        <Port>
+          <Code>AUSYD</Code>
+          <Name>Sydney</Name>
+        </Port>
+        <Postcode>2000</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="New South Wales">NSW</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>LSC</Code>
+              <Description>Legacy System Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>BAA01234</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>PickUpAddress</AddressType>
+        <Address1>CALLE MONTERREY 3461 OG 1004</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>CALLE MONTERREY 3461 OG 1</AddressShortCode>
+        <City>LIMA</City>
+        <CompanyName>APLEX PERU</CompanyName>
+        <Country>
+          <Code>PE</Code>
+          <Name>Peru</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>A</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>PELIM</Code>
+          <Name>Lima</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>MID</Code>
+              <Description>Supplier/Manufacturer ID Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>PEAPLPER1004LIM</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SupplierDocumentaryAddress</AddressType>
+        <Address1>2 LOTHIAN STREET</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>2 LOTHIAN STREET</AddressShortCode>
+        <City>NORTH MELBOURNE</City>
+        <CompanyName>DAAC HOLDINGS PTY LTD</CompanyName>
+        <Country>
+          <Code>TW</Code>
+          <Name>Taiwan</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>DAACTPE</OrganizationCode>
+        <Phone>+61399999999</Phone>
+        <Port>
+          <Code>TWTPE</Code>
+          <Name>Taipei</Name>
+        </Port>
+        <Postcode>3051</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State></State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>DRV</Code>
+              <Description>Driver's License Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>12345678</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+  </Shipment>
+</UniversalShipment>

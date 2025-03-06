@@ -1,0 +1,17 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+            <EventType>DLV</EventType>
+			<EventTime>13-JAN-23 11:25</EventTime>
+			<EventReference>MyOwnDetails</EventReference>
+			<ContextCollection>
+				<Context>
+					<Type>TransportBookingJobID</Type>
+					<Value>TB00004746</Value>
+				</Context>
+				<Context>
+					<Type>TransportBookingInstructionID</Type>
+					<Value>2</Value>
+				</Context>
+			</ContextCollection>
+  </Event>
+</UniversalEvent>

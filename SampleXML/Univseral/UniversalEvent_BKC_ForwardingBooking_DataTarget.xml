@@ -1,0 +1,43 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>ForwardingBooking</Type>
+          <Key>S0001000</Key>
+        </DataTarget>
+      </DataTargetCollection>
+    </DataContext>
+
+    <EventTime>2017-10-25T22:04:04.06</EventTime>
+    <EventType>BKC</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>HAWBNumber</Type>
+        <Value>S546323116</Value>
+      </Context>
+      <Context>
+        <Type>HAWBOriginIATAAirportCode</Type>
+        <Value>SYD</Value>
+      </Context>
+      <Context>
+        <Type>HAWBDestinationIATAAirportCode</Type>
+        <Value>AKL</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>AUSYD</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>NZAKL</Value>
+      </Context>
+      <Context>
+        <Type>ShippersReference</Type>
+        <Value>S000339485</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

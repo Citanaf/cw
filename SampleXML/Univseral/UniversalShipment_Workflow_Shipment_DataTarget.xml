@@ -1,0 +1,808 @@
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>ForwardingShipment</Type>
+          <Key>SBN1BNEA54662735</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>BNE</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>WISETECH GLOBAL PTY LTD - AU Demo Company - BNE</Name>
+      </Company>
+      <DataProvider>HYEUATBNE</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>878</Code>
+        <Name>branch</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>NIS</Code>
+      </EventDepartment>
+      <EventType>
+        <Code></Code>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <EventReference>Test EDI DIM</EventReference>
+      <ServerID>UAT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2022-09-05T17:27:08.807</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+    <MessageProfile>
+        <SchemaFilter>
+            <Type>Exclude</Type>
+            <FilterCollection>
+                <Filter>
+                    <ElementName>CustomizedFieldCollection</ElementName>
+                </Filter>
+            </FilterCollection>
+        </SchemaFilter>
+    </MessageProfile>
+    <ActualChargeable>4.000</ActualChargeable>
+    <AdditionalTerms></AdditionalTerms>
+    <BookingConfirmationReference></BookingConfirmationReference>
+    <CartageWaybillNumber></CartageWaybillNumber>
+    <CFSReference></CFSReference>
+    <CommunityTransitStatus>
+      <Code></Code>
+    </CommunityTransitStatus>
+    <ContainerCount>0</ContainerCount>
+    <ContainerMode>
+      <Code>FCL</Code>
+      <Description>Full Container Load</Description>
+    </ContainerMode>
+    <DocumentedChargeable>3.980</DocumentedChargeable>
+    <DocumentedVolume>3.980</DocumentedVolume>
+    <DocumentedWeight>3000.000</DocumentedWeight>
+    <FreightRate>0.0000</FreightRate>
+    <FreightRateCurrency>
+      <Code></Code>
+    </FreightRateCurrency>
+    <GoodsDescription>parts</GoodsDescription>
+    <GoodsValue>0.0000</GoodsValue>
+    <GoodsValueCurrency>
+      <Code>TWD</Code>
+      <Description>New Taiwan Dollar</Description>
+    </GoodsValueCurrency>
+    <HBLAWBChargesDisplay>
+      <Code>CAL</Code>
+      <Description>Show Original "As Agreed" &amp; Copy with Prepaid &amp; Collect Charges</Description>
+    </HBLAWBChargesDisplay>
+    <HBLContainerPackModeOverride>DOOR/DOOR</HBLContainerPackModeOverride>
+    <HouseBillOfLadingType>
+      <Code>IAU</Code>
+      <Description>IT Club Australia</Description>
+    </HouseBillOfLadingType>
+    <InsuranceValue>0.0000</InsuranceValue>
+    <InsuranceValueCurrency>
+      <Code>TWD</Code>
+      <Description>New Taiwan Dollar</Description>
+    </InsuranceValueCurrency>
+    <InterimReceiptNumber></InterimReceiptNumber>
+    <IsBooking>false</IsBooking>
+    <IsCancelled>false</IsCancelled>
+    <IsCFSRegistered>false</IsCFSRegistered>
+    <IsDirectBooking>false</IsDirectBooking>
+    <IsForwardRegistered>true</IsForwardRegistered>
+    <IsHighRisk>false</IsHighRisk>
+    <IsNeutralMaster>false</IsNeutralMaster>
+    <IsShipping>false</IsShipping>
+    <IsSplitShipment>false</IsSplitShipment>
+    <ManifestedChargeable>3.980</ManifestedChargeable>
+    <ManifestedVolume>3.980</ManifestedVolume>
+    <ManifestedWeight>3000.000</ManifestedWeight>
+    <NoCopyBills>1</NoCopyBills>
+    <NoOriginalBills>0</NoOriginalBills>
+    <OuterPacks>10</OuterPacks>
+    <OuterPacksPackageType>
+      <Code>PKG</Code>
+      <Description>Package</Description>
+    </OuterPacksPackageType>
+    <PackingOrder>0</PackingOrder>
+    <PortOfDestination>
+      <Code>SGSIN</Code>
+      <Name>Singapore</Name>
+    </PortOfDestination>
+    <PortOfOrigin>
+      <Code>TWTPE</Code>
+      <Name>Taipei</Name>
+    </PortOfOrigin>
+    <ReleaseType>
+      <Code>EBL</Code>
+      <Description>Express Bill of Lading</Description>
+    </ReleaseType>
+    <ScreeningStatus>
+      <Code>REQ</Code>
+      <Description>Requires Review</Description>
+    </ScreeningStatus>
+    <ServiceLevel>
+      <Code>STD</Code>
+      <Description>Standard Service</Description>
+    </ServiceLevel>
+    <ShipmentIncoTerm>
+      <Code>FOB</Code>
+      <Description>Free On Board</Description>
+    </ShipmentIncoTerm>
+    <ShipmentType>
+      <Code>STD</Code>
+      <Description>Standard House</Description>
+    </ShipmentType>
+    <ShippedOnBoard>
+      <Code>SHP</Code>
+      <Description>Shipped</Description>
+    </ShippedOnBoard>
+    <ShipperCODAmount>0.0000</ShipperCODAmount>
+    <ShipperCODPayMethod>
+      <Code></Code>
+    </ShipperCODPayMethod>
+    <TotalNoOfPacks>0</TotalNoOfPacks>
+    <TotalNoOfPacksPackageType>
+      <Code>CTN</Code>
+      <Description>Carton</Description>
+    </TotalNoOfPacksPackageType>
+    <TotalVolume>3.980</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>Cubic Meters</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>3000.000</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>AIR</Code>
+      <Description>Sea Freight</Description>
+    </TransportMode>
+    <TranshipToOtherCFS>false</TranshipToOtherCFS>
+    
+    <WarehouseLocation></WarehouseLocation>
+    <WayBillNumber>S54657822529</WayBillNumber>
+    <WayBillType>
+      <Code>HWB</Code>
+      <Description>House Waybill</Description>
+    </WayBillType>
+    <LocalProcessing>
+      <ArrivalCartageRef></ArrivalCartageRef>
+      <DeliveryCartageAdvised></DeliveryCartageAdvised>
+      <DeliveryCartageCompleted></DeliveryCartageCompleted>
+      <DeliveryLabourCharge>0.0000</DeliveryLabourCharge>
+      <DeliveryLabourTime></DeliveryLabourTime>
+      <DeliveryRequiredBy></DeliveryRequiredBy>
+      <DeliveryRequiredFrom></DeliveryRequiredFrom>
+      <DeliveryTruckWaitCharge>0.0000</DeliveryTruckWaitCharge>
+      <DeliveryTruckWaitTime></DeliveryTruckWaitTime>
+      <DemurrageOnDeliveryCharge>0.0000</DemurrageOnDeliveryCharge>
+      <DemurrageOnDeliveryTime></DemurrageOnDeliveryTime>
+      <DemurrageOnPickupCharge>0.0000</DemurrageOnPickupCharge>
+      <DemurrageOnPickupTime></DemurrageOnPickupTime>
+      <EstimatedDelivery></EstimatedDelivery>
+      <EstimatedPickup></EstimatedPickup>
+      <ExportStatement>
+        <Code></Code>
+      </ExportStatement>
+      <FCLAvailable></FCLAvailable>
+      <FCLDeliveryDetentionCharge>0.0000</FCLDeliveryDetentionCharge>
+      <FCLDeliveryDetentionDays>0</FCLDeliveryDetentionDays>
+      <FCLDeliveryDetentionFreeDays>0</FCLDeliveryDetentionFreeDays>
+      <FCLDeliveryEquipmentNeeded>
+        <Code>WUP</Code>
+        <Description>Wait for Pack/Unpack</Description>
+      </FCLDeliveryEquipmentNeeded>
+      <FCLPickupDetentionCharge>0.0000</FCLPickupDetentionCharge>
+      <FCLPickupDetentionDays>0</FCLPickupDetentionDays>
+      <FCLPickupDetentionFreeDays>0</FCLPickupDetentionFreeDays>
+      <FCLPickupEquipmentNeeded>
+        <Code>WUP</Code>
+        <Description>Wait for Pack/Unpack</Description>
+      </FCLPickupEquipmentNeeded>
+      <FCLStorageCommences></FCLStorageCommences>
+      <HasProhibitedPackaging>false</HasProhibitedPackaging>
+      <InsuranceRequired>false</InsuranceRequired>
+      <IsContingencyRelease>false</IsContingencyRelease>
+      <LCLAirStorageCharge>0.0000</LCLAirStorageCharge>
+      <LCLAirStorageDaysOrHours>0</LCLAirStorageDaysOrHours>
+      <LCLAvailable></LCLAvailable>
+      <LCLDatesOverrideConsol>false</LCLDatesOverrideConsol>
+      <LCLStorageCommences></LCLStorageCommences>
+      <PickupCartageAdvised></PickupCartageAdvised>
+      <PickupCartageCompleted></PickupCartageCompleted>
+      <PickupLabourCharge>0.0000</PickupLabourCharge>
+      <PickupLabourTime></PickupLabourTime>
+      <PickupRequiredBy></PickupRequiredBy>
+      <PickupRequiredFrom></PickupRequiredFrom>
+      <PickupTruckWaitCharge>0.0000</PickupTruckWaitCharge>
+      <PickupTruckWaitTime></PickupTruckWaitTime>
+      <PrintOptionForPackagesOnAWB>
+        <Code>DEF</Code>
+        <Description>Default (Dims, fallback to Vol)</Description>
+      </PrintOptionForPackagesOnAWB>
+    </LocalProcessing>
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>My Teams field</Key>
+        <Value>Operations</Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+    <DateCollection>
+      <Date>
+        <Type>BookingConfirmed</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2022-09-01T00:00:00</Value>
+      </Date>
+      <Date>
+        <Type>Received</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>Departure</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>Arrival</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>ShippedOnBoard</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>BillIssued</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>PickupReceiptRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>DeliveryReceiptRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>PickupDispatchRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>DeliveryDispatchRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+    </DateCollection>
+    <MilestoneCollection>
+      <Milestone>
+        <Description>eFBL authorisation rejected</Description>
+        <EventCode>ATR</EventCode>
+        <Sequence>11</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference></ConditionReference>
+        <ConditionType></ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Test XYZ</Description>
+        <EventCode>Z34</EventCode>
+        <Sequence>11</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+    </MilestoneCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>NAA #80-1 TAIPEI</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>OFC: TAIPEI</AddressShortCode>
+        <City>TAIPEI</City>
+        <CompanyName>FORD MOTOR COMPANY(PTE)</CompanyName>
+        <Country>
+          <Code>TW</Code>
+          <Name>Taiwan</Name>
+        </Country>
+        <Email>123@pllink.com</Email>
+        <Fax></Fax>
+        <GovRegNum>12345675</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>Government VAT Code</Description>
+        </GovRegNumType>
+        <OrganizationCode>FORMOTPE</OrganizationCode>
+        <Phone>12345678</Phone>
+        <Port>
+          <Code>TWTPE</Code>
+          <Name>Taipei</Name>
+        </Port>
+        <Postcode>10511</Postcode>
+        <ScreeningStatus>
+          <Code>REQ</Code>
+          <Description>Requires Review</Description>
+        </ScreeningStatus>
+        <State></State>
+        <LocalAddressCollection>
+          <LocalAddress>
+            <Address1>台北市</Address1>
+            <Address2></Address2>
+            <City>台北市</City>
+            <CompanyName>台灣福特</CompanyName>
+            <Language>
+              <Code>ZH-TW</Code>
+              <Description>Chinese - Traditional</Description>
+            </Language>
+            <Postcode>105</Postcode>
+            <State></State>
+          </LocalAddress>
+        </LocalAddressCollection>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>CSC</Code>
+              <Description>Customs Supplier Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>NZ</Code>
+              <Name>New Zealand</Name>
+            </CountryOfIssue>
+            <Value>00710841Y</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>PAS</Code>
+              <Description>Passport Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>TW</Code>
+              <Name>Taiwan</Name>
+            </CountryOfIssue>
+            <Value>12121212</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+        <Address1>Pickup Address Road</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pickup Address Road</AddressShortCode>
+        <City>Taipei</City>
+        <CompanyName>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</CompanyName>
+        <Country>
+          <Code>TW</Code>
+          <Name>Taiwan</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>12345675</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>Government VAT Code</Description>
+        </GovRegNumType>
+        <OrganizationCode>FORMOTPE</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>TWTPE</Code>
+          <Name>Taipei</Name>
+        </Port>
+        <Postcode>.</Postcode>
+        <ScreeningStatus>
+          <Code>REQ</Code>
+          <Description>Requires Review</Description>
+        </ScreeningStatus>
+        <State></State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>CSC</Code>
+              <Description>Customs Supplier Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>NZ</Code>
+              <Name>New Zealand</Name>
+            </CountryOfIssue>
+            <Value>00710841Y</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>PAS</Code>
+              <Description>Passport Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>TW</Code>
+              <Name>Taiwan</Name>
+            </CountryOfIssue>
+            <Value>12121212</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneeDocumentaryAddress</AddressType>
+        <Address1>1 PARK LANE</Address1>
+        <Address2>SELETAR</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PST: 1 PARK LANE</AddressShortCode>
+        <City>SINGAPORE</City>
+        <CompanyName>PAYLOAD ASIA</CompanyName>
+        <Contact>Consignee contact name</Contact>
+        <Country>
+          <Code>SG</Code>
+          <Name>Singapore</Name>
+        </Country>
+        <Email>anton.seidel@cargowise.com</Email>
+        <Fax>+6590251199</Fax>
+        <Mobile></Mobile>
+        <OrganizationCode>PAYASSIN</OrganizationCode>
+        <Phone>+6562263723</Phone>
+        <Port>
+          <Code>SGSIN</Code>
+          <Name>Singapore</Name>
+        </Port>
+        <Postcode>798385</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+        <Address1>10 ACNCHON ROAD</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>10 ACNCHON ROAD</AddressShortCode>
+        <City>SINGAPORE</City>
+        <CompanyName>PAYLOAD ASIA</CompanyName>
+        <Country>
+          <Code>SG</Code>
+          <Name>Singapore</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>PAYASSIN</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>SGSIN</Code>
+          <Name>Singapore</Name>
+        </Port>
+        <Postcode>.</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendersLocalClient</AddressType>
+        <Address1>NAA #80-1 TAIPEI</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>OFC: TAIPEI</AddressShortCode>
+        <City>TAIPEI</City>
+        <CompanyName>FORD MOTOR COMPANY(PTE)</CompanyName>
+        <Country>
+          <Code>TW</Code>
+          <Name>Taiwan</Name>
+        </Country>
+        <Email>123@pllink.com</Email>
+        <Fax></Fax>
+        <GovRegNum>12345675</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>Government VAT Code</Description>
+        </GovRegNumType>
+        <OrganizationCode>FORMOTPE</OrganizationCode>
+        <Phone>12345678</Phone>
+        <Port>
+          <Code>TWTPE</Code>
+          <Name>Taipei</Name>
+        </Port>
+        <Postcode>10511</Postcode>
+        <ScreeningStatus>
+          <Code>REQ</Code>
+          <Description>Requires Review</Description>
+        </ScreeningStatus>
+        <State></State>
+        <LocalAddressCollection>
+          <LocalAddress>
+            <Address1>台北市</Address1>
+            <Address2></Address2>
+            <City>台北市</City>
+            <CompanyName>台灣福特</CompanyName>
+            <Language>
+              <Code>ZH-TW</Code>
+              <Description>Chinese - Traditional</Description>
+            </Language>
+            <Postcode>105</Postcode>
+            <State></State>
+          </LocalAddress>
+        </LocalAddressCollection>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>CSC</Code>
+              <Description>Customs Supplier Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>NZ</Code>
+              <Name>New Zealand</Name>
+            </CountryOfIssue>
+            <Value>00710841Y</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>PAS</Code>
+              <Description>Passport Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>TW</Code>
+              <Name>Taiwan</Name>
+            </CountryOfIssue>
+            <Value>12121212</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>DeliveryLocalCartage</AddressType>
+        <Address1>6 RAFFLES QUAY 6 RAFFLES QUAY</Address1>
+        <Address2>DOWNTOWN CORE</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>6 RAFFLES QUAY</AddressShortCode>
+        <City>SINGAPORE</City>
+        <CompanyName>WISETECH GLOBAL SINGAPORE</CompanyName>
+        <Country>
+          <Code>SG</Code>
+          <Name>Singapore</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>123456789123</GovRegNum>
+        <GovRegNumType>
+          <Code>UEN</Code>
+          <Description>Unique Entity Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>WISGL_SG</OrganizationCode>
+        <Phone>+61294365458</Phone>
+        <Port>
+          <Code>SGSIN</Code>
+          <Name>Singapore</Name>
+        </Port>
+        <Postcode>048580</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State></State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>FMC</Code>
+              <Description>Federal Maritime Commission Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>354313213</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CHB</Code>
+              <Description>Customs House Broker License Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>541212.02</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CMM</Code>
+              <Description>Container Management Messaging Agre</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>IT</Code>
+              <Name>Italy</Name>
+            </CountryOfIssue>
+            <Value>02060420359</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DRV</Code>
+              <Description>Driver's License Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>SG</Code>
+              <Name>Singapore</Name>
+            </CountryOfIssue>
+            <Value>1231414515</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Customs Carrier Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </CountryOfIssue>
+            <Value>A2541639</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <PackingLineCollection Content="Complete">
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>GENERAL</Description>
+        </Commodity>
+        <ContainerPackingOrder>0</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code></Code>
+        </CountryOfOrigin>
+        <DetailedDescription></DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription>parts</GoodsDescription>
+        <HarmonisedCode></HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <LastKnownCFSStatus>
+          <Code></Code>
+        </LastKnownCFSStatus>
+        <LastKnownCFSStatusDate></LastKnownCFSStatusDate>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Meters</Description>
+        </LengthUnit>
+        <LinePrice>0.0000</LinePrice>
+        <Link>1</Link>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackingLineID>HYEUAT00023681</PackingLineID>
+        <PackQty>10</PackQty>
+        <PackType>
+          <Code>PKG</Code>
+          <Description>Package</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <RequiresTemperatureControl>false</RequiresTemperatureControl>
+        <Volume>3.980</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Meters</Description>
+        </VolumeUnit>
+        <Weight>3000.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+        <CustomizedFieldCollection>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Custom Name from Reg.</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Custom: Reportable Quantity</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Custom: Lighter Licence/Permit</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Custom: Toxic/Poison Haz Zone</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Decimal</DataType>
+            <Key>Custom Dec1</Key>
+            <Value>0.000</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Decimal</DataType>
+            <Key>Custom Dec2</Key>
+            <Value>0.000</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>DateTime</DataType>
+            <Key>CustoCm Date1</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>DateTime</DataType>
+            <Key>Custom Date 2</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Boolean</DataType>
+            <Key>Custom flag 1</Key>
+            <Value>false</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Boolean</DataType>
+            <Key>Custom Flag 2</Key>
+            <Value>false</Value>
+          </CustomizedField>
+        </CustomizedFieldCollection>
+        <PackedItemCollection>
+        </PackedItemCollection>
+        <UNDGCollection>
+          <UNDG>
+            <FlashPoint>0.0</FlashPoint>
+            <HasOverpack>false</HasOverpack>
+            <IMOClass>1</IMOClass>
+            <MarinePollutant>
+              <Code></Code>
+              <Description></Description>
+            </MarinePollutant>
+            <OverpackID></OverpackID>
+            <PackedInLimitedQuantity>false</PackedInLimitedQuantity>
+            <PackingInstructionSection></PackingInstructionSection>
+            <PackQty>0</PackQty>
+            <PackType>
+              <Code></Code>
+            </PackType>
+            <TechicalName></TechicalName>
+            <Volume>0.000</Volume>
+            <VolumeUQ>
+              <Code></Code>
+            </VolumeUQ>
+            <Weight>0.000</Weight>
+            <WeightUQ>
+              <Code></Code>
+            </WeightUQ>
+          </UNDG>
+        </UNDGCollection>
+      </PackingLine>
+    </PackingLineCollection>
+    <ValidationRuleCollection>
+        <ValidationRule>
+            <Code>R011</Code>
+        </ValidationRule>
+    </ValidationRuleCollection>
+  </Shipment>
+</UniversalShipment>

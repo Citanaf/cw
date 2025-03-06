@@ -1,0 +1,835 @@
+﻿<UniversalActivity xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Activity>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>WorkItem</Type>
+          <Key>WI00000266</Key>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <ActionPurpose>
+        <Code>EVT</Code>
+        <Description>Event</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>WTG</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>WiseTech Global</Name>
+      </Company>
+      <DataProvider>EDIDATWTG</DataProvider>
+      <EnterpriseID>EDI</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>BN - AUBNE</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>Z00</Code>
+        <Description>Customizable Event 00</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DAT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2019-04-03T08:16:17.287</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <Summary>Sub-component fades</Summary>
+    <Company>
+      <Code>DDE</Code>
+      <Country>
+        <Code>DE</Code>
+        <Name>Germany</Name>
+      </Country>
+      <Name>EDI Demonstration System DE</Name>
+    </Company>
+    <CreatedBy>
+      <Code>E</Code>
+      <Name>CargoWise One Support</Name>
+    </CreatedBy>
+    <Department>
+      <Code>BRN</Code>
+      <Name>Branch</Name>
+    </Department>
+    <Description>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang3081{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\f0\fs20 Implement the feature\par
+}
+</Description>
+    <Location>
+      <Code>AUSYD</Code>
+      <Description>Sydney</Description>
+    </Location>
+    <SelectionCriterion1>
+      <Code>ENT</Code>
+      <Description>Enterprise</Description>
+    </SelectionCriterion1>
+    <SelectionCriterion2>
+      <Code>PRD</Code>
+      <Description>Roadmap Feature</Description>
+    </SelectionCriterion2>
+    <SelectionCriterion3>
+      <Code>BMS</Code>
+      <Description>Buffer Management</Description>
+    </SelectionCriterion3>
+    <SelectionCriterion4>
+      <Code></Code>
+      <Description></Description>
+    </SelectionCriterion4>
+    <SelectionCriterion5>
+      <Code>ALP</Code>
+      <Description>Checkin to ALP</Description>
+    </SelectionCriterion5>
+    <Status>
+      <Code>WRK</Code>
+      <Description>Working</Description>
+    </Status>
+
+    <MilestoneCollection>
+      <Milestone>
+        <Description>Moilestone</Description>
+        <EventCode>ATH</EventCode>
+        <Sequence>1</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference></ConditionReference>
+        <ConditionType></ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+    </MilestoneCollection>
+
+    <RelatedActivityCollection>
+      <RelatedActivity>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>CustomerServiceTicket</Type>
+              <Key>CST00000001</Key>
+            </DataSource>
+          </DataSourceCollection>
+        </DataContext>
+
+        <Summary>Sample CST</Summary>
+        <Branch>
+          <Code>BNE</Code>
+          <Name>BN - AUBNE</Name>
+        </Branch>
+        <Conversation>
+          <ConversationMessageCollection>
+            <ConversationMessage>
+              <ParticipantName>System</ParticipantName>
+              <Text>Jen Smith (TESTORG) has been added to the conversation.</Text>
+              <CreatedTime>2019-04-02T21:58:26.867</CreatedTime>
+              <IsInternal>true</IsInternal>
+              <IsSystem>false</IsSystem>
+            </ConversationMessage>
+            <ConversationMessage>
+              <ParticipantName>CargoWise One Support</ParticipantName>
+              <Text>This is a sample eConversation message.</Text>
+              <CreatedTime>2019-04-02T21:58:42.61</CreatedTime>
+              <IsInternal>false</IsInternal>
+              <IsSystem>false</IsSystem>
+            </ConversationMessage>
+            <ConversationMessage>
+              <ParticipantName>CargoWise One Support</ParticipantName>
+              <Text>Internal comments are also supported.</Text>
+              <CreatedTime>2019-04-02T21:58:50.057</CreatedTime>
+              <IsInternal>true</IsInternal>
+              <IsSystem>false</IsSystem>
+            </ConversationMessage>
+          </ConversationMessageCollection>
+
+          <ParticipantGroupCollection>
+          </ParticipantGroupCollection>
+
+          <ParticipantRelatedPartyCollection>
+            <ParticipantRelatedParty>
+              <Party>
+                <AddressType></AddressType>
+                <Address1>123 TEST ST</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>123 FAKE ST</AddressShortCode>
+                <City>SYDNEY</City>
+                <CompanyName>TEST ORGANIZATION</CompanyName>
+                <Contact>Jen Smith</Contact>
+                <Country>
+                  <Code>AU</Code>
+                  <Name>Australia</Name>
+                </Country>
+                <Email>jsmith@test.org</Email>
+                <Fax></Fax>
+                <Mobile></Mobile>
+                <OrganizationCode>TESTORG</OrganizationCode>
+                <Phone>+61255555555</Phone>
+                <Port>
+                  <Code>AUSYD</Code>
+                  <Name>Sydney</Name>
+                </Port>
+                <Postcode>2000</Postcode>
+                <ScreeningStatus>
+                  <Code>UNK</Code>
+                  <Description>Unknown</Description>
+                </ScreeningStatus>
+                <State>NSW</State>
+              </Party>
+              <RelatedPartyType>Contact</RelatedPartyType>
+              <IsActive>true</IsActive>
+              <IsSubscribed>true</IsSubscribed>
+              <Relation></Relation>
+            </ParticipantRelatedParty>
+          </ParticipantRelatedPartyCollection>
+
+          <ParticipantStaffCollection>
+            <ParticipantStaff>
+              <Staff>
+                <Code>E</Code>
+                <Name>CargoWise One Support</Name>
+              </Staff>
+              <IsActive>true</IsActive>
+              <IsSubscribed>false</IsSubscribed>
+              <JobTitle></JobTitle>
+            </ParticipantStaff>
+          </ParticipantStaffCollection>
+        </Conversation>
+        <CreatedBy>
+          <Code>E</Code>
+          <Name>CargoWise One Support</Name>
+        </CreatedBy>
+        <Department>
+          <Code>BRN</Code>
+          <Name>Branch</Name>
+        </Department>
+        <Description>Please help us with our request.</Description>
+        <Location>
+          <Code>AU</Code>
+          <Description>Australia</Description>
+        </Location>
+        <SelectionCriterion1>
+          <Code>CLI</Code>
+          <Description>Clients</Description>
+        </SelectionCriterion1>
+        <SelectionCriterion2>
+          <Code>COM</Code>
+          <Description>Communications</Description>
+        </SelectionCriterion2>
+        <SelectionCriterion3>
+          <Code>SUP</Code>
+          <Description>Support Calls</Description>
+        </SelectionCriterion3>
+        <SelectionCriterion4>
+          <Code>1DE</Code>
+          <Description>Department 1</Description>
+        </SelectionCriterion4>
+        <SelectionCriterion5>
+          <Code>DEF</Code>
+          <Description>Default Priority</Description>
+        </SelectionCriterion5>
+        <Status>
+          <Code>WRK</Code>
+          <Description>In progress</Description>
+        </Status>
+
+        <NoteCollection Content="Partial">
+          <Note>
+            <Description>Main note</Description>
+            <IsCustomDescription>true</IsCustomDescription>
+            <NoteText>Some notes about this ticket.</NoteText>
+            <NoteContext>
+              <Code>AAA</Code>
+              <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+            </NoteContext>
+            <Visibility>
+              <Code>INT</Code>
+              <Description>INTERNAL</Description>
+            </Visibility>
+          </Note>
+        </NoteCollection>
+
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>Client</AddressType>
+            <Address1>123 TEST ST</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>123 FAKE ST</AddressShortCode>
+            <City>SYDNEY</City>
+            <CompanyName>TEST ORGANIZATION</CompanyName>
+            <Contact>Jen Smith</Contact>
+            <Country>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </Country>
+            <Email>jsmith@test.org</Email>
+            <Fax></Fax>
+            <Mobile></Mobile>
+            <OrganizationCode>TESTORG</OrganizationCode>
+            <Phone>+61255555555</Phone>
+            <Port>
+              <Code>AUSYD</Code>
+              <Name>Sydney</Name>
+            </Port>
+            <Postcode>2000</Postcode>
+            <ScreeningStatus>
+              <Code>UNK</Code>
+              <Description>Unknown</Description>
+            </ScreeningStatus>
+            <State>NSW</State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+
+        <TaskSetCollection>
+          <TaskSet>
+            <Description>Job Customer Service Ticket - CST00000001 - Sample CST is complete.</Description>
+            <Type>
+              <Code>JOB</Code>
+              <Description>Job</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus></CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskSetCollection>
+              <TaskSet>
+                <Description>Provide Support</Description>
+                <Type>
+                  <Code>TKS</Code>
+                  <Description>Workflow</Description>
+                </Type>
+                <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+                <CurrentStatus>Entry to the BMS</CurrentStatus>
+                <DateAcceptability>
+                  <Code></Code>
+                  <Description></Description>
+                </DateAcceptability>
+                <EarliestStartDateUTC></EarliestStartDateUTC>
+                <IsActive>true</IsActive>
+                <Notes></Notes>
+                <ReleaseGroup>
+                  <Code>MAIN</Code>
+                  <Name>Main Release Group</Name>
+                </ReleaseGroup>
+                <TaskSetStatus>
+                  <Code>OPN</Code>
+                  <Description>Open</Description>
+                </TaskSetStatus>
+
+                <TaskCollection>
+                  <Task>
+                    <Description>Forward to resource</Description>
+                    <Sequence>1</Sequence>
+                    <Status>
+                      <Code>ASN</Code>
+                      <Description>Assigned</Description>
+                    </Status>
+                    <TaskID>T00014680</TaskID>
+                    <Type>
+                      <Code>UDF</Code>
+                      <Description>Undefined - You can modify this in the System Registry, under Workflow Manager/T</Description>
+                    </Type>
+                    <ActualDuration>PT0S</ActualDuration>
+                    <ActualStartTimeUTC></ActualStartTimeUTC>
+                    <AssignedStaff>
+                      <Code>E</Code>
+                      <Name>CargoWise One Support</Name>
+                    </AssignedStaff>
+                    <CardNote></CardNote>
+                    <CompletedTimeUTC></CompletedTimeUTC>
+                    <EstimatedDuration>PT0S</EstimatedDuration>
+                    <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                    <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                    <TaskNotes></TaskNotes>
+                  </Task>
+                </TaskCollection>
+              </TaskSet>
+            </TaskSetCollection>
+          </TaskSet>
+        </TaskSetCollection>
+      </RelatedActivity>
+    </RelatedActivityCollection>
+
+    <TaskSetCollection>
+      <TaskSet>
+        <Description>Job is complete.</Description>
+        <Type>
+          <Code>JOB</Code>
+          <Description>Job</Description>
+        </Type>
+        <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+        <CurrentStatus></CurrentStatus>
+        <DateAcceptability>
+          <Code></Code>
+          <Description></Description>
+        </DateAcceptability>
+        <EarliestStartDateUTC></EarliestStartDateUTC>
+        <IsActive>true</IsActive>
+        <Notes></Notes>
+        <TaskSetStatus>
+          <Code>OPN</Code>
+          <Description>Open</Description>
+        </TaskSetStatus>
+
+        <TaskSetCollection>
+          <TaskSet>
+            <Description>Fade 1</Description>
+            <Type>
+              <Code>TKS</Code>
+              <Description>Workflow</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus>Buffer (12 day shock absorber) - Zone 0
+	Constraint</CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <ReleaseGroup>
+              <Code>MAIN</Code>
+              <Name>Main Release Group</Name>
+            </ReleaseGroup>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskCollection>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>10</Sequence>
+                <Status>
+                  <Code>CLS</Code>
+                  <Description>Closed as Completed</Description>
+                </Status>
+                <TaskID>T00011531</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-12-09T22:11:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>ARA</Code>
+                  <Name>Aragorn ☺</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-12-09T22:11:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>20</Sequence>
+                <Status>
+                  <Code>ASN</Code>
+                  <Description>Assigned</Description>
+                </Status>
+                <TaskID>T00011532</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-11-04T20:31:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>GAN</Code>
+                  <Name>Gandalf the Grey</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-04T20:31:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>30</Sequence>
+                <Status>
+                  <Code>ASN</Code>
+                  <Description>Assigned</Description>
+                </Status>
+                <TaskID>T00011533</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-11-04T20:31:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>FRO</Code>
+                  <Name>Frodo Baggins</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-04T20:31:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+            </TaskCollection>
+          </TaskSet>
+          <TaskSet>
+            <Description>Fade 3</Description>
+            <Type>
+              <Code>TKS</Code>
+              <Description>Workflow</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus>Buffer (12 day shock absorber) - Zone 0
+	Constraint</CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <ReleaseGroup>
+              <Code>FOTR</Code>
+              <Name>Main Release Group</Name>
+            </ReleaseGroup>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskCollection>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>210</Sequence>
+                <Status>
+                  <Code>CLS</Code>
+                  <Description>Closed as Completed</Description>
+                </Status>
+                <TaskID>T00011537</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>PT1M</ActualDuration>
+                <ActualStartTimeUTC>2015-12-09T22:12:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>ARA</Code>
+                  <Name>Aragorn ☺</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-12-09T22:12:00</CompletedTimeUTC>
+                <EstimatedDuration>P1DT16H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>220</Sequence>
+                <Status>
+                  <Code>ASN</Code>
+                  <Description>Assigned</Description>
+                </Status>
+                <TaskID>T00011538</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC></ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>GAN</Code>
+                  <Name>Gandalf the Grey</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC></CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+            </TaskCollection>
+          </TaskSet>
+          <TaskSet>
+            <Description>Fade 2</Description>
+            <Type>
+              <Code>TKS</Code>
+              <Description>Workflow</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus>Buffer (12 day shock absorber) - Zone 0</CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <ReleaseGroup>
+              <Code>FOTR</Code>
+              <Name>Main Release Group</Name>
+            </ReleaseGroup>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskCollection>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>110</Sequence>
+                <Status>
+                  <Code>SUS</Code>
+                  <Description>Suspended (Temporary Pause)</Description>
+                </Status>
+                <TaskID>T00011534</TaskID>
+                <Type>
+                  <Code>INV</Code>
+                  <Description>Investigation</Description>
+                </Type>
+                <ActualDuration>P2DT3H44M</ActualDuration>
+                <ActualStartTimeUTC>2015-11-04T20:36:00</ActualStartTimeUTC>
+                <AssignedCapability>
+                  <Code>COD</Code>
+                  <Name>Coding</Name>
+                </AssignedCapability>
+                <AssignedStaff>
+                  <Code>BOR</Code>
+                  <Name>Boromir</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-04T20:37:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+            </TaskCollection>
+          </TaskSet>
+          <TaskSet>
+            <Description>Fade 4</Description>
+            <Type>
+              <Code>TKS</Code>
+              <Description>Workflow</Description>
+            </Type>
+            <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+            <CurrentStatus>Waiting on Capacity</CurrentStatus>
+            <DateAcceptability>
+              <Code></Code>
+              <Description></Description>
+            </DateAcceptability>
+            <EarliestStartDateUTC></EarliestStartDateUTC>
+            <IsActive>true</IsActive>
+            <Notes></Notes>
+            <ReleaseGroup>
+              <Code>FOTR</Code>
+              <Name>Main Release Group</Name>
+            </ReleaseGroup>
+            <TaskSetStatus>
+              <Code>OPN</Code>
+              <Description>Open</Description>
+            </TaskSetStatus>
+
+            <TaskCollection>
+              <Task>
+                <Description>1</Description>
+                <Sequence>1</Sequence>
+                <Status>
+                  <Code>CLS</Code>
+                  <Description>Closed as Completed</Description>
+                </Status>
+                <TaskID>T00011549</TaskID>
+                <Type>
+                  <Code>CDU</Code>
+                  <Description>Coding of Unit Test</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-11-17T22:19:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>FRO</Code>
+                  <Name>Frodo Baggins</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-17T22:19:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>2</Sequence>
+                <Status>
+                  <Code>CLS</Code>
+                  <Description>Closed as Completed</Description>
+                </Status>
+                <TaskID>T00011550</TaskID>
+                <Type>
+                  <Code>CDU</Code>
+                  <Description>Coding of Unit Test</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-11-17T22:19:00</ActualStartTimeUTC>
+                <AssignedStaff>
+                  <Code>GAN</Code>
+                  <Name>Gandalf the Grey</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-17T22:19:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes></TaskNotes>
+              </Task>
+              <Task>
+                <Description>Coding of Unit Test</Description>
+                <Sequence>3</Sequence>
+                <Status>
+                  <Code>CLS</Code>
+                  <Description>Closed as Completed</Description>
+                </Status>
+                <TaskID>T00011551</TaskID>
+                <Type>
+                  <Code>CRF</Code>
+                  <Description>Code Review</Description>
+                </Type>
+                <ActualDuration>PT0S</ActualDuration>
+                <ActualStartTimeUTC>2015-11-17T22:20:00</ActualStartTimeUTC>
+                <AssignedCapability>
+                  <Code>COD</Code>
+                  <Name>Coding</Name>
+                </AssignedCapability>
+                <AssignedStaff>
+                  <Code>DE</Code>
+                  <Name>Dave East</Name>
+                </AssignedStaff>
+                <CardNote></CardNote>
+                <CompletedTimeUTC>2015-11-17T22:20:00</CompletedTimeUTC>
+                <EstimatedDuration>PT1H</EstimatedDuration>
+                <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                <TaskNotes>{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\lang3081\f0\fs20 E 18-Nov-15 08:20: Containment Barrier triggered a Quality Iteration - Quality Iteration Reason: :( - It was just plan terrible\par
+}
+</TaskNotes>
+              </Task>
+            </TaskCollection>
+
+            <TaskSetCollection>
+              <TaskSet>
+                <Description>Fade 4 (Quality Iteration)</Description>
+                <Type>
+                  <Code>TKS</Code>
+                  <Description>Workflow</Description>
+                </Type>
+                <AgreedDeliveryDateUTC></AgreedDeliveryDateUTC>
+                <CurrentStatus>Buffer (12 day shock absorber) - Zone 0
+	Constraint</CurrentStatus>
+                <DateAcceptability>
+                  <Code></Code>
+                  <Description></Description>
+                </DateAcceptability>
+                <EarliestStartDateUTC></EarliestStartDateUTC>
+                <IsActive>true</IsActive>
+                <Notes></Notes>
+                <ReleaseGroup>
+                  <Code>FOTR</Code>
+                  <Name>Main Release Group</Name>
+                </ReleaseGroup>
+                <TaskSetStatus>
+                  <Code>OPN</Code>
+                  <Description>Open</Description>
+                </TaskSetStatus>
+
+                <TaskCollection>
+                  <Task>
+                    <Description>Coding of Unit Test</Description>
+                    <Sequence>4</Sequence>
+                    <Status>
+                      <Code>ASN</Code>
+                      <Description>Assigned</Description>
+                    </Status>
+                    <TaskID>T00011571</TaskID>
+                    <Type>
+                      <Code>CDU</Code>
+                      <Description>Coding of Unit Test</Description>
+                    </Type>
+                    <ActualDuration>PT0S</ActualDuration>
+                    <ActualStartTimeUTC></ActualStartTimeUTC>
+                    <AssignedStaff>
+                      <Code>GAN</Code>
+                      <Name>Gandalf the Grey</Name>
+                    </AssignedStaff>
+                    <CardNote></CardNote>
+                    <CompletedTimeUTC></CompletedTimeUTC>
+                    <EstimatedDuration>PT1H</EstimatedDuration>
+                    <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                    <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                    <TaskNotes></TaskNotes>
+                  </Task>
+                  <Task>
+                    <Description>Coding of Unit Test</Description>
+                    <Sequence>5</Sequence>
+                    <Status>
+                      <Code>ASN</Code>
+                      <Description>Assigned</Description>
+                    </Status>
+                    <TaskID>T00011572</TaskID>
+                    <Type>
+                      <Code>CRF</Code>
+                      <Description>Code Review</Description>
+                    </Type>
+                    <ActualDuration>PT0S</ActualDuration>
+                    <ActualStartTimeUTC></ActualStartTimeUTC>
+                    <AssignedCapability>
+                      <Code>COD</Code>
+                      <Name>Coding</Name>
+                    </AssignedCapability>
+                    <AssignedStaff>
+                      <Code>DE</Code>
+                      <Name>Dave East</Name>
+                    </AssignedStaff>
+                    <CardNote></CardNote>
+                    <CompletedTimeUTC></CompletedTimeUTC>
+                    <EstimatedDuration>PT1H</EstimatedDuration>
+                    <EstimatedStartTimeUTC></EstimatedStartTimeUTC>
+                    <EstimateVariationFactor>2.00</EstimateVariationFactor>
+                    <TaskNotes></TaskNotes>
+                  </Task>
+                </TaskCollection>
+              </TaskSet>
+            </TaskSetCollection>
+          </TaskSet>
+        </TaskSetCollection>
+      </TaskSet>
+    </TaskSetCollection>
+  </Activity>
+</UniversalActivity>

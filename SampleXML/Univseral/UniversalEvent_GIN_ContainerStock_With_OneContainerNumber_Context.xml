@@ -1,0 +1,61 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataTargetCollection>
+        <DataTarget>
+          <Type>ContainerStock</Type>
+        </DataTarget>
+      </DataTargetCollection>
+
+      <Company>
+        <Code>EDI</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>Eagle Datamation International</Name>
+      </Company>
+      <DataProvider>EDIDATEDI</DataProvider>
+      <EnterpriseID>EDI</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>BN - AUBNE</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DAT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2018-05-28T10:05:36.193</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2018-05-29T10:01:36.2</EventTime>
+    <EventType>GIN</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>ContainerNumber</Type>
+        <Value>CONT8003017</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>USCustomsSection321Clearance</Type>
+          <Key>SEC00000170</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DUS</Code>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Name>US - Your United States Demo Company</Name>
+      </Company>
+      <DataProvider>WTLHX1DUS</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>CHI</Code>
+        <Name>CHI</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>HX1</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-08-15T22:39:49.647-05:00</TriggerDate>
+      <TriggerDescription>Validate</TriggerDescription>
+      <TriggerType>Trigger</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>HVL</Code>
+          <Description>HVLV Forwarder</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <Branch>
+      <Code>PHL</Code>
+      <Name>PHL</Name>
+    </Branch>
+    <CustomsContainerMode>
+      <Code>NCT</Code>
+    </CustomsContainerMode>
+    <PortOfDischarge>
+      <Code>USPHL</Code>
+    </PortOfDischarge>
+    <PortOfLoading>
+      <Code>GBTIL</Code>
+    </PortOfLoading>
+    <TransportMode>
+      <Code>SEA</Code>
+    </TransportMode>
+    <VesselName>TITANIC</VesselName>
+    <VoyageFlightNo>1231</VoyageFlightNo>
+    <WayBillNumber></WayBillNumber>
+    <WayBillType>
+      <Code>MWB</Code>
+      <Description>Master Waybill</Description>
+    </WayBillType>
+    <AddInfoCollection>
+      <AddInfo>
+        <Key>EntryFilerCode</Key>
+        <Value>SV9</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>US_NKLocationOfGoods</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>US_NKCentralizedExamSite</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>MasterWayBillIssuerSCAC</Key>
+        <Value>APLU</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>UI_NKCarrierSCAC</Key>
+        <Value>APLU</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>SchDLoading</Key>
+        <Value>41380</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>SchDEntry</Key>
+        <Value>1101</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>SchDArrival</Key>
+        <Value>1101</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>EntryMode</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>EntryDate</Key>
+        <Value>2021-12-20</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>IORType</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>IORReference</Key>
+        <Value></Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>FilerName</Key>
+        <Value>CRAIG SEELIG</Value>
+      </AddInfo>
+      <AddInfo>
+        <Key>FilerPhoneNumber</Key>
+        <Value>2155551234</Value>
+      </AddInfo>
+    </AddInfoCollection>
+    <AdditionalBillCollection>
+      <AdditionalBill>
+        <BillNumber></BillNumber>
+        <BillType>
+          <Code>MWB</Code>
+          <Description>Master Waybill</Description>
+        </BillType>
+        <AddInfoCollection>
+          <AddInfo>
+            <Key>UI_NKBillIssuerSCAC</Key>
+            <Value>APLU</Value>
+          </AddInfo>
+        </AddInfoCollection>
+      </AdditionalBill>
+    </AdditionalBillCollection>
+    <DateCollection>
+      <Date>
+        <Type>LoadingDate</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2021-12-10T00:00:00</Value>
+      </Date>
+      <Date>
+        <Type>DischargeDate</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2021-12-20T00:00:00</Value>
+      </Date>
+    </DateCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>SendersLocalClient</AddressType>
+        <Address1>123 MADISON AVE</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>MAIN ADDRESS</AddressShortCode>
+        <City>NEW YORK</City>
+        <CompanyName>ACE TEST IMPORTER 1</CompanyName>
+        <Country>
+          <Code>US</Code>
+          <Name>United States</Name>
+        </Country>
+        <Email>test@email.com</Email>
+        <Fax>+12155551216</Fax>
+        <GovRegNum>58-123456789</GovRegNum>
+        <GovRegNumType>
+          <Code>EIN</Code>
+          <Description>Employer Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>ACETESPHL</OrganizationCode>
+        <Phone>+12155551212</Phone>
+        <Port>
+          <Code>USPHL</Code>
+          <Name>Philadelphia</Name>
+        </Port>
+        <Postcode>10016</Postcode>
+        <ScreeningStatus>
+          <Code>CLR</Code>
+          <Description>Clear</Description>
+        </ScreeningStatus>
+        <State Description="New York">NY</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>DEA</Code>
+              <Description>DEA Registration Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>333444555</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>AMS</Code>
+              <Description>AMS (USDA) Assigned ID Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>1234567980</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DDT</Code>
+              <Description>DDTC Registration Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>999999</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>TTB</Code>
+              <Description>TTB Import Permit Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>AA-A-111</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>DUN</Code>
+              <Description>DUNS Data Universal Numbering Syste</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>129090909</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>FRM</Code>
+              <Description>FIRMS Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>W235</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>APH</Code>
+              <Description>APHIS Establishment Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>123</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>IFT</Code>
+              <Description>IFTP Permit No\Auth. To Fish No (NM</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>12346789</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>WMI</Code>
+              <Description>World Manufacturer Identifier</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CA</Code>
+              <Name>Canada</Name>
+            </CountryOfIssue>
+            <Value>123</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCD</Code>
+              <Description>Importer Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>ZA</Code>
+              <Name>South Africa</Name>
+            </CountryOfIssue>
+            <Value>00281124</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>FWE</Code>
+              <Description>FWS eDecs Account Number</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>54321</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <SubShipmentCollection>
+      <SubShipment>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>USCustomsLVConsignment</Type>
+              <Key></Key>
+            </DataSource>
+          </DataSourceCollection>
+        </DataContext>
+
+        <CommercialInfo>
+          <CommercialInvoiceCollection>
+            <CommercialInvoice>
+              <InvoiceCurrency>
+                <Code>USD</Code>
+              </InvoiceCurrency>
+              <CommercialInvoiceLineCollection>
+                <CommercialInvoiceLine>
+                  <LineNo>1</LineNo>
+                  <CountryOfOrigin>
+                    <Code>GB</Code>
+                  </CountryOfOrigin>
+                  <Description>TEST</Description>
+                  <HarmonisedCode>1000000001</HarmonisedCode>
+                  <LinePrice>25.0000</LinePrice>
+                  <PartNo>12345</PartNo>
+                  <AddInfoCollection>
+                    <AddInfo>
+                      <Key>ADD_NA</Key>
+                      <Value>N</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>CVD_NA</Key>
+                      <Value>N</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NOPDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>APHISDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key></Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>CPSCDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>DDTCDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>DEADisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NHTDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key></Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>ODSDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>PSTDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>TSCADisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>VNEDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>FDADisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>FWSDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>LaceyDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NMFS370DisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NMFSAMRDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NMFSHMSDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>NMFSSIMPDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>OMCDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>TTBDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>AMSDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                    <AddInfo>
+                      <Key>FSISDisclaimReason</Key>
+                      <Value>A</Value>
+                    </AddInfo>
+                  </AddInfoCollection>
+                </CommercialInvoiceLine>
+              </CommercialInvoiceLineCollection>
+            </CommercialInvoice>
+          </CommercialInvoiceCollection>
+        </CommercialInfo>
+        <OwnerRef></OwnerRef>
+        <TotalNoOfPacks>1</TotalNoOfPacks>
+        <TotalNoOfPacksPackageType>
+          <Code>PKG</Code>
+          <Description>PKG</Description>
+        </TotalNoOfPacksPackageType>
+        <WayBillNumber>HSE122021AA</WayBillNumber>
+        <WayBillType>
+          <Code>HWB</Code>
+          <Description>House Waybill</Description>
+        </WayBillType>
+        <AddInfoCollection>
+          <AddInfo>
+            <Key>WayBillIssuerSCAC</Key>
+            <Value>SHCR</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>NonAMS</Key>
+            <Value>N</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>ConsigneeType</Key>
+            <Value></Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>ConsigneeReference</Key>
+            <Value></Value>
+          </AddInfo>
+        </AddInfoCollection>
+        <AdditionalBillCollection>
+          <AdditionalBill>
+            <BillNumber>HSE122021AA</BillNumber>
+            <BillType>
+              <Code>HWB</Code>
+              <Description>House Waybill</Description>
+            </BillType>
+            <AddInfoCollection>
+              <AddInfo>
+                <Key>UI_NKBillIssuerSCAC</Key>
+                <Value>SHCR</Value>
+              </AddInfo>
+            </AddInfoCollection>
+          </AdditionalBill>
+        </AdditionalBillCollection>
+        <EntryNumberCollection>
+          <EntryNumber>
+            <Number>73014357</Number>
+            <Type>
+              <Code>ENS</Code>
+              <Description>Entry Summary</Description>
+            </Type>
+          </EntryNumber>
+        </EntryNumberCollection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>UltimateConsignee</AddressType>
+            <Address1>123 MADISON AVE</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>MAIN ADDRESS</AddressShortCode>
+            <City>NEW YORK</City>
+            <CompanyName>ACE TEST IMPORTER 1</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email>test@email.com</Email>
+            <Fax>+12155551216</Fax>
+            <GovRegNum>58-123456789</GovRegNum>
+            <GovRegNumType>
+              <Code>EIN</Code>
+              <Description>Employer Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>ACETESPHL</OrganizationCode>
+            <Phone>+12155551212</Phone>
+            <Port>
+              <Code>USPHL</Code>
+              <Name>Philadelphia</Name>
+            </Port>
+            <Postcode>10016</Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>Clear</Description>
+            </ScreeningStatus>
+            <State Description="New York">NY</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>DEA</Code>
+                  <Description>DEA Registration Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>333444555</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>AMS</Code>
+                  <Description>AMS (USDA) Assigned ID Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>1234567980</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>DDT</Code>
+                  <Description>DDTC Registration Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>999999</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>TTB</Code>
+                  <Description>TTB Import Permit Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>AA-A-111</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>DUN</Code>
+                  <Description>DUNS Data Universal Numbering Syste</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>129090909</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FRM</Code>
+                  <Description>FIRMS Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>W235</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>APH</Code>
+                  <Description>APHIS Establishment Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>123</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>IFT</Code>
+                  <Description>IFTP Permit No\Auth. To Fish No (NM</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>12346789</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>WMI</Code>
+                  <Description>World Manufacturer Identifier</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>CA</Code>
+                  <Name>Canada</Name>
+                </CountryOfIssue>
+                <Value>123</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>CCD</Code>
+                  <Description>Importer Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>ZA</Code>
+                  <Name>South Africa</Name>
+                </CountryOfIssue>
+                <Value>00281124</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FWE</Code>
+                  <Description>FWS eDecs Account Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>54321</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>Seller</AddressType>
+            <Address1>174 GLOUCESTER ROAD</Address1>
+            <Address2>WAN CHAI DISTRICT</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>171-172 GLOUCESTER ROAD</AddressShortCode>
+            <City>HONG KONG</City>
+            <CompanyName>ACE TEST SUPPLIER HK</CompanyName>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>123456789</GovRegNum>
+            <GovRegNumType>
+              <Code>DUN</Code>
+              <Description>DUNS Data Universal Numbering Syste</Description>
+            </GovRegNumType>
+            <OrganizationCode>ACETESHKG</OrganizationCode>
+            <Phone>+22555567651</Phone>
+            <Port>
+              <Code>HKHKG</Code>
+              <Name>Hong Kong</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>Clear</Description>
+            </ScreeningStatus>
+            <State></State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GMC</Code>
+                  <Description>Glazing Manufacturer Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>1</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>PFR</Code>
+                  <Description>Food Facility Registration Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>19148237698</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>MID</Code>
+                  <Description>Supplier/Manufacturer ID Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>HKACETES174HON</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>TMC</Code>
+                  <Description>Tire Manufacturer Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>123</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FPI</Code>
+                  <Description>Foreign Producer Identifier</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>WCHATEA3310021</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FPW</Code>
+                  <Description>Foreign Producer Identifier - Wine</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>WCHATEA3310021</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GLN</Code>
+                  <Description>GS1 (Global Location Number)</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>AABBCCDDEE</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>AMS</Code>
+                  <Description>AMS (USDA) Assigned ID Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>7880212180</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FSR</Code>
+                  <Description>FDA Foreign Seller Registration Num</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>123456789</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>APH</Code>
+                  <Description>APHIS Establishment Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>TES1007</Value>
+              </RegistrationNumber>
+              <RegistrationNumber>
+                <Type>
+                  <Code>CBN</Code>
+                  <Description>CBP Assigned Number</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>231234-10071</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+      </SubShipment>
+    </SubShipmentCollection>
+  </Shipment>
+</UniversalShipment>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2012/11" version="2.0">
+  <Event>
+    <DataContext>
+      <DataSource>
+        <DataProvider Type="EnterpriseID">HYEUATDAU</DataProvider>
+        <Key>SESYDDAU54664646</Key>
+        <Type>ForwardingShipment</Type>
+      </DataSource>
+
+      <Workflow>
+        <Company>
+          <Code>DAU</Code>
+          <Country Name="Australia">AU</Country>
+          <Name>Your Australia Corp</Name>
+        </Company>
+        <EventBranch Name="WiseTech Global - Sydney (AU)">SYD</EventBranch>
+        <EventDepartment Name="Branch">BRN</EventDepartment>
+        <EventType Description="Document Imported">DDI</EventType>
+        <EventUser Name="JRA">JRA</EventUser>
+        <TriggerCount>1</TriggerCount>
+        <TriggerDate>2024-11-05T16:35:48.433+11:00</TriggerDate>
+        <TriggerDescription>send event ddi</TriggerDescription>
+        <TriggerType>Trigger</TriggerType>
+        <RecipientRoleCollection>
+          <RecipientRole Description="Consignor">CNR</RecipientRole>
+        </RecipientRoleCollection>
+      </Workflow>
+    </DataContext>
+
+    <EventTime>2024-11-05T16:35:48.433+11:00</EventTime>
+    <EventType>DDI</EventType>
+    <CreatedTime>2024-11-05T05:35:48.450+00:00</CreatedTime>
+    <EventReference>CIV|b9114c81-4ecb-4533-ac02-5f8d12591d1b</EventReference>
+    <IsEstimate>false</IsEstimate>
+    <AttachedDocumentCollection>
+      <AttachedDocument>
+        <FileName>jpeg test.xml</FileName>
+        <ImageData>PFVuaXZlcnNhbEV2ZW50IHhtbG5zPSJodHRwOi8vd3d3LmNhcmdvd2lzZS5jb20vU2NoZW1hcy9Vbml2ZXJzYWwvMjAxMS8xMSIgdmVyc2lvbj0iMS4xIj4NCiAgICA8RXZlbnQ+DQogICAgICAgIDxEYXRhQ29udGV4dD4NCiAgICAgICAgICAgIDxEYXRhVGFyZ2V0Q29sbGVjdGlvbj4NCiAgICAgICAgICAgICAgICA8RGF0YVRhcmdldD4NCiAgICAgICAgICAgICAgICAgICAgPFR5cGU+Rm9yd2FyZGluZ1NoaXBtZW50PC9UeXBlPg0KICAgICAgICAgICAgICAgICAgICA8S2V5PlNTWUQwMDAwNjY3NDwvS2V5Pg0KICAgICAgICAgICAgICAgIDwvRGF0YVRhcmdldD4NCiAgICAgICAgICAgIDwvRGF0YVRhcmdldENvbGxlY3Rpb24+DQogICAgICAgIDwvRGF0YUNvbnRleHQ+DQogICAgICAgIDxFdmVudFR5cGU+RERJPC9FdmVudFR5cGU+DQogICAgICAgIDxJc0VzdGltYXRlPmZhbHNlPC9Jc0VzdGltYXRlPg0KICAgICAgICA8QXR0YWNoZWREb2N1bWVudENvbGxlY3Rpb24+DQogICAgICAgICAgICA8QXR0YWNoZWREb2N1bWVudD4NCiAgICAgICAgICAgICAgICA8RmlsZU5hbWU+dGVzdCBpbXBvcnQucGRmPC9GaWxlTmFtZT4NCiAgICAgICAgICAgICAgICA8SW1hZ2VEYXRhPg0KCQkJCSAgICAgW0ltYWdlIGRhdGFdDQogICAgICAgICAgICAgICAgPC9JbWFnZURhdGE+DQogICAgICAgICAgICAgICAgPFR5cGU+DQogICAgICAgICAgICAgICAgICAgIDxDb2RlPkVYRDwvQ29kZT4NCiAgICAgICAgICAgICAgICAgICAgPERlc2NyaXB0aW9uPkV4cG9ydGVyIERvY3VtZW50czwvRGVzY3JpcHRpb24+DQogICAgICAgICAgICAgICAgPC9UeXBlPg0KICAgICAgICAgICAgICAgIDxJc1B1Ymxpc2hlZD50cnVlPC9Jc1B1Ymxpc2hlZD4NCiAgICAgICAgICAgIDwvQXR0YWNoZWREb2N1bWVudD4NCiAgICAgICAgPC9BdHRhY2hlZERvY3VtZW50Q29sbGVjdGlvbj4NCiAgICAgICAgPEV2ZW50VGltZT4yMDI0LTExLTA0VDEzOjE5OjUyLjEwMzE0NCswMDowMDwvRXZlbnRUaW1lPg0KICAgIDwvRXZlbnQ+DQo8L1VuaXZlcnNhbEV2ZW50Pg0KDQoNCg0KDQo=</ImageData>
+        <Type Description="Commercial Invoice">CIV</Type>
+        <DocumentID>b9114c81-4ecb-4533-ac02-5f8d12591d1b</DocumentID>
+        <FileSizeInBytes>1046</FileSizeInBytes>
+        <IsPublished>true</IsPublished>
+        <SaveDateUTC>2024-11-05T05:35:00</SaveDateUTC>
+        <SavedBy Name="JRA">JRA</SavedBy>
+        <Source></Source>
+        <VisibleBranchCode></VisibleBranchCode>
+        <VisibleCompanyCode></VisibleCompanyCode>
+        <VisibleDepartmentCode></VisibleDepartmentCode>
+      </AttachedDocument>
+    </AttachedDocumentCollection>
+    <ContextCollection>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>S54664641</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>AUSYD</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>USLAX</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

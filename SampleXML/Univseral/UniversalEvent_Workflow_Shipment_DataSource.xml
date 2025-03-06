@@ -1,0 +1,87 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>ForwardingShipment</Type>
+          <Key>S4SYDS00271</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DAU</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>AU Demo Company</Name>
+      </Company>
+      <DataProvider>HYEUG1DAU</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>SYD</Code>
+        <Name>Cargowise EDI - Sydney (AU)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>Z61</Code>
+        <Description>Customisable Event 61</Description>
+      </EventType>
+      <EventUser>
+        <Code>NEF</Code>
+        <Name>NF</Name>
+      </EventUser>
+      <ServerID>UG1</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-06-13T15:20:28.037</TriggerDate>
+      <TriggerDescription>Send XUE</TriggerDescription>
+      <TriggerType>Milestone</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>CNE</Code>
+          <Description>Consignee</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2024-06-13T15:20:28.037</EventTime>
+    <EventType>Z61</EventType>
+    <CreatedTime>2024-06-13T05:21:34.643</CreatedTime>
+    <EventReference>|FAC=CTO|MOD=SEA|RQN=123</EventReference>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>MBOLNumber</Type>
+        <Value>ONEYHKGE77283400</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>CNHUA</Value>
+      </Context>
+      <Context>
+        <Type>MBOLDestinationUNLOCO</Type>
+        <Value>USMSP</Value>
+      </Context>
+      <Context>
+        <Type>HBOLNumber</Type>
+        <Value>2910968489</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>CNHUA</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>USMSP</Value>
+      </Context>
+    </ContextCollection>
+    <MessageNumberCollection>
+      <MessageNumber Type="TrackingID">5cc98902-03b2-4d70-9e3a-ec9d724a9ef1</MessageNumber>
+      <MessageNumber Type="InterchangeNumber">00000000000000293016</MessageNumber>
+      <MessageNumber Type="MessageNumber">00000000000004780214</MessageNumber>
+    </MessageNumberCollection>
+  </Event>
+</UniversalEvent>

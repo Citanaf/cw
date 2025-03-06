@@ -1,0 +1,1987 @@
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>NctsHeader</Type>
+          <Key>NCT00000056</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>DUK</Code>
+        <Country>
+          <Code>GB</Code>
+          <Name>United Kingdom</Name>
+        </Country>
+        <Name>Demo UK</Name>
+      </Company>
+      <DataProvider>WTLDJCDUK</DataProvider>
+      <EnterpriseID>WTL</EnterpriseID>
+      <EventBranch>
+        <Code>DUK</Code>
+        <Name>Demo UK</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>CIL</Code>
+        <Name>Clearance Import Rail</Name>
+      </EventDepartment>
+      <EventType>
+        <Code></Code>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>DJC</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-08-08T12:17:43.593+01:00</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organisation Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <BookingConfirmationReference>2412345678900000000023</BookingConfirmationReference>
+    <Branch>
+      <Code>DUK</Code>
+      <Name>Demo UK</Name>
+    </Branch>
+    <CommercialInfo>
+      <CommercialInvoiceCollection>
+        <CommercialInvoice>
+          <CommercialInvoiceLineCollection>
+            <CommercialInvoiceLine>
+              <LineNo>1</LineNo>
+              <CountryOfExport>
+                <Code>GB</Code>
+                <Name>United Kingdom</Name>
+              </CountryOfExport>
+              <CountryOfOrigin>
+                <Code>GB</Code>
+                <Name>United Kingdom</Name>
+              </CountryOfOrigin>
+              <CustomsSecondQuantity>123.000000</CustomsSecondQuantity>
+              <CustomsSecondQuantityUnit>
+                <Code>HLT</Code>
+                <Description>Hectolitre</Description>
+              </CustomsSecondQuantityUnit>
+              <CustomsValue>1000.0000</CustomsValue>
+              <Description>Gioods item description</Description>
+              <HarmonisedCode>12345678</HarmonisedCode>
+              <NetWeight>38.000000</NetWeight>
+              <NetWeightUnit>
+                <Code>KG</Code>
+                <Description>Kilograms</Description>
+              </NetWeightUnit>
+              <Weight>35.000000</Weight>
+              <WeightUnit>
+                <Code>KG</Code>
+                <Description>Kilograms</Description>
+              </WeightUnit>
+            </CommercialInvoiceLine>
+          </CommercialInvoiceLineCollection>
+        </CommercialInvoice>
+      </CommercialInvoiceCollection>
+    </CommercialInfo>
+    <JobCosting>
+      <AccrualNotRecognized>0</AccrualNotRecognized>
+      <AccrualRecognized>0</AccrualRecognized>
+      <AgentRevenue>0</AgentRevenue>
+      <Branch>
+        <Code>DUK</Code>
+        <Name>Demo UK</Name>
+      </Branch>
+      <ClientContractNumber></ClientContractNumber>
+      <Currency>
+        <Code>GBP</Code>
+        <Description>Pound Sterling</Description>
+      </Currency>
+      <Department>
+        <Code>CIL</Code>
+        <Name>Clearance Import Rail</Name>
+      </Department>
+      <LocalClientRevenue>0</LocalClientRevenue>
+      <OperationsStaff>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </OperationsStaff>
+      <OtherDebtorRevenue>0</OtherDebtorRevenue>
+      <TotalAccrual>0</TotalAccrual>
+      <TotalCost>0</TotalCost>
+      <TotalJobProfit>0</TotalJobProfit>
+      <TotalRevenue>0</TotalRevenue>
+      <TotalWIP>0</TotalWIP>
+      <WIPNotRecognized>0</WIPNotRecognized>
+      <WIPRecognized>0</WIPRecognized>
+    </JobCosting>
+    <MessagingApplicationCode>
+      <Code>NC5</Code>
+      <Description>NCTS Phase 5</Description>
+    </MessagingApplicationCode>
+    <AdditionalBillCollection>
+      <AdditionalBill>
+        <BillNumber>bill number 123</BillNumber>
+        <CustomsReferenceCollection>
+          <CustomsReference>
+            <Type>
+              <Code>SCA</Code>
+              <Description>Supply Chain Actor</Description>
+            </Type>
+            <Owner>
+              <AddressType>Owner</AddressType>
+              <Address1>FAKE STREET</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>FAKE STREET</AddressShortCode>
+              <City>LONDON</City>
+              <CompanyName>UK DEMO</CompanyName>
+              <Country>
+                <Code>GB</Code>
+                <Name>United Kingdom</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <GovRegNum>XI123456789</GovRegNum>
+              <GovRegNumType>
+                <Code>VAT</Code>
+                <Description>VAT Business Registration Number</Description>
+              </GovRegNumType>
+              <OrganizationCode>UKDEMOLON</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>GBLON</Code>
+                <Name>London</Name>
+              </Port>
+              <Postcode>W1 2HH</Postcode>
+              <ScreeningStatus>
+                <Code>NOT</Code>
+                <Description>Not Screened</Description>
+              </ScreeningStatus>
+              <State Description="Aberdeenshire">ABD</State>
+              <RegistrationNumberCollection>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>EOR</Code>
+                    <Description>EORI code (to be sent verbatim)</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>987654321000</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>CCP</Code>
+                    <Description>Customs Controlled Premises Code</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>U123456789GB</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>DAN</Code>
+                    <Description>Deferment Approval Number</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>newnewnew</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>AEO</Code>
+                    <Description>Authorised Economic Operator</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>jhjhjhjjhj</Value>
+                </RegistrationNumber>
+              </RegistrationNumberCollection>
+            </Owner>
+            <Reference>GB987654321000</Reference>
+            <SubType>
+              <Code>WH</Code>
+              <Description>Warehouse Keeper</Description>
+            </SubType>
+          </CustomsReference>
+        </CustomsReferenceCollection>
+        <CustomsSupportingInformationCollection>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>OTH</Code>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description>bill addnl doc</Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber></ReferenceNumber>
+            <Status>
+              <Code>NEW</Code>
+              <Description>New Value</Description>
+            </Status>
+            <SubType>
+              <Code>INF</Code>
+              <Description>Additional Information</Description>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>00200</Code>
+              <Description>Several exporters (Box 2) or consignees (Box 8); -Other-</Description>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>PRE</Code>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>bill prev doc</ReferenceNumber>
+            <Status>
+              <Code></Code>
+            </Status>
+            <SubType>
+              <Code></Code>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>N830</Code>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+            <ReferenceNumberCollection>
+              <ReferenceNumber>
+                <Type>
+                  <Code>LRN</Code>
+                  <Description>Local Reference Number</Description>
+                </Type>
+                <ReferenceNumber>comp</ReferenceNumber>
+              </ReferenceNumber>
+            </ReferenceNumberCollection>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>SUP</Code>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>Bill supp doc</ReferenceNumber>
+            <Status>
+              <Code></Code>
+            </Status>
+            <SubType>
+              <Code></Code>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>C085</Code>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+          </CustomsSupportingInformation>
+        </CustomsSupportingInformationCollection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ConsignorDocumentaryAddress</AddressType>
+            <Address1>C/- PHOENIX INTERNATIONAL</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>PST: C/- PHOENIX INTERNAT</AddressShortCode>
+            <City></City>
+            <CompanyName>THE FABRIC GROUP</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>FABCHI</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>USCHI</Code>
+              <Name>Chicago</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>UNK</Code>
+              <Description>Unknown</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneeDocumentaryAddress</AddressType>
+            <Address1>12 COOLIBAH DRIVE</Address1>
+            <Address2>PALM</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>Pick Up Address</AddressShortCode>
+            <City>BEACH, AUSTRALIA</City>
+            <CompanyName>BARZ OPTICS</CompanyName>
+            <Country>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>BAROPT</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>AUBNE</Code>
+              <Name>Brisbane</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>UNK</Code>
+              <Description>Unknown</Description>
+            </ScreeningStatus>
+            <State Description="Queensland">QLD</State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+      </AdditionalBill>
+    </AdditionalBillCollection>
+    <ContainerCollection>
+      <Container>
+        <ContainerNumber>DANU1234565</ContainerNumber>
+        <FCL_LCL_AIR>
+          <Code>CNT</Code>
+          <Description>Containerised</Description>
+        </FCL_LCL_AIR>
+        <Seal>Seal1</Seal>
+        <SecondSeal>Seal2</SecondSeal>
+        <SealCollection>
+          <Seal>
+            <SealNumber>seal3</SealNumber>
+            <Sequence>1</Sequence>
+            <StatusInformation>NEW</StatusInformation>
+          </Seal>
+          <Seal>
+            <SealNumber>seal4</SealNumber>
+            <Sequence>2</Sequence>
+            <StatusInformation>NEW</StatusInformation>
+          </Seal>
+        </SealCollection>
+      </Container>
+    </ContainerCollection>
+    <EntryNumberCollection>
+    </EntryNumberCollection>
+    <InBondMoveHeaderCollection>
+      <InBondMoveHeader>
+        <AdditionalEntryType>
+          <Code>A</Code>
+          <Description>Standard declaration (including Presentation)</Description>
+        </AdditionalEntryType>
+        <CustomsStatus>
+          <Code></Code>
+        </CustomsStatus>
+        <EntryType>
+          <Code>T</Code>
+          <Description>Mixed consignments comprising both goods to be placed under external Union trans</Description>
+        </EntryType>
+        <GrossWeight>35.000000</GrossWeight>
+        <GrossWeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </GrossWeightUnit>
+        <MessagingStatus>
+          <Code></Code>
+        </MessagingStatus>
+        <PaymentMethod>
+          <Code>B</Code>
+          <Description>Credit card</Description>
+        </PaymentMethod>
+        <PhaseStatus>
+          <Code></Code>
+        </PhaseStatus>
+        <PortOfDestination>
+          <Code>FR</Code>
+          <Name>France</Name>
+        </PortOfDestination>
+        <PortOfDischarge>
+          <Code>FRPAR</Code>
+          <Name>Name or descr</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>GBLON</Code>
+          <Name>City name or desc</Name>
+        </PortOfLoading>
+        <PortOfOrigin>
+          <Code>GB</Code>
+          <Name>United Kingdom</Name>
+        </PortOfOrigin>
+        <AddInfoCollection>
+          <AddInfo>
+            <Key>IsSimplifiedProcedure</Key>
+            <Value>Y</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>ReducedDatasetIndicator</Key>
+            <Value>N</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>SecurityIndicator</Key>
+            <Value>BTH</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>SpecificCircumstance</Key>
+            <Value>A20</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>BM_ConveyanceNumber</Key>
+            <Value>conveyance ref</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>BM_CustomsOfficeAtBorder</Key>
+            <Value>GB000011</Value>
+          </AddInfo>
+          <AddInfo>
+            <Key>TirCarnetNumber</Key>
+            <Value></Value>
+          </AddInfo>
+        </AddInfoCollection>
+        <CustomsReferenceCollection>
+          <CustomsReference>
+            <Type>
+              <Code>UCR</Code>
+              <Description>Unique Consignment Reference</Description>
+            </Type>
+            <Reference>Customer UCR</Reference>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>SCA</Code>
+              <Description>Supply Chain Actor</Description>
+            </Type>
+            <Owner>
+              <AddressType>Owner</AddressType>
+              <Address1>FAKE STREET</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>FAKE STREET</AddressShortCode>
+              <City>LONDON</City>
+              <CompanyName>UK DEMO</CompanyName>
+              <Country>
+                <Code>GB</Code>
+                <Name>United Kingdom</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <GovRegNum>XI123456789</GovRegNum>
+              <GovRegNumType>
+                <Code>VAT</Code>
+                <Description>VAT Business Registration Number</Description>
+              </GovRegNumType>
+              <OrganizationCode>UKDEMOLON</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>GBLON</Code>
+                <Name>London</Name>
+              </Port>
+              <Postcode>W1 2HH</Postcode>
+              <ScreeningStatus>
+                <Code>NOT</Code>
+                <Description>Not Screened</Description>
+              </ScreeningStatus>
+              <State Description="Aberdeenshire">ABD</State>
+              <RegistrationNumberCollection>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>EOR</Code>
+                    <Description>EORI code (to be sent verbatim)</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>987654321000</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>CCP</Code>
+                    <Description>Customs Controlled Premises Code</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>U123456789GB</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>DAN</Code>
+                    <Description>Deferment Approval Number</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>newnewnew</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>AEO</Code>
+                    <Description>Authorised Economic Operator</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>GB</Code>
+                    <Name>United Kingdom</Name>
+                  </CountryOfIssue>
+                  <Value>jhjhjhjjhj</Value>
+                </RegistrationNumber>
+              </RegistrationNumberCollection>
+            </Owner>
+            <Reference>GB987654321000</Reference>
+            <SubType>
+              <Code>FW</Code>
+              <Description>Freight Forwarder</Description>
+            </SubType>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>AUT</Code>
+              <Description>Customs Authorization</Description>
+            </Type>
+            <Owner>
+              <AddressType>Owner</AddressType>
+              <Address1>2403 UNIVERSAL TRADE CENTRE</Address1>
+              <Address2>3 ARBUTHNOT ROAD                         CENTRAL H</Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>Pickup and Delivery Addre</AddressShortCode>
+              <City>KONG</City>
+              <CompanyName>PACIFIQUE AGENCIES (FAR EAST) LTD.</CompanyName>
+              <Country>
+                <Code>HK</Code>
+                <Name>Hong Kong</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <OrganizationCode>PACAGE</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>HKHKG</Code>
+                <Name>Hong Kong</Name>
+              </Port>
+              <Postcode></Postcode>
+              <ScreeningStatus>
+                <Code>UNK</Code>
+                <Description>Unknown</Description>
+              </ScreeningStatus>
+              <State></State>
+            </Owner>
+            <Reference>AUTH NUMBER</Reference>
+            <SubType>
+              <Code>TRD</Code>
+              <Description>Transit Reduced Dataset</Description>
+            </SubType>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>EUO</Code>
+              <Description>Office Code</Description>
+            </Type>
+            <Reference>GB000011</Reference>
+            <ReferencedEntityDescription>Birmingham Airport</ReferencedEntityDescription>
+            <SubType>
+              <Code>DEP</Code>
+              <Description>NCTS Office of departure</Description>
+            </SubType>
+            <DateCollection>
+              <Date>
+                <Type>DateAtOffice</Type>
+                <Value></Value>
+              </Date>
+            </DateCollection>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>EUO</Code>
+              <Description>Office Code</Description>
+            </Type>
+            <Reference>FR000040</Reference>
+            <ReferencedEntityDescription>Ajaccio port</ReferencedEntityDescription>
+            <SubType>
+              <Code>DES</Code>
+              <Description>NCTS Office of destination</Description>
+            </SubType>
+            <DateCollection>
+              <Date>
+                <Type>DateAtOffice</Type>
+                <Value></Value>
+              </Date>
+            </DateCollection>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>EUO</Code>
+              <Description>Office Code</Description>
+            </Type>
+            <Reference>NL000144</Reference>
+            <ReferencedEntityDescription>Koeriers simplified proc.</ReferencedEntityDescription>
+            <SubType>
+              <Code>TRA</Code>
+              <Description>NCTS Office of transit</Description>
+            </SubType>
+            <DateCollection>
+              <Date>
+                <Type>DateAtOffice</Type>
+                <Value>2024-08-08T11:15:00</Value>
+              </Date>
+            </DateCollection>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>COR</Code>
+              <Description>Country Of Routing Code</Description>
+            </Type>
+            <Order>1</Order>
+            <SubType>
+              <Code>GB</Code>
+            </SubType>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>COR</Code>
+              <Description>Country Of Routing Code</Description>
+            </Type>
+            <Order>2</Order>
+            <SubType>
+              <Code>NL</Code>
+            </SubType>
+          </CustomsReference>
+          <CustomsReference>
+            <Type>
+              <Code>COR</Code>
+              <Description>Country Of Routing Code</Description>
+            </Type>
+            <Order>3</Order>
+            <SubType>
+              <Code>FR</Code>
+            </SubType>
+          </CustomsReference>
+        </CustomsReferenceCollection>
+        <CustomsSupportingInformationCollection>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>OTH</Code>
+              <Description>Additional Info</Description>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>ref1</ReferenceNumber>
+            <Status>
+              <Code>NEW</Code>
+              <Description>New Value</Description>
+            </Status>
+            <SubType>
+              <Code>REF</Code>
+              <Description>Additional Reference</Description>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>C651</Code>
+              <Description>Electronic administrative document (e-AD), as referred to in Article 3(1) of Reg</Description>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>OTH</Code>
+              <Description>Additional Info</Description>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>tra2</ReferenceNumber>
+            <Status>
+              <Code>NEW</Code>
+              <Description>New Value</Description>
+            </Status>
+            <SubType>
+              <Code>TRA</Code>
+              <Description>Transport Document</Description>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>N235</Code>
+              <Description>Container list</Description>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>OTH</Code>
+              <Description>Additional Info</Description>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description>inf4 descr</Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>Inf3</ReferenceNumber>
+            <Status>
+              <Code>NEW</Code>
+              <Description>New Value</Description>
+            </Status>
+            <SubType>
+              <Code>INF</Code>
+              <Description>Additional Information</Description>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>00200</Code>
+              <Description>Several occurrences of documents and parties</Description>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>PRE</Code>
+              <Description>Previous Document</Description>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>Prev Doc 1</ReferenceNumber>
+            <Status>
+              <Code></Code>
+            </Status>
+            <SubType>
+              <Code></Code>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>C512</Code>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+            <ReferenceNumberCollection>
+              <ReferenceNumber>
+                <Type>
+                  <Code>LRN</Code>
+                  <Description>Local Reference Number</Description>
+                </Type>
+                <ReferenceNumber>Complement</ReferenceNumber>
+              </ReferenceNumber>
+            </ReferenceNumberCollection>
+          </CustomsSupportingInformation>
+          <CustomsSupportingInformation>
+            <Category>
+              <Code>SUP</Code>
+              <Description>Supporting Document</Description>
+            </Category>
+            <AdditionalDescription></AdditionalDescription>
+            <Country>
+              <Code></Code>
+            </Country>
+            <CustomsOffice>
+              <Code></Code>
+            </CustomsOffice>
+            <DateOfExpiry></DateOfExpiry>
+            <DateOfIssue></DateOfIssue>
+            <Description></Description>
+            <IssuerType>
+              <Code></Code>
+            </IssuerType>
+            <ItemNumber>1</ItemNumber>
+            <LineNo>1</LineNo>
+            <PackQuantity>0</PackQuantity>
+            <PackUnitOfQuantity>
+              <Code></Code>
+            </PackUnitOfQuantity>
+            <Procedure>
+              <Code></Code>
+            </Procedure>
+            <Quantity>0.000000</Quantity>
+            <Quantity2>0.000000</Quantity2>
+            <Quantity3>0.000000</Quantity3>
+            <ReferenceNumber>supp doc ref</ReferenceNumber>
+            <Status>
+              <Code></Code>
+            </Status>
+            <SubType>
+              <Code></Code>
+            </SubType>
+            <Tariff></Tariff>
+            <Type>
+              <Code>C085</Code>
+            </Type>
+            <UnitOfQuantity>
+              <Code></Code>
+            </UnitOfQuantity>
+            <UnitOfQuantity2>
+              <Code></Code>
+            </UnitOfQuantity2>
+            <UnitOfQuantity3>
+              <Code></Code>
+            </UnitOfQuantity3>
+            <Value>0.0000</Value>
+            <ReferenceNumberCollection>
+              <ReferenceNumber>
+                <Type>
+                  <Code>LRN</Code>
+                  <Description>Local Reference Number</Description>
+                </Type>
+                <ReferenceNumber>complement</ReferenceNumber>
+              </ReferenceNumber>
+            </ReferenceNumberCollection>
+          </CustomsSupportingInformation>
+        </CustomsSupportingInformationCollection>
+        <DateCollection>
+          <Date>
+            <Type>DateLimit</Type>
+            <Value></Value>
+          </Date>
+        </DateCollection>
+        <GuaranteeCollection>
+          <Guarantee>
+            <AccessCode>****</AccessCode>
+            <BondAmount>100.00</BondAmount>
+            <BondCurrency>
+              <Code>GBP</Code>
+              <Description>Pound Sterling</Description>
+            </BondCurrency>
+            <BondFiledPort>
+              <Code></Code>
+            </BondFiledPort>
+            <BondNumber>24GB00000123</BondNumber>
+            <BondNumber2></BondNumber2>
+            <BondType>
+              <Code>1</Code>
+              <Description>Comprehensive guarantee</Description>
+            </BondType>
+            <SuretyCode>HAL</SuretyCode>
+          </Guarantee>
+          <Guarantee>
+            <AccessCode></AccessCode>
+            <BondAmount>200.00</BondAmount>
+            <BondFiledPort>
+              <Code></Code>
+            </BondFiledPort>
+            <BondNumber></BondNumber>
+            <BondNumber2>Other ref</BondNumber2>
+            <BondType>
+              <Code>3</Code>
+              <Description>Individual guarantee in cash or other means of payment recognised by the customs</Description>
+            </BondType>
+            <SuretyCode></SuretyCode>
+          </Guarantee>
+          <Guarantee>
+            <AccessCode></AccessCode>
+            <BondAmount>555.5000</BondAmount>
+            <BondFiledPort>
+              <Code></Code>
+            </BondFiledPort>
+            <BondNumber></BondNumber>
+            <BondNumber2></BondNumber2>
+            <BondType>
+              <Code>1</Code>
+              <Description>Comprehensive guarantee</Description>
+            </BondType>
+            <SuretyCode></SuretyCode>
+          </Guarantee>
+        </GuaranteeCollection>
+        <InBondMoveDetailCollection>
+          <InBondMoveDetail>
+            <DestinationCountry>
+              <Code>FR</Code>
+              <Description>France</Description>
+            </DestinationCountry>
+            <DispatchCountry>
+              <Code>GB</Code>
+              <Description>United Kingdom</Description>
+            </DispatchCountry>
+            <Sequence>1</Sequence>
+            <TransportPaymentMethod>
+              <Code>B</Code>
+              <Description>Credit card</Description>
+            </TransportPaymentMethod>
+            <Weight>35.000000</Weight>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>Kilograms</Description>
+            </WeightUnit>
+            <InBondMoveLineItemCollection>
+              <InBondMoveLineItem>
+                <CountryOfDestination>
+                  <Code>FR</Code>
+                  <Description>France</Description>
+                </CountryOfDestination>
+                <CountryOfDispatch>
+                  <Code>GB</Code>
+                  <Description>United Kingdom</Description>
+                </CountryOfDispatch>
+                <CountryOfOrigin>
+                  <Code>GB</Code>
+                  <Description>United Kingdom</Description>
+                </CountryOfOrigin>
+                <CustomsFirstQuantity>38.000000</CustomsFirstQuantity>
+                <CustomsFirstQuantityUnit>
+                  <Code>KG</Code>
+                  <Description>Kilogram</Description>
+                </CustomsFirstQuantityUnit>
+                <CustomsFourthQuantity>44.000000</CustomsFourthQuantity>
+                <CustomsFourthQuantityUnit>
+                  <Code>ASV</Code>
+                  <Description>%vol</Description>
+                </CustomsFourthQuantityUnit>
+                <CustomsSecondQuantity>123.000000</CustomsSecondQuantity>
+                <CustomsSecondQuantityUnit>
+                  <Code>HLT</Code>
+                  <Description>Hectolitre</Description>
+                </CustomsSecondQuantityUnit>
+                <CustomsThirdQuantity>33.000000</CustomsThirdQuantity>
+                <CustomsThirdQuantityUnit>
+                  <Code>CTM</Code>
+                  <Description>Carats</Description>
+                </CustomsThirdQuantityUnit>
+                <DeclarationType>
+                  <Code></Code>
+                  <Description></Description>
+                </DeclarationType>
+                <DescriptionAndQuantityOfMerchandise>Gioods item description</DescriptionAndQuantityOfMerchandise>
+                <HazardousMaterial>
+                  <Code>CUS1</Code>
+                  <CodeType>
+                    <Code>ECICS</Code>
+                  </CodeType>
+                  <UNDGCollection>
+                    <UNDG>
+                      <Description></Description>
+                      <ExclusiveUse>false</ExclusiveUse>
+                      <FissileExcepted>false</FissileExcepted>
+                      <FlashPoint>0.0</FlashPoint>
+                      <HasOverpack>false</HasOverpack>
+                      <HighwayRouteControlledQuantity>false</HighwayRouteControlledQuantity>
+                      <IMOClass>1.1D</IMOClass>
+                      <MarinePollutant>
+                        <Code></Code>
+                        <Description></Description>
+                      </MarinePollutant>
+                      <OverpackID></OverpackID>
+                      <PackedInLimitedQuantity>false</PackedInLimitedQuantity>
+                      <PackingGroup></PackingGroup>
+                      <PackingInstructionSection></PackingInstructionSection>
+                      <PackQty>0</PackQty>
+                      <PackType>
+                        <Code></Code>
+                      </PackType>
+                      <ProperShippingName>Ammonium picrate</ProperShippingName>
+                      <RadioactiveLabelCategory></RadioactiveLabelCategory>
+                      <RadioactiveMaximumActivity>0.000</RadioactiveMaximumActivity>
+                      <RadioactiveMaximumActivityUnit></RadioactiveMaximumActivityUnit>
+                      <RadioactiveTransportIndex>0.000</RadioactiveTransportIndex>
+                      <RadionuclideElement></RadionuclideElement>
+                      <RadionuclideElementSuffix></RadionuclideElementSuffix>
+                      <ResidueLastContained>false</ResidueLastContained>
+                      <SalvagePackaging>false</SalvagePackaging>
+                      <SpecialPermitIssuedDate></SpecialPermitIssuedDate>
+                      <SpecialPermitNumber></SpecialPermitNumber>
+                      <Standard>IAT</Standard>
+                      <SubLabel1></SubLabel1>
+                      <SubLabel2></SubLabel2>
+                      <TechicalName></TechicalName>
+                      <UNDGCode>0004</UNDGCode>
+                      <Volume>0.000</Volume>
+                      <VolumeUQ>
+                        <Code></Code>
+                      </VolumeUQ>
+                      <WasteCode></WasteCode>
+                      <Weight>0.000</Weight>
+                      <WeightUQ>
+                        <Code></Code>
+                      </WeightUQ>
+                    </UNDG>
+                  </UNDGCollection>
+                </HazardousMaterial>
+                <LineNumber>1</LineNumber>
+                <Link>1</Link>
+                <MonetaryValue>1000.0000</MonetaryValue>
+                <MonetaryValueCurrency>
+                  <Code>GBP</Code>
+                  <Description>Pound Sterling</Description>
+                </MonetaryValueCurrency>
+                <NetWeight>38.000000</NetWeight>
+                <NetWeightUnit>
+                  <Code>KG</Code>
+                  <Description>Kilograms</Description>
+                </NetWeightUnit>
+                <ReferenceNumber>Item UCR</ReferenceNumber>
+                <TariffCode>1234.56.78</TariffCode>
+                <TaxType>
+                  <Code>666</Code>
+                  <Description>Standard Rate</Description>
+                </TaxType>
+                <TransportPaymentMethod>
+                  <Code></Code>
+                  <Description></Description>
+                </TransportPaymentMethod>
+                <Weight>35.000000</Weight>
+                <WeightUnit>
+                  <Code>KG</Code>
+                  <Description>Kilograms</Description>
+                </WeightUnit>
+                <CustomsReferenceCollection>
+                  <CustomsReference>
+                    <Type>
+                      <Code>SUP</Code>
+                      <Description>Supplementary Code</Description>
+                    </Type>
+                    <IsOverridden>false</IsOverridden>
+                    <Order>3</Order>
+                    <Reference></Reference>
+                    <SubType>
+                      <Code>AAAA</Code>
+                    </SubType>
+                    <DateCollection>
+                      <Date>
+                        <Type>DateAtOffice</Type>
+                        <Value></Value>
+                      </Date>
+                    </DateCollection>
+                  </CustomsReference>
+                  <CustomsReference>
+                    <Type>
+                      <Code>SUP</Code>
+                      <Description>Supplementary Code</Description>
+                    </Type>
+                    <IsOverridden>false</IsOverridden>
+                    <Order>4</Order>
+                    <Reference></Reference>
+                    <SubType>
+                      <Code>BBBB</Code>
+                    </SubType>
+                    <DateCollection>
+                      <Date>
+                        <Type>DateAtOffice</Type>
+                        <Value></Value>
+                      </Date>
+                    </DateCollection>
+                  </CustomsReference>
+                  <CustomsReference>
+                    <Type>
+                      <Code>SCA</Code>
+                      <Description>Supply Chain Actor</Description>
+                    </Type>
+                    <Owner>
+                      <AddressType>Owner</AddressType>
+                      <Address1>FAKE STREET</Address1>
+                      <Address2></Address2>
+                      <AddressOverride>false</AddressOverride>
+                      <AddressShortCode>FAKE STREET</AddressShortCode>
+                      <City>LONDON</City>
+                      <CompanyName>UK DEMO</CompanyName>
+                      <Country>
+                        <Code>GB</Code>
+                        <Name>United Kingdom</Name>
+                      </Country>
+                      <Email></Email>
+                      <Fax></Fax>
+                      <GovRegNum>XI123456789</GovRegNum>
+                      <GovRegNumType>
+                        <Code>VAT</Code>
+                        <Description>VAT Business Registration Number</Description>
+                      </GovRegNumType>
+                      <OrganizationCode>UKDEMOLON</OrganizationCode>
+                      <Phone></Phone>
+                      <Port>
+                        <Code>GBLON</Code>
+                        <Name>London</Name>
+                      </Port>
+                      <Postcode>W1 2HH</Postcode>
+                      <ScreeningStatus>
+                        <Code>NOT</Code>
+                        <Description>Not Screened</Description>
+                      </ScreeningStatus>
+                      <State Description="Aberdeenshire">ABD</State>
+                      <RegistrationNumberCollection>
+                        <RegistrationNumber>
+                          <Type>
+                            <Code>EOR</Code>
+                            <Description>EORI code (to be sent verbatim)</Description>
+                          </Type>
+                          <CountryOfIssue>
+                            <Code>GB</Code>
+                            <Name>United Kingdom</Name>
+                          </CountryOfIssue>
+                          <Value>987654321000</Value>
+                        </RegistrationNumber>
+                        <RegistrationNumber>
+                          <Type>
+                            <Code>CCP</Code>
+                            <Description>Customs Controlled Premises Code</Description>
+                          </Type>
+                          <CountryOfIssue>
+                            <Code>GB</Code>
+                            <Name>United Kingdom</Name>
+                          </CountryOfIssue>
+                          <Value>U123456789GB</Value>
+                        </RegistrationNumber>
+                        <RegistrationNumber>
+                          <Type>
+                            <Code>DAN</Code>
+                            <Description>Deferment Approval Number</Description>
+                          </Type>
+                          <CountryOfIssue>
+                            <Code>GB</Code>
+                            <Name>United Kingdom</Name>
+                          </CountryOfIssue>
+                          <Value>newnewnew</Value>
+                        </RegistrationNumber>
+                        <RegistrationNumber>
+                          <Type>
+                            <Code>AEO</Code>
+                            <Description>Authorised Economic Operator</Description>
+                          </Type>
+                          <CountryOfIssue>
+                            <Code>GB</Code>
+                            <Name>United Kingdom</Name>
+                          </CountryOfIssue>
+                          <Value>jhjhjhjjhj</Value>
+                        </RegistrationNumber>
+                      </RegistrationNumberCollection>
+                    </Owner>
+                    <Reference>GB987654321000</Reference>
+                    <SubType>
+                      <Code>MF</Code>
+                      <Description>Manufacturer</Description>
+                    </SubType>
+                  </CustomsReference>
+                </CustomsReferenceCollection>
+                <CustomsSupportingInformationCollection>
+                  <CustomsSupportingInformation>
+                    <Category>
+                      <Code>OTH</Code>
+                      <Description>Additional Info</Description>
+                    </Category>
+                    <AdditionalDescription></AdditionalDescription>
+                    <Country>
+                      <Code></Code>
+                    </Country>
+                    <CustomsOffice>
+                      <Code></Code>
+                    </CustomsOffice>
+                    <DateOfExpiry></DateOfExpiry>
+                    <DateOfIssue></DateOfIssue>
+                    <Description></Description>
+                    <IssuerType>
+                      <Code></Code>
+                    </IssuerType>
+                    <LineNo>1</LineNo>
+                    <PackQuantity>0</PackQuantity>
+                    <PackUnitOfQuantity>
+                      <Code></Code>
+                    </PackUnitOfQuantity>
+                    <Procedure>
+                      <Code></Code>
+                    </Procedure>
+                    <Quantity>0.000000</Quantity>
+                    <Quantity2>0.000000</Quantity2>
+                    <Quantity3>0.000000</Quantity3>
+                    <ReferenceNumber>Item addnl doc</ReferenceNumber>
+                    <Status>
+                      <Code>NEW</Code>
+                      <Description>New Value</Description>
+                    </Status>
+                    <SubType>
+                      <Code>REF</Code>
+                      <Description>Additional Reference</Description>
+                    </SubType>
+                    <Tariff></Tariff>
+                    <Type>
+                      <Code>C651</Code>
+                      <Description>Electronic administrative document (e-AD), as referred to in Article 3(1) of Reg</Description>
+                    </Type>
+                    <UnitOfQuantity>
+                      <Code></Code>
+                    </UnitOfQuantity>
+                    <UnitOfQuantity2>
+                      <Code></Code>
+                    </UnitOfQuantity2>
+                    <UnitOfQuantity3>
+                      <Code></Code>
+                    </UnitOfQuantity3>
+                    <Value>0.0000</Value>
+                  </CustomsSupportingInformation>
+                  <CustomsSupportingInformation>
+                    <Category>
+                      <Code>PRE</Code>
+                      <Description>Previous Document</Description>
+                    </Category>
+                    <AdditionalDescription></AdditionalDescription>
+                    <Country>
+                      <Code></Code>
+                    </Country>
+                    <CustomsOffice>
+                      <Code></Code>
+                    </CustomsOffice>
+                    <DateOfExpiry></DateOfExpiry>
+                    <DateOfIssue></DateOfIssue>
+                    <Description></Description>
+                    <IssuerType>
+                      <Code></Code>
+                    </IssuerType>
+                    <ItemNumber>1</ItemNumber>
+                    <LineNo>1</LineNo>
+                    <PackQuantity>0</PackQuantity>
+                    <PackUnitOfQuantity>
+                      <Code></Code>
+                    </PackUnitOfQuantity>
+                    <Procedure>
+                      <Code></Code>
+                    </Procedure>
+                    <Quantity>20.000000</Quantity>
+                    <Quantity2>10.000000</Quantity2>
+                    <Quantity3>0.000000</Quantity3>
+                    <ReferenceNumber>item porev doc</ReferenceNumber>
+                    <Status>
+                      <Code></Code>
+                    </Status>
+                    <SubType>
+                      <Code></Code>
+                    </SubType>
+                    <Tariff></Tariff>
+                    <Type>
+                      <Code>C512</Code>
+                      <Description>SDE - Authorisation to use simplified declaration (Column 7a, Annex A of Delegat</Description>
+                    </Type>
+                    <UnitOfQuantity>
+                      <Code>DTN</Code>
+                      <Description>Hectokilogram</Description>
+                    </UnitOfQuantity>
+                    <UnitOfQuantity2>
+                      <Code>PK</Code>
+                      <Description>Package</Description>
+                    </UnitOfQuantity2>
+                    <UnitOfQuantity3>
+                      <Code></Code>
+                    </UnitOfQuantity3>
+                    <Value>0.0000</Value>
+                    <ReferenceNumberCollection>
+                      <ReferenceNumber>
+                        <Type>
+                          <Code>LRN</Code>
+                          <Description>Local Reference Number</Description>
+                        </Type>
+                        <ReferenceNumber>Complement</ReferenceNumber>
+                      </ReferenceNumber>
+                    </ReferenceNumberCollection>
+                  </CustomsSupportingInformation>
+                  <CustomsSupportingInformation>
+                    <Category>
+                      <Code>SUP</Code>
+                      <Description>Supporting Document</Description>
+                    </Category>
+                    <AdditionalDescription></AdditionalDescription>
+                    <Country>
+                      <Code></Code>
+                    </Country>
+                    <CustomsOffice>
+                      <Code></Code>
+                    </CustomsOffice>
+                    <DateOfExpiry></DateOfExpiry>
+                    <DateOfIssue></DateOfIssue>
+                    <Description></Description>
+                    <IssuerType>
+                      <Code></Code>
+                    </IssuerType>
+                    <LineNo>1</LineNo>
+                    <PackQuantity>0</PackQuantity>
+                    <PackUnitOfQuantity>
+                      <Code></Code>
+                    </PackUnitOfQuantity>
+                    <Procedure>
+                      <Code></Code>
+                    </Procedure>
+                    <Quantity>0.000000</Quantity>
+                    <Quantity2>0.000000</Quantity2>
+                    <Quantity3>0.000000</Quantity3>
+                    <ReferenceNumber>Item supp doc</ReferenceNumber>
+                    <Status>
+                      <Code></Code>
+                    </Status>
+                    <SubType>
+                      <Code></Code>
+                    </SubType>
+                    <Tariff></Tariff>
+                    <Type>
+                      <Code>C085</Code>
+                    </Type>
+                    <UnitOfQuantity>
+                      <Code></Code>
+                    </UnitOfQuantity>
+                    <UnitOfQuantity2>
+                      <Code></Code>
+                    </UnitOfQuantity2>
+                    <UnitOfQuantity3>
+                      <Code></Code>
+                    </UnitOfQuantity3>
+                    <Value>0.0000</Value>
+                  </CustomsSupportingInformation>
+                </CustomsSupportingInformationCollection>
+                <OrganizationAddressCollection>
+                  <OrganizationAddress>
+                    <AddressType>ConsigneeAddress</AddressType>
+                    <Address1>Address 1</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>DELIVERY</AddressShortCode>
+                    <City>NNNN</City>
+                    <CompanyName>4B ELEVATOR COMPONENTS LIMITED</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>4BELEV</OrganizationCode>
+                    <Phone></Phone>
+                    <Port>
+                      <Code>USORD</Code>
+                      <Name>O'Hare Apt/Chicago</Name>
+                    </Port>
+                    <Postcode>3333</Postcode>
+                    <ScreeningStatus>
+                      <Code>UNK</Code>
+                      <Description>Unknown</Description>
+                    </ScreeningStatus>
+                    <State Description="Alaska">AK</State>
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>CPW</Code>
+                          <Description>Customs Controlled Premises Code - </Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>ZA</Code>
+                          <Name>South Africa</Name>
+                        </CountryOfIssue>
+                        <Value>AAAAA</Value>
+                      </RegistrationNumber>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>TRN</Code>
+                          <Description>EORI code (to be substituted for he</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>GB</Code>
+                          <Name>United Kingdom</Name>
+                        </CountryOfIssue>
+                        <Value>321321321</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                </OrganizationAddressCollection>
+              </InBondMoveLineItem>
+            </InBondMoveLineItemCollection>
+            <TransportMeansCollection>
+              <TransportMeans>
+                <IdentificationNumber>bill transport iD</IdentificationNumber>
+                <ModeOfTransport>
+                  <Code>3</Code>
+                  <Description>Road Transport</Description>
+                </ModeOfTransport>
+                <Nationality>
+                  <Code>GB</Code>
+                  <Description>United Kingdom</Description>
+                </Nationality>
+                <Order>0</Order>
+                <TransportType>Departure</TransportType>
+                <TypeOfIdentification>
+                  <Code>30</Code>
+                  <Description>Registration Number of the Road Vehicle</Description>
+                </TypeOfIdentification>
+              </TransportMeans>
+              <TransportMeans>
+                <IdentificationNumber>TRAILER D</IdentificationNumber>
+                <ModeOfTransport>
+                  <Code>3</Code>
+                  <Description>Road Transport</Description>
+                </ModeOfTransport>
+                <Nationality>
+                  <Code>FR</Code>
+                  <Description>France</Description>
+                </Nationality>
+                <Order>1</Order>
+                <TransportType>Departure</TransportType>
+                <TypeOfIdentification>
+                  <Code>31</Code>
+                  <Description>Registration Number of the Road Trailer</Description>
+                </TypeOfIdentification>
+              </TransportMeans>
+              <TransportMeans>
+                <IdentificationNumber>TRAILER E</IdentificationNumber>
+                <ModeOfTransport>
+                  <Code>3</Code>
+                  <Description>Road Transport</Description>
+                </ModeOfTransport>
+                <Nationality>
+                  <Code>NL</Code>
+                  <Description>Netherlands</Description>
+                </Nationality>
+                <Order>2</Order>
+                <TransportType>Departure</TransportType>
+                <TypeOfIdentification>
+                  <Code>31</Code>
+                  <Description>Registration Number of the Road Trailer</Description>
+                </TypeOfIdentification>
+              </TransportMeans>
+            </TransportMeansCollection>
+          </InBondMoveDetail>
+        </InBondMoveDetailCollection>
+        <LocationOfGoodsCollection>
+          <LocationOfGoods>
+            <AdditionalIdentifier>ADDI</AdditionalIdentifier>
+            <OrgAddress>
+              <AddressType>Location</AddressType>
+              <AdditionalAddressInformation>13274c62-2436-4d3a-b43d-6e7134961dc7</AdditionalAddressInformation>
+              <Address1></Address1>
+              <Address2></Address2>
+              <AddressOverride>true</AddressOverride>
+              <City></City>
+              <CompanyName></CompanyName>
+              <Contact>Name</Contact>
+              <Email>email@address.com</Email>
+              <Fax></Fax>
+              <GovRegNum>AUTH LOCATION ID</GovRegNum>
+              <GovRegNumType>
+                <Code></Code>
+              </GovRegNumType>
+              <Mobile></Mobile>
+              <Phone>PHONE</Phone>
+              <Postcode></Postcode>
+              <ScreeningStatus>
+                <Code>UNK</Code>
+                <Description>Unknown</Description>
+              </ScreeningStatus>
+              <State></State>
+            </OrgAddress>
+            <Qualifier>
+              <Code>Y</Code>
+              <Description>Authorisation Number</Description>
+            </Qualifier>
+            <SubType>
+              <Code>B</Code>
+              <Description>Authorised Place</Description>
+            </SubType>
+            <Type>Departure</Type>
+          </LocationOfGoods>
+        </LocationOfGoodsCollection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>Carrier</AddressType>
+            <Address1>226 COMMONWEALTH STREET</Address1>
+            <Address2>SURRY HILLS  QLD</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>PST: 226 COMMONWEALTH STR</AddressShortCode>
+            <City></City>
+            <CompanyName>CABLE INTERNATIONAL PTY LTD</CompanyName>
+            <Country>
+              <Code>AU</Code>
+              <Name>Australia</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>CABINT</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>AUSYD</Code>
+              <Name>Sydney</Name>
+            </Port>
+            <Postcode>2010</Postcode>
+            <ScreeningStatus>
+              <Code>UNK</Code>
+              <Description>Unknown</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+        <TransportMeansCollection>
+          <TransportMeans>
+            <IdentificationNumber>Vehicle reg</IdentificationNumber>
+            <ModeOfTransport>
+              <Code>3</Code>
+              <Description>Road Transport</Description>
+            </ModeOfTransport>
+            <Nationality>
+              <Code>GB</Code>
+              <Description>United Kingdom</Description>
+            </Nationality>
+            <Order>0</Order>
+            <TransportType>Departure</TransportType>
+            <TypeOfIdentification>
+              <Code>30</Code>
+              <Description>Registration Number of the Road Vehicle</Description>
+            </TypeOfIdentification>
+          </TransportMeans>
+          <TransportMeans>
+            <IdentificationNumber>TRAILER A</IdentificationNumber>
+            <ModeOfTransport>
+              <Code>3</Code>
+              <Description>Road Transport</Description>
+            </ModeOfTransport>
+            <Nationality>
+              <Code>FR</Code>
+              <Description>France</Description>
+            </Nationality>
+            <Order>1</Order>
+            <TransportType>Departure</TransportType>
+            <TypeOfIdentification>
+              <Code>31</Code>
+              <Description>Registration Number of the Road Trailer</Description>
+            </TypeOfIdentification>
+          </TransportMeans>
+          <TransportMeans>
+            <IdentificationNumber>TRALER B</IdentificationNumber>
+            <ModeOfTransport>
+              <Code>3</Code>
+              <Description>Road Transport</Description>
+            </ModeOfTransport>
+            <Nationality>
+              <Code>DE</Code>
+              <Description>Germany</Description>
+            </Nationality>
+            <Order>2</Order>
+            <TransportType>Departure</TransportType>
+            <TypeOfIdentification>
+              <Code>31</Code>
+              <Description>Registration Number of the Road Trailer</Description>
+            </TypeOfIdentification>
+          </TransportMeans>
+          <TransportMeans>
+            <IdentificationNumber>Vehicle reg</IdentificationNumber>
+            <ModeOfTransport>
+              <Code>3</Code>
+              <Description>Road Transport</Description>
+            </ModeOfTransport>
+            <Nationality>
+              <Code>GB</Code>
+              <Description>United Kingdom</Description>
+            </Nationality>
+            <Order>3</Order>
+            <TransportType>Border</TransportType>
+            <TypeOfIdentification>
+              <Code>30</Code>
+              <Description>Registration Number of the Road Vehicle</Description>
+            </TypeOfIdentification>
+          </TransportMeans>
+        </TransportMeansCollection>
+      </InBondMoveHeader>
+    </InBondMoveHeaderCollection>
+    <MessageNumberCollection>
+      <MessageNumber Type="TrackingID">064478c2-64f8-4e25-88bf-4a9a6d5c8cd7</MessageNumber>
+      <MessageNumber Type="InterchangeNumber">00000000000000000151</MessageNumber>
+      <MessageNumber Type="MessageNumber">00000000000000000233</MessageNumber>
+    </MessageNumberCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ConsigneeAddress</AddressType>
+        <Address1>C/O METRO WHOLESALERS</Address1>
+        <Address2>UNIT 3 34/36 NEALDON DRIVE, MEADOWBROOK QLD</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PST: C/O METRO WHOLESALER</AddressShortCode>
+        <City></City>
+        <CompanyName>EASTCOAST GIFTWARE</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>EASGIF</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUBNE</Code>
+          <Name>Brisbane</Name>
+        </Port>
+        <Postcode>4131</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>10-20 SYLVIA PARK RD</Address1>
+        <Address2>MT WELLINGTON AUCKLAND, NEW ZEALAND</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PST: 10-20 SYLVIA PARK RD</AddressShortCode>
+        <City></City>
+        <CompanyName>RADIOMETER PACIFIC LTD</CompanyName>
+        <Country>
+          <Code>NZ</Code>
+          <Name>New Zealand</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>RADPAC</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>NZWLG</Code>
+          <Name>Wellington</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>Principal</AddressType>
+        <Address1>2403 UNIVERSAL TRADE CENTRE</Address1>
+        <Address2>3 ARBUTHNOT ROAD                         CENTRAL H</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pickup and Delivery Addre</AddressShortCode>
+        <City>KONG</City>
+        <CompanyName>PACIFIQUE AGENCIES (FAR EAST) LTD.</CompanyName>
+        <Country>
+          <Code>HK</Code>
+          <Name>Hong Kong</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>PACAGE</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>Representative</AddressType>
+        <Address1>MARCO POLOSTRAAT 16-20</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Pickup and Delivery Addre</AddressShortCode>
+        <City>ROTTERDAM</City>
+        <CompanyName>VABIX SHIPPING</CompanyName>
+        <Country>
+          <Code>NL</Code>
+          <Name>Netherlands</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>VABSHI</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>NLRTM</Code>
+          <Name>Rotterdam</Name>
+        </Port>
+        <Postcode>3165</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State Description="AL">AL</State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>WarehouseClient</AddressType>
+        <Address1>10-20 SYLVIA PARK RD</Address1>
+        <Address2>MT WELLINGTON AUCKLAND, NEW ZEALAND</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PST: 10-20 SYLVIA PARK RD</AddressShortCode>
+        <City></City>
+        <CompanyName>RADIOMETER PACIFIC LTD</CompanyName>
+        <Country>
+          <Code>NZ</Code>
+          <Name>New Zealand</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>RADPAC</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>NZWLG</Code>
+          <Name>Wellington</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ImporterDocumentaryAddress</AddressType>
+        <Address1>C/O METRO WHOLESALERS</Address1>
+        <Address2>UNIT 3 34/36 NEALDON DRIVE, MEADOWBROOK QLD</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PST: C/O METRO WHOLESALER</AddressShortCode>
+        <City></City>
+        <CompanyName>EASTCOAST GIFTWARE</CompanyName>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>EASGIF</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>AUBNE</Code>
+          <Name>Brisbane</Name>
+        </Port>
+        <Postcode>4131</Postcode>
+        <ScreeningStatus>
+          <Code>UNK</Code>
+          <Description>Unknown</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <PackingLineCollection>
+      <PackingLine>
+        <ContainerNumber>DANU1234565</ContainerNumber>
+        <MarksAndNos>red</MarksAndNos>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PK</Code>
+        </PackType>
+        <PackedItemCollection>
+          <PackedItem>
+            <InBondMoveLineItemLink>1</InBondMoveLineItemLink>
+            <PackedQuantity>1</PackedQuantity>
+          </PackedItem>
+        </PackedItemCollection>
+      </PackingLine>
+      <PackingLine>
+        <ContainerNumber>DANU1234565</ContainerNumber>
+        <MarksAndNos>green</MarksAndNos>
+        <PackQty>2</PackQty>
+        <PackType>
+          <Code>CT</Code>
+        </PackType>
+        <PackedItemCollection>
+          <PackedItem>
+            <InBondMoveLineItemLink>1</InBondMoveLineItemLink>
+            <PackedQuantity>2</PackedQuantity>
+          </PackedItem>
+        </PackedItemCollection>
+      </PackingLine>
+    </PackingLineCollection>
+  </Shipment>
+</UniversalShipment>

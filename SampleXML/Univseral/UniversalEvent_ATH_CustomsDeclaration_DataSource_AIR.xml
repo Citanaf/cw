@@ -1,0 +1,98 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>CustomsDeclaration</Type>
+          <Key>B00171549</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>EVT</Code>
+        <Description>Event</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>DJP</Code>
+        <Country>
+          <Code>JP</Code>
+          <Name>Japan</Name>
+        </Country>
+        <Name>JP Demo Company</Name>
+      </Company>
+      <DataProvider>HYECMTDJP</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>TYO</Code>
+        <Name>Tokyo</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>CIA</Code>
+        <Name>Clearance Import Air</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ATH</Code>
+        <Description>Authorized</Description>
+      </EventType>
+      <EventUser>
+        <Code>PW</Code>
+        <Name>Peter Williams</Name>
+      </EventUser>
+      <ServerID>CMT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2017-12-11T10:38:06.85</TriggerDate>
+      <TriggerDescription>DO THIS TOO</TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>ORP</Code>
+          <Description>Organization Proxy</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2017-12-11T10:38:06.85</EventTime>
+    <EventType>ATH</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>MAWBNumber</Type>
+        <Value>081-77665545</Value>
+      </Context>
+      <Context>
+        <Type>MAWBOriginIATAAirportCode</Type>
+        <Value>AKL</Value>
+      </Context>
+      <Context>
+        <Type>MBOLOriginUNLOCO</Type>
+        <Value>NZAKL</Value>
+      </Context>
+      <Context>
+        <Type>HAWBNumber</Type>
+        <Value>HOUSE</Value>
+      </Context>
+      <Context>
+        <Type>HAWBOriginIATAAirportCode</Type>
+        <Value>WLG</Value>
+      </Context>
+      <Context>
+        <Type>HAWBDestinationIATAAirportCode</Type>
+        <Value>SYD</Value>
+      </Context>
+      <Context>
+        <Type>HBOLOriginUNLOCO</Type>
+        <Value>NZWLG</Value>
+      </Context>
+      <Context>
+        <Type>HBOLDestinationUNLOCO</Type>
+        <Value>AUSYD</Value>
+      </Context>
+      <Context>
+        <Type Description="Third party ISF Filing number">ISF</Type>
+        <Value>123</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

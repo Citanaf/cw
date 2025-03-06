@@ -1,0 +1,28 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>GateMovement</Type>
+          <Key>GBM00000279</Key>
+        </DataSource>
+      </DataSourceCollection>
+    </DataContext>
+
+    <EventTime>2024-07-12T11:29:30.343</EventTime>
+    <EventType>GIN</EventType>
+    <CreatedTime>2024-07-12T01:29:46.85</CreatedTime>
+    <EventReference>|DIR=PIC|DRL=NOT AVAILABLE|DRV=NIRO PALDANO|GIN=GVE00000399|ISO=42G1|OFF=010:00</EventReference>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>VBSNotificationID</Type>
+        <Value>AU9F4E5424062450</Value>
+      </Context>
+      <Context>
+        <Type>MovementBookingNumber</Type>
+        <Value>GBM00000279</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

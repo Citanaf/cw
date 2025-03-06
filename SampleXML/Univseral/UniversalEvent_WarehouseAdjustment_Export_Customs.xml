@@ -1,0 +1,66 @@
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>WarehouseAdjustment</Type>
+          <Key>W00022416</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>EVT</Code>
+        <Description>Event</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>DAU</Code>
+        <Country>
+          <Code>AU</Code>
+          <Name>Australia</Name>
+        </Country>
+        <Name>Your Australia Corp</Name>
+      </Company>
+      <DataProvider>HYEUATDAU</DataProvider>
+      <EnterpriseID>HYE</EnterpriseID>
+      <EventBranch>
+        <Code>BNE</Code>
+        <Name>WiseTech Global  - Brisbane (AU)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>WFS</Code>
+        <Name>Warehouse Free Store</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>WBF</Code>
+        <Description>Warehouse Job can now be Finalised</Description>
+      </EventType>
+      <EventUser>
+        <Code>SRF</Code>
+        <Name>Stephen Fish</Name>
+      </EventUser>
+      <ServerID>UAT</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2021-10-14T14:12:26.41</TriggerDate>
+      <TriggerDescription>XUE CUSTOMS ADJ</TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2021-10-14T14:12:26.42</EventTime>
+    <EventType>WBF</EventType>
+    <IsEstimate>false</IsEstimate>
+
+    <ContextCollection>
+      <Context>
+        <Type>AdjustmentReference</Type>
+        <Value>ADJUSTMENT W00022416</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>

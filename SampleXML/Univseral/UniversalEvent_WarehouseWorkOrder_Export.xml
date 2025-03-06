@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalEvent xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Event>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>WarehouseWorkOrder</Type>
+          <Key>W00014777</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <ActionPurpose>
+        <Code>NPY</Code>
+        <Description>Notify Party</Description>
+      </ActionPurpose>
+      <Company>
+        <Code>DES</Code>
+        <Country>
+          <Code>ES</Code>
+          <Name>Spain</Name>
+        </Country>
+        <Name>ES Demo Company</Name>
+      </Company>
+      <DataProvider>WUT6DDDES</DataProvider>
+      <EnterpriseID>WUT</EnterpriseID>
+      <EventBranch>
+        <Code>VGO</Code>
+        <Name>Cargowise EDI - Vigo (ES)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>BRN</Code>
+        <Name>Branch</Name>
+      </EventDepartment>
+      <EventType>
+        <Code>ADC</Code>
+        <Description>Arrival Details Changed</Description>
+      </EventType>
+      <EventUser>
+        <Code>E</Code>
+        <Name>CargoWise One Support</Name>
+      </EventUser>
+      <ServerID>6DD</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2024-06-18T06:13:35.387</TriggerDate>
+      <TriggerDescription>NOTIFY ME</TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>WHS</Code>
+          <Description>Warehouse</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <EventTime>2024-06-18T06:13:35.39</EventTime>
+    <EventType>ADC</EventType>
+    <IsEstimate>false</IsEstimate>
+    <ContextCollection>
+      <Context>
+        <Type>OrderNumber</Type>
+        <Value>W00014777</Value>
+      </Context>
+    </ContextCollection>
+  </Event>
+</UniversalEvent>
